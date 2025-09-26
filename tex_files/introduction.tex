@@ -1,4 +1,12 @@
 \addcontentsline{toc}{chapter}{INTRODUCTION}
 \chapter*{INTRODUCTION}
 
-To be written
+In the digital era, organizations and individuals are increasingly reliant on electronic documents for communication, collaboration, and decision-making. The authenticity, integrity, and accessibility of these documents have therefore become critical factors in building trust and ensuring compliance with regulatory standards. Traditional paper-based approaches to document management are costly, time-consuming, and vulnerable to fraud or human error. At the same time, centralized digital systems often face challenges related to security, data breaches, and limited transparency.
+
+This project addresses these challenges by designing and implementing a secure, scalable, and user-friendly system for document registration, signing, and verification. The system relies on public-key cryptography (Ed25519) to provide a passwordless authentication mechanism that ensures only authorized users can access or sign documents. A carefully designed workflow guides users through registration and approval, while administrators maintain oversight and control of pending regstration requests.
+
+The central contribution of this work is the integration of digital signatures and cryptographic payloads into the document lifecycle. Each document is uniquely identified by its SHA-256 hash, which guarantees integrity and allows participants to independently verify that the file they review is identical to the file stored in the system. By requiring each participant to sign the canonical payload, the system ensures non-repudiation and establishes a verifiable chain of consent. Once all signatures are collected, the document status transitions to signed, and participants are notified accordingly.
+
+In addition to the cryptographic foundation, the system emphasizes practical usability. Users interact with the platform through intuitive registration and login flows, email-based verification, and role-based access controls. Administrators can approve or reject registration requests, while users can create documents, tag participants by username, and track their signature status. For future development, the platform is designed to integrate with decentralized storage or blockchain anchoring, extending its guarantees of persistence and transparency.
+
+Overall, this project demonstrates how modern cryptographic primitives and structured workflows can be combined to deliver a robust document signing and verification solution. It lays the foundation for further research into decentralized trust, compliance with international standards, and seamless integration with existing enterprise systems.

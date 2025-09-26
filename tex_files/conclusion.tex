@@ -1,3 +1,12 @@
 \addcontentsline{toc}{chapter}{CONCLUSIONS}
 \chapter*{CONCLUSIONS}
-To be written
+
+The work carried out in this project demonstrates that secure, scalable, and verifiable document management can be achieved through the careful integration of modern cryptographic techniques, structured workflows, and practical user interfaces. By replacing traditional password-based authentication with Ed25519 key pairs and challenge–response mechanisms, the system eliminates a major vulnerability of centralized platforms while improving usability and security.
+
+The design of the registration process, supported by email-based verification and administrative approval, ensures that only legitimate users gain access to the platform. At the same time, the introduction of digital signatures over canonical payloads provides a strong guarantee of document integrity and participant accountability. Each document is uniquely identified by its cryptographic hash, which allows all stakeholders to independently verify its authenticity.
+
+From a functional perspective, the project delivers the core features of a minimum viable product (MVP): user registration, authentication, document creation, participant tagging, and the collection of signatures. Notifications via email strengthen the user experience by ensuring that participants remain informed throughout the signing process. Once all participants have provided their signatures, the system automatically transitions the document to a signed state, establishing a clear and auditable completion of the workflow.
+
+The results confirm the feasibility of using lightweight cryptographic libraries and structured database schemas to implement secure document workflows without excessive infrastructure requirements. While the current MVP uses email for distribution of documents and notifications, the architecture is prepared for future integration with decentralized storage systems or blockchain anchoring, which would provide long-term transparency and persistence.
+
+In conclusion, this project achieves its primary objective of creating a secure system for passwordless user authentication and document signing. It demonstrates the viability of combining cryptographic security with practical user workflows, and it establishes a foundation for further research and development. Future improvements may include integration with external identity providers, support for blockchain-based anchoring, advanced role-based permissions, and the addition of seed-phrase-based account recovery mechanisms on the client side. These directions would enhance resilience, usability, and trust in the system, preparing it for deployment in real-world organizational contexts.

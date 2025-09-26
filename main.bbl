@@ -940,6 +940,58 @@
       \verb https://en.wikipedia.org/wiki/Privacy_and_blockchain
       \endverb
     \endentry
+    \entry{alexei_pavlovschii_blocksign_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ef7f3b7689c599789c4b723c5b4b7e28}{%
+           family={{Alexei Pavlovschii}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{fullhash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{fullhashraw}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{bibnamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorbibnamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authornamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorfullhash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorfullhashraw}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BlockSign Server}
+      \verb{urlraw}
+      \verb https://github.com/AlexDandy77/BlockSign-Server
+      \endverb
+      \verb{url}
+      \verb https://github.com/AlexDandy77/BlockSign-Server
+      \endverb
+    \endentry
+    \entry{vladimir_vitcovschii_blocksign_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=89669e0865b80a50dbfc298925557853}{%
+           family={{Vladimir Vitcovschii}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{89669e0865b80a50dbfc298925557853}
+      \strng{fullhash}{89669e0865b80a50dbfc298925557853}
+      \strng{fullhashraw}{89669e0865b80a50dbfc298925557853}
+      \strng{bibnamehash}{89669e0865b80a50dbfc298925557853}
+      \strng{authorbibnamehash}{89669e0865b80a50dbfc298925557853}
+      \strng{authornamehash}{89669e0865b80a50dbfc298925557853}
+      \strng{authorfullhash}{89669e0865b80a50dbfc298925557853}
+      \strng{authorfullhashraw}{89669e0865b80a50dbfc298925557853}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BlockSign Front-end}
+      \verb{urlraw}
+      \verb https://github.com/NeValetik/BlockSign-FrontEnd
+      \endverb
+      \verb{url}
+      \verb https://github.com/NeValetik/BlockSign-FrontEnd
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

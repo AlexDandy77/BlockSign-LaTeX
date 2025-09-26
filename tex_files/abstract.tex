@@ -1,10 +1,16 @@
 \chapter*{ABSTRACT}
 \thispagestyle{empty}
 
-The project titled "BlockSign - Securing Documents With Blockchain" was developed by students Alexei Pavlovschii, Alexandru Bujor, Gabriel Moraru, Filip Obrijan, and Vladimir Vitcovschii from the Technical University of Moldova.
+The project titled \textbf{"BlockSign - Securing Documents With Blockchain"} was developed by students Alexei Pavlovschii, Alexandru Bujor, Gabriel Moraru, Filip Obrijan, and Vladimir Vitcovschii from the Technical University of Moldova.
 
-This project comprises 5 chapters: Problem Framing, Domain Analysis, Solution Proposal, System Design and Practical Implementation, as well as Introduction, Conclusions, Bibliography and Appendix.
+This project comprises 5 chapters: Problem Framing, Domain Analysis, Solution Proposal, System Design and Practical Implementation, as well as Introduction, Conclusions and Bibliography.
 
-It...
+It addresses the growing need for secure, transparent, and verifiable document management systems in modern organizations. Traditional approaches often rely on centralized storage and password-based authentication, which are vulnerable to tampering, unauthorized access, and human error. Our solution proposes a \textbf{blockchain-anchored mechanism} for document signing and verification, ensuring both the integrity and authenticity of documents.
+
+The system implements a \textbf{passwordless authentication} scheme based on cryptographic key pairs, reducing risks associated with compromised credentials. Document integrity is preserved by calculating a SHA-256 hash, while signatures from all involved participants are verified using the \textbf{Ed25519 algorithm}. Once finalized, a document’s hash can be anchored to a blockchain network, providing immutable proof of its existence and content at a given time.
+
+From an architectural perspective, the back-end is developed in Node.js with Express.js and Prisma ORM on top of a PostgreSQL database. Email-based workflows, including OTP verification and document notifications, ensure usability and trust between system participants. The modular design of the application allows for future integration with cloud storage providers and expanded blockchain support.
+
+Through this project, the students combined concepts from distributed systems, \textbf{cryptography}, and software engineering to design and implement a practical, real-world solution. The outcome is a \textbf{secure and scalable platform} that demonstrates how blockchain technology can enhance document authentication and verification processes in both academic and enterprise contexts.
 
 \textbf{Keywords: } Blockchain, Cryptography, Documents, Security.

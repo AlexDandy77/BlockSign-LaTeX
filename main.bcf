@@ -2426,7 +2426,9 @@
     <bcf:citekey order="37" intorder="1">wikipedia_enotary_nodate</bcf:citekey>
     <bcf:citekey order="38" intorder="1">wikipedia_notario_nodate</bcf:citekey>
     <bcf:citekey order="39" intorder="1">wikipedia_privacy_nodate</bcf:citekey>
-    <bcf:citekey order="40" intorder="1" nocite="1">*</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">alexei_pavlovschii_blocksign_nodate</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">vladimir_vitcovschii_blocksign_nodate</bcf:citekey>
+    <bcf:citekey order="42" intorder="1" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

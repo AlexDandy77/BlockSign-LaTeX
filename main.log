@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.14)  26 SEP 2025 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.14)  27 SEP 2025 00:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1101,7 +1101,7 @@ AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}])
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 Chapter 1.
-<images/signature-forgery.jpg, id=231, 1927.2pt x 803.0pt>
+<images/signature-forgery.jpg, id=271, 1927.2pt x 803.0pt>
 File: images/signature-forgery.jpg Graphic file (type jpg)
 <use images/signature-forgery.jpg>
 Package pdftex.def Info: images/signature-forgery.jpg  used on input line 32.
@@ -1111,7 +1111,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
 (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<images/man-in-the-middle.png, id=237, 883.3pt x 488.82625pt>
+<images/man-in-the-middle.png, id=277, 883.3pt x 488.82625pt>
 File: images/man-in-the-middle.png Graphic file (type png)
 <use images/man-in-the-middle.png>
 Package pdftex.def Info: images/man-in-the-middle.png  used on input line 41.
@@ -1124,7 +1124,7 @@ Package pdftex.def Info: images/man-in-the-middle.png  used on input line 41.
  <./images/signature-forgery.jpg>]
 
 [7 <./images/man-in-the-middle.png>]
-<images/owasp-top10.png, id=269, 2597.705pt x 1371.1225pt>
+<images/owasp-top10.png, id=309, 2597.705pt x 1371.1225pt>
 File: images/owasp-top10.png Graphic file (type png)
 <use images/owasp-top10.png>
 Package pdftex.def Info: images/owasp-top10.png  used on input line 56.
@@ -1132,7 +1132,7 @@ Package pdftex.def Info: images/owasp-top10.png  used on input line 56.
 
 
 [8 <./images/owasp-top10.png>]
-<images/soc-compliance-standards.png, id=294, 1027.84pt x 897.3525pt>
+<images/soc-compliance-standards.png, id=334, 1027.84pt x 897.3525pt>
 File: images/soc-compliance-standards.png Graphic file (type png)
 <use images/soc-compliance-standards.png>
 Package pdftex.def Info: images/soc-compliance-standards.png  used on input lin
@@ -1142,7 +1142,7 @@ e 79.
 
 [9 <./images/soc-compliance-standards.png>]
 Chapter 2.
-<images/digital-certificates.png, id=304, 1579.40062pt x 905.63344pt>
+<images/digital-certificates.png, id=344, 1579.40062pt x 905.63344pt>
 File: images/digital-certificates.png Graphic file (type png)
 <use images/digital-certificates.png>
 Package pdftex.def Info: images/digital-certificates.png  used on input line 98
@@ -1153,7 +1153,7 @@ Package pdftex.def Info: images/digital-certificates.png  used on input line 98
 [10
 
  <./images/digital-certificates.png>]
-<images/cbp-travel-document.jpg, id=316, 1204.5pt x 732.7375pt>
+<images/cbp-travel-document.jpg, id=356, 1204.5pt x 732.7375pt>
 File: images/cbp-travel-document.jpg Graphic file (type jpg)
 <use images/cbp-travel-document.jpg>
 Package pdftex.def Info: images/cbp-travel-document.jpg  used on input line 111
@@ -1162,7 +1162,7 @@ Package pdftex.def Info: images/cbp-travel-document.jpg  used on input line 111
 
 
 [11 <./images/cbp-travel-document.jpg>]
-<images/loan-agreement.jpg, id=328, 1003.75pt x 564.1075pt>
+<images/loan-agreement.jpg, id=368, 1003.75pt x 564.1075pt>
 File: images/loan-agreement.jpg Graphic file (type jpg)
 <use images/loan-agreement.jpg>
 Package pdftex.def Info: images/loan-agreement.jpg  used on input line 125.
@@ -1170,12 +1170,12 @@ Package pdftex.def Info: images/loan-agreement.jpg  used on input line 125.
 
 
 [12 <./images/loan-agreement.jpg>]
-<images/market-growth.png, id=343, 1164.60094pt x 481.8pt>
+<images/market-growth.png, id=383, 1164.60094pt x 481.8pt>
 File: images/market-growth.png Graphic file (type png)
 <use images/market-growth.png>
 Package pdftex.def Info: images/market-growth.png  used on input line 141.
 (pdftex.def)             Requested size: 512.1496pt x 211.88237pt.
-<images/market-growth-2.png, id=344, 1467.23157pt x 586.44093pt>
+<images/market-growth-2.png, id=384, 1467.23157pt x 586.44093pt>
 File: images/market-growth-2.png Graphic file (type png)
 <use images/market-growth-2.png>
 Package pdftex.def Info: images/market-growth-2.png  used on input line 150.
@@ -1183,7 +1183,7 @@ Package pdftex.def Info: images/market-growth-2.png  used on input line 150.
 
 
 [13 <./images/market-growth.png> <./images/market-growth-2.png>]
-<images/market-share.png, id=356, 875.52094pt x 498.36188pt>
+<images/market-share.png, id=396, 875.52094pt x 498.36188pt>
 File: images/market-share.png Graphic file (type png)
 <use images/market-share.png>
 Package pdftex.def Info: images/market-share.png  used on input line 169.
@@ -1191,7 +1191,7 @@ Package pdftex.def Info: images/market-share.png  used on input line 169.
 
 
 [14 <./images/market-share.png>]
-<images/benefits-signatures.png, id=369, 733.99219pt x 450.18187pt>
+<images/benefits-signatures.png, id=409, 733.99219pt x 450.18187pt>
 File: images/benefits-signatures.png Graphic file (type png)
 <use images/benefits-signatures.png>
 Package pdftex.def Info: images/benefits-signatures.png  used on input line 189
@@ -1200,7 +1200,7 @@ Package pdftex.def Info: images/benefits-signatures.png  used on input line 189
 
 
 [15 <./images/benefits-signatures.png>]
-<images/blockchain-notarization.png, id=381, 722.7pt x 407.5225pt>
+<images/blockchain-notarization.png, id=421, 722.7pt x 407.5225pt>
 File: images/blockchain-notarization.png Graphic file (type png)
 <use images/blockchain-notarization.png>
 Package pdftex.def Info: images/blockchain-notarization.png  used on input line
@@ -1209,7 +1209,7 @@ Package pdftex.def Info: images/blockchain-notarization.png  used on input line
 
 
 [16 <./images/blockchain-notarization.png>]
-<images/multifactor-auth.jpg, id=399, 1606.0pt x 697.60625pt>
+<images/multifactor-auth.jpg, id=439, 1606.0pt x 697.60625pt>
 File: images/multifactor-auth.jpg Graphic file (type jpg)
 <use images/multifactor-auth.jpg>
 Package pdftex.def Info: images/multifactor-auth.jpg  used on input line 237.
@@ -1217,13 +1217,13 @@ Package pdftex.def Info: images/multifactor-auth.jpg  used on input line 237.
 
 
 [17 <./images/multifactor-auth.jpg>]
-<images/remote-notarization.png, id=413, 1655.18375pt x 1010.77625pt>
+<images/remote-notarization.png, id=453, 1655.18375pt x 1010.77625pt>
 File: images/remote-notarization.png Graphic file (type png)
 <use images/remote-notarization.png>
 Package pdftex.def Info: images/remote-notarization.png  used on input line 255
 .
 (pdftex.def)             Requested size: 512.1496pt x 312.75131pt.
-<images/zero-knowledge.png, id=417, 1204.5pt x 744.7825pt>
+<images/zero-knowledge.png, id=457, 1204.5pt x 744.7825pt>
 File: images/zero-knowledge.png Graphic file (type png)
 <use images/zero-knowledge.png>
 Package pdftex.def Info: images/zero-knowledge.png  used on input line 272.
@@ -1239,7 +1239,7 @@ Chapter 3.
 [20
 
 ]
-<images/signing-verifying.png, id=441, 549.55313pt x 411.78844pt>
+<images/signing-verifying.png, id=481, 549.55313pt x 411.78844pt>
 File: images/signing-verifying.png Graphic file (type png)
 <use images/signing-verifying.png>
 Package pdftex.def Info: images/signing-verifying.png  used on input line 306.
@@ -1248,7 +1248,7 @@ Package pdftex.def Info: images/signing-verifying.png  used on input line 306.
 
 [21 <./images/signing-verifying.png (PNG copy)>]
 Chapter 4.
-<images/func-non-func.png, id=448, 1445.4pt x 813.0375pt>
+<images/func-non-func.png, id=488, 1445.4pt x 813.0375pt>
 File: images/func-non-func.png Graphic file (type png)
 <use images/func-non-func.png>
 Package pdftex.def Info: images/func-non-func.png  used on input line 321.
@@ -1258,7 +1258,7 @@ Package pdftex.def Info: images/func-non-func.png  used on input line 321.
 [22
 
  <./images/func-non-func.png>]
-<images/oauth-mechanism.jpg, id=459, 865.73438pt x 372.64218pt>
+<images/oauth-mechanism.jpg, id=499, 865.73438pt x 372.64218pt>
 File: images/oauth-mechanism.jpg Graphic file (type jpg)
 <use images/oauth-mechanism.jpg>
 Package pdftex.def Info: images/oauth-mechanism.jpg  used on input line 346.
@@ -1266,7 +1266,7 @@ Package pdftex.def Info: images/oauth-mechanism.jpg  used on input line 346.
 
 
 [23 <./images/oauth-mechanism.jpg>]
-<images/jwt-mechanism.png, id=466, 1515.6625pt x 775.89874pt>
+<images/jwt-mechanism.png, id=506, 1515.6625pt x 775.89874pt>
 File: images/jwt-mechanism.png Graphic file (type png)
 <use images/jwt-mechanism.png>
 Package pdftex.def Info: images/jwt-mechanism.png  used on input line 369.
@@ -1274,13 +1274,13 @@ Package pdftex.def Info: images/jwt-mechanism.png  used on input line 369.
 
 
 [24 <./images/jwt-mechanism.png>]
-<images/umlDiagrams/uml-use-registration.png, id=477, 648.17157pt x 421.575pt>
+<images/umlDiagrams/uml-use-registration.png, id=517, 648.17157pt x 421.575pt>
 File: images/umlDiagrams/uml-use-registration.png Graphic file (type png)
 <use images/umlDiagrams/uml-use-registration.png>
 Package pdftex.def Info: images/umlDiagrams/uml-use-registration.png  used on i
 nput line 386.
 (pdftex.def)             Requested size: 512.1496pt x 333.12422pt.
-<images/umlDiagrams/uml-use-create.png, id=479, 647.41875pt x 438.13687pt>
+<images/umlDiagrams/uml-use-create.png, id=519, 647.41875pt x 438.13687pt>
 File: images/umlDiagrams/uml-use-create.png Graphic file (type png)
 <use images/umlDiagrams/uml-use-create.png>
 Package pdftex.def Info: images/umlDiagrams/uml-use-create.png  used on input l
@@ -1289,7 +1289,7 @@ ine 394.
 
 
 [25 <./images/umlDiagrams/uml-use-registration.png>]
-<images/umlDiagrams/uml-use-verify.png, id=490, 612.03656pt x 271.76532pt>
+<images/umlDiagrams/uml-use-verify.png, id=530, 612.03656pt x 271.76532pt>
 File: images/umlDiagrams/uml-use-verify.png Graphic file (type png)
 <use images/umlDiagrams/uml-use-verify.png>
 Package pdftex.def Info: images/umlDiagrams/uml-use-verify.png  used on input l
@@ -1298,7 +1298,7 @@ ine 402.
 
 
 [26 <./images/umlDiagrams/uml-use-create.png>]
-<images/umlDiagrams/uml-use-approve.png, id=501, 676.02562pt x 307.1475pt>
+<images/umlDiagrams/uml-use-approve.png, id=541, 676.02562pt x 307.1475pt>
 File: images/umlDiagrams/uml-use-approve.png Graphic file (type png)
 <use images/umlDiagrams/uml-use-approve.png>
 Package pdftex.def Info: images/umlDiagrams/uml-use-approve.png  used on input 
@@ -1308,14 +1308,14 @@ line 410.
 
 [27 <./images/umlDiagrams/uml-use-verify.png> <./images/umlDiagrams/uml-use-app
 rove.png>]
-<images/umlDiagrams/uml-sequence-registration.png, id=511, 831.105pt x 564.6093
+<images/umlDiagrams/uml-sequence-registration.png, id=551, 831.105pt x 564.6093
 8pt>
 File: images/umlDiagrams/uml-sequence-registration.png Graphic file (type png)
 <use images/umlDiagrams/uml-sequence-registration.png>
 Package pdftex.def Info: images/umlDiagrams/uml-sequence-registration.png  used
  on input line 421.
 (pdftex.def)             Requested size: 512.1496pt x 347.94345pt.
-<images/umlDiagrams/uml-sequence-create.png, id=513, 630.10406pt x 530.73282pt>
+<images/umlDiagrams/uml-sequence-create.png, id=553, 630.10406pt x 530.73282pt>
 
 File: images/umlDiagrams/uml-sequence-create.png Graphic file (type png)
 <use images/umlDiagrams/uml-sequence-create.png>
@@ -1325,7 +1325,7 @@ put line 429.
 
 
 [28 <./images/umlDiagrams/uml-sequence-registration.png>]
-<images/umlDiagrams/uml-sequence-verify.png, id=523, 722.7pt x 544.28343pt>
+<images/umlDiagrams/uml-sequence-verify.png, id=563, 722.7pt x 544.28343pt>
 File: images/umlDiagrams/uml-sequence-verify.png Graphic file (type png)
 <use images/umlDiagrams/uml-sequence-verify.png>
 Package pdftex.def Info: images/umlDiagrams/uml-sequence-verify.png  used on in
@@ -1334,7 +1334,7 @@ put line 437.
 
 
 [29 <./images/umlDiagrams/uml-sequence-create.png>]
-<images/umlDiagrams/uml-sequence-approve.png, id=533, 666.23906pt x 477.28313pt
+<images/umlDiagrams/uml-sequence-approve.png, id=573, 666.23906pt x 477.28313pt
 >
 File: images/umlDiagrams/uml-sequence-approve.png Graphic file (type png)
 <use images/umlDiagrams/uml-sequence-approve.png>
@@ -1346,7 +1346,7 @@ nput line 445.
 [30 <./images/umlDiagrams/uml-sequence-verify.png>]
 
 [31 <./images/umlDiagrams/uml-sequence-approve.png>]
-<images/umlDiagrams/uml-class-core-domain.png, id=549, 894.34125pt x 510.40688p
+<images/umlDiagrams/uml-class-core-domain.png, id=589, 894.34125pt x 510.40688p
 t>
 File: images/umlDiagrams/uml-class-core-domain.png Graphic file (type png)
 <use images/umlDiagrams/uml-class-core-domain.png>
@@ -1356,7 +1356,7 @@ input line 462.
 
 
 [32 <./images/umlDiagrams/uml-class-core-domain.png>]
-<images/figmaUI/landing-top.png, id=556, 1389.993pt x 1043.097pt>
+<images/figmaUI/landing-top.png, id=596, 1389.993pt x 1043.097pt>
 File: images/figmaUI/landing-top.png Graphic file (type png)
 <use images/figmaUI/landing-top.png>
 Package pdftex.def Info: images/figmaUI/landing-top.png  used on input line 478
@@ -1365,7 +1365,7 @@ Package pdftex.def Info: images/figmaUI/landing-top.png  used on input line 478
 
 
 [33 <./images/figmaUI/landing-top.png>]
-<images/figmaUI/login-crop.png, id=564, 1387.584pt x 962.3955pt>
+<images/figmaUI/login-crop.png, id=604, 1387.584pt x 962.3955pt>
 File: images/figmaUI/login-crop.png Graphic file (type png)
 <use images/figmaUI/login-crop.png>
 Package pdftex.def Info: images/figmaUI/login-crop.png  used on input line 489.
@@ -1374,7 +1374,7 @@ Package pdftex.def Info: images/figmaUI/login-crop.png  used on input line 489.
 
 
 [34 <./images/figmaUI/login-crop.png>]
-<images/figmaUI/register1-crop.png, id=572, 1387.584pt x 1028.04076pt>
+<images/figmaUI/register1-crop.png, id=612, 1387.584pt x 1028.04076pt>
 File: images/figmaUI/register1-crop.png Graphic file (type png)
 <use images/figmaUI/register1-crop.png>
 Package pdftex.def Info: images/figmaUI/register1-crop.png  used on input line 
@@ -1383,13 +1383,13 @@ Package pdftex.def Info: images/figmaUI/register1-crop.png  used on input line
 
 
 [35 <./images/figmaUI/register1-crop.png>]
-<images/figmaUI/registerstep2.png, id=580, 1387.584pt x 917.22675pt>
+<images/figmaUI/registerstep2.png, id=620, 1387.584pt x 917.22675pt>
 File: images/figmaUI/registerstep2.png Graphic file (type png)
 <use images/figmaUI/registerstep2.png>
 Package pdftex.def Info: images/figmaUI/registerstep2.png  used on input line 5
 11.
 (pdftex.def)             Requested size: 512.1496pt x 338.54283pt.
-<images/figmaUI/register3-crop.png, id=582, 1387.584pt x 525.162pt>
+<images/figmaUI/register3-crop.png, id=622, 1387.584pt x 525.162pt>
 File: images/figmaUI/register3-crop.png Graphic file (type png)
 <use images/figmaUI/register3-crop.png>
 Package pdftex.def Info: images/figmaUI/register3-crop.png  used on input line 
@@ -1398,7 +1398,7 @@ Package pdftex.def Info: images/figmaUI/register3-crop.png  used on input line
 
 
 [36 <./images/figmaUI/registerstep2.png> <./images/figmaUI/register3-crop.png>]
-<images/figmaUI/successregister.png, id=592, 1387.584pt x 896.148pt>
+<images/figmaUI/successregister.png, id=632, 1387.584pt x 896.148pt>
 File: images/figmaUI/successregister.png Graphic file (type png)
 <use images/figmaUI/successregister.png>
 Package pdftex.def Info: images/figmaUI/successregister.png  used on input line
@@ -1407,19 +1407,19 @@ Package pdftex.def Info: images/figmaUI/successregister.png  used on input line
 
 
 [37 <./images/figmaUI/successregister.png>]
-<images/figmaUI/documentspage1-crop.png, id=608, 1387.584pt x 870.8535pt>
+<images/figmaUI/documentspage1-crop.png, id=648, 1387.584pt x 870.8535pt>
 File: images/figmaUI/documentspage1-crop.png Graphic file (type png)
 <use images/figmaUI/documentspage1-crop.png>
 Package pdftex.def Info: images/figmaUI/documentspage1-crop.png  used on input 
 line 547.
 (pdftex.def)             Requested size: 512.1496pt x 321.42674pt.
-<images/figmaUI/success-crop.png, id=611, 1387.584pt x 482.40225pt>
+<images/figmaUI/success-crop.png, id=651, 1387.584pt x 482.40225pt>
 File: images/figmaUI/success-crop.png Graphic file (type png)
 <use images/figmaUI/success-crop.png>
 Package pdftex.def Info: images/figmaUI/success-crop.png  used on input line 55
 8.
 (pdftex.def)             Requested size: 512.1496pt x 178.05174pt.
-<images/figmaUI/unsuccess-crop.png, id=612, 1387.584pt x 642.60075pt>
+<images/figmaUI/unsuccess-crop.png, id=652, 1387.584pt x 642.60075pt>
 File: images/figmaUI/unsuccess-crop.png Graphic file (type png)
 <use images/figmaUI/unsuccess-crop.png>
 Package pdftex.def Info: images/figmaUI/unsuccess-crop.png  used on input line 
@@ -1429,7 +1429,7 @@ Package pdftex.def Info: images/figmaUI/unsuccess-crop.png  used on input line
 
 [38 <./images/figmaUI/documentspage1-crop.png> <./images/figmaUI/success-crop.p
 ng>]
-<images/figmaUI/documentspage2-crop.png, id=626, 1387.584pt x 870.8535pt>
+<images/figmaUI/documentspage2-crop.png, id=666, 1387.584pt x 870.8535pt>
 File: images/figmaUI/documentspage2-crop.png Graphic file (type png)
 <use images/figmaUI/documentspage2-crop.png>
 Package pdftex.def Info: images/figmaUI/documentspage2-crop.png  used on input 
@@ -1439,14 +1439,14 @@ line 577.
 
 [39 <./images/figmaUI/unsuccess-crop.png> <./images/figmaUI/documentspage2-crop
 .png>]
-<images/figmaUI/accountspage-account-crop.png, id=637, 1387.584pt x 626.94225pt
+<images/figmaUI/accountspage-account-crop.png, id=677, 1387.584pt x 626.94225pt
 >
 File: images/figmaUI/accountspage-account-crop.png Graphic file (type png)
 <use images/figmaUI/accountspage-account-crop.png>
 Package pdftex.def Info: images/figmaUI/accountspage-account-crop.png  used on 
 input line 589.
 (pdftex.def)             Requested size: 512.1496pt x 231.40059pt.
-<images/figmaUI/accountspage-protection-crop.png, id=639, 1387.584pt x 336.0555
+<images/figmaUI/accountspage-protection-crop.png, id=679, 1387.584pt x 336.0555
 pt>
 File: images/figmaUI/accountspage-protection-crop.png Graphic file (type png)
 <use images/figmaUI/accountspage-protection-crop.png>
@@ -1457,7 +1457,7 @@ on input line 600.
 
 [40 <./images/figmaUI/accountspage-account-crop.png> <./images/figmaUI/accounts
 page-protection-crop.png>]
-<images/figmaUI/accountspage-documents-crop.png, id=647, 1387.584pt x 702.2235p
+<images/figmaUI/accountspage-documents-crop.png, id=687, 1387.584pt x 702.2235p
 t>
 File: images/figmaUI/accountspage-documents-crop.png Graphic file (type png)
 <use images/figmaUI/accountspage-documents-crop.png>
@@ -1468,12 +1468,48 @@ n input line 611.
 
 [41 <./images/figmaUI/accountspage-documents-crop.png>] (tex_files/midterm2.tex
 Chapter 5.
-)
+<images/main-project-routers.png, id=696, 1318.9275pt x 509.905pt>
+File: images/main-project-routers.png Graphic file (type png)
+<use images/main-project-routers.png>
+Package pdftex.def Info: images/main-project-routers.png  used on input line 10
+.
+(pdftex.def)             Requested size: 512.1496pt x 198.00629pt.
+<images/user-db-model.png, id=698, 2017.5375pt x 1377.145pt>
+File: images/user-db-model.png Graphic file (type png)
+<use images/user-db-model.png>
+Package pdftex.def Info: images/user-db-model.png  used on input line 25.
+(pdftex.def)             Requested size: 512.1496pt x 349.58081pt.
+
 
 [42
 
 
-] (tex_files/conclusion.tex
+ <./images/main-project-routers.png>]
+
+[43 <./images/user-db-model.png>]
+<images/email-sending.png, id=715, 2754.29pt x 618.31pt>
+File: images/email-sending.png Graphic file (type png)
+<use images/email-sending.png>
+Package pdftex.def Info: images/email-sending.png  used on input line 45.
+(pdftex.def)             Requested size: 512.1496pt x 114.9705pt.
+<images/keygen.png, id=717, 2105.8675pt x 835.12pt>
+File: images/keygen.png Graphic file (type png)
+<use images/keygen.png>
+Package pdftex.def Info: images/keygen.png  used on input line 55.
+(pdftex.def)             Requested size: 512.1496pt x 203.09615pt.
+
+
+[44 <./images/email-sending.png> <./images/keygen.png>]
+<images/payload-signature.png, id=727, 1421.31pt x 889.3225pt>
+File: images/payload-signature.png Graphic file (type png)
+<use images/payload-signature.png>
+Package pdftex.def Info: images/payload-signature.png  used on input line 69.
+(pdftex.def)             Requested size: 512.1496pt x 320.45439pt.
+)
+
+[45 <./images/payload-signature.png>]
+
+[46] (tex_files/conclusion.tex
 Overfull \hbox (4.03499pt too wide) in paragraph at lines 10--11
 []\OT1/ptm/m/n/12 The re-sults con-firm the fea-si-bil-ity of us-ing lightweigh
 t cryp-to-graphic li-braries and struc-tured database
@@ -1481,7 +1517,7 @@ t cryp-to-graphic li-braries and struc-tured database
 
 )
 
-[43
+[47
 
 
 ] (tex_files/bibliography.tex
@@ -1493,7 +1529,7 @@ ps : / / www . verizon .
 
 
 
-[44
+[48
 
 
 
@@ -1513,29 +1549,31 @@ ience 2023\OT1/ptm/m/n/12 . [On-line]. Avail-able: []$\OT1/cmtt/m/n/12 https :
 
 
 
-[45])
+[49])
 
-[46] (tex_files/appendices.tex)
-
-[47
-
-
-] (main.aux)
+[50] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8B185A02BCD3272E4AFE107FF7EA2BF6;6806.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: 65628D73671C6BEB6444230CAA6F5930;8006
+(rerunfilecheck)             After:  0F824ED110A7D03F1FD1277104ADBAFA;7910.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25782 strings out of 468132
- 470347 string characters out of 5431175
- 1441335 words of memory out of 5000000
- 53847 multiletter control sequences out of 15000+600000
+ 25847 strings out of 468132
+ 472259 string characters out of 5431175
+ 1441852 words of memory out of 5000000
+ 53898 multiletter control sequences out of 15000+600000
  657770 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,14n,121p,1217b,2326s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1545,9 +1583,9 @@ nts/cm/cmtt12.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/
 times/utmb8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on main.pdf (47 pages, 7009403 bytes).
+Output written on main.pdf (50 pages, 7632243 bytes).
 PDF statistics:
- 825 PDF objects out of 1000 (max. 8388607)
- 189 named destinations out of 1000 (max. 500000)
- 526 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 908 PDF objects out of 1000 (max. 8388607)
+ 206 named destinations out of 1000 (max. 500000)
+ 615 words of extra memory for PDF output out of 10000 (max. 10000000)
 

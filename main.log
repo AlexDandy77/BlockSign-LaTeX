@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.26)  28 SEP 2025 20:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.26)  28 SEP 2025 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -634,60 +634,114 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `unicode' set `true' on input line 233.
 )
+(C:\miktex\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+
+(C:\miktex\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(C:\miktex\tex/generic/xkeyval\xkeyval.tex
+(C:\miktex\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
+)
+\XKV@depth=\count340
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\miktex\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\miktex\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+
+(C:\miktex\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box60
+)
+\tc@llx=\dimen187
+\tc@lly=\dimen188
+\tc@urx=\dimen189
+\tc@ury=\dimen190
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\miktex\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen191
+\adjbox@Height=\dimen192
+\adjbox@Depth=\dimen193
+\adjbox@Totalheight=\dimen194
+\adjbox@pwidth=\dimen195
+\adjbox@pheight=\dimen196
+\adjbox@pdepth=\dimen197
+\adjbox@ptotalheight=\dimen198
+
+(C:\miktex\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count341
+)
+(C:\miktex\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box61
+\sift@deathcycles=\count342
+\@vwid@loff=\dimen199
+\@vwid@roff=\dimen256
+))
 (C:\miktex\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (C:\miktex\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count340
+\lrq@indent=\count343
  (C:\miktex\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\miktex\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count341
-\c@listtotal=\count342
-\c@listcount=\count343
-\c@liststart=\count344
-\c@liststop=\count345
-\c@citecount=\count346
-\c@citetotal=\count347
-\c@multicitecount=\count348
-\c@multicitetotal=\count349
-\c@instcount=\count350
-\c@maxnames=\count351
-\c@minnames=\count352
-\c@maxitems=\count353
-\c@minitems=\count354
-\c@citecounter=\count355
-\c@maxcitecounter=\count356
-\c@savedcitecounter=\count357
-\c@uniquelist=\count358
-\c@uniquename=\count359
-\c@refsection=\count360
-\c@refsegment=\count361
-\c@maxextratitle=\count362
-\c@maxextratitleyear=\count363
-\c@maxextraname=\count364
-\c@maxextradate=\count365
-\c@maxextraalpha=\count366
-\c@abbrvpenalty=\count367
-\c@highnamepenalty=\count368
-\c@lownamepenalty=\count369
-\c@maxparens=\count370
-\c@parenlevel=\count371
-\blx@tempcnta=\count372
-\blx@tempcntb=\count373
-\blx@tempcntc=\count374
-\c@blx@maxsection=\count375
-\blx@maxsegment@0=\count376
-\blx@notetype=\count377
-\blx@parenlevel@text=\count378
-\blx@parenlevel@foot=\count379
-\blx@sectionciteorder@0=\count380
-\blx@sectionciteorderinternal@0=\count381
-\blx@entrysetcounter=\count382
-\blx@biblioinstance=\count383
+\c@tabx@nest=\count344
+\c@listtotal=\count345
+\c@listcount=\count346
+\c@liststart=\count347
+\c@liststop=\count348
+\c@citecount=\count349
+\c@citetotal=\count350
+\c@multicitecount=\count351
+\c@multicitetotal=\count352
+\c@instcount=\count353
+\c@maxnames=\count354
+\c@minnames=\count355
+\c@maxitems=\count356
+\c@minitems=\count357
+\c@citecounter=\count358
+\c@maxcitecounter=\count359
+\c@savedcitecounter=\count360
+\c@uniquelist=\count361
+\c@uniquename=\count362
+\c@refsection=\count363
+\c@refsegment=\count364
+\c@maxextratitle=\count365
+\c@maxextratitleyear=\count366
+\c@maxextraname=\count367
+\c@maxextradate=\count368
+\c@maxextraalpha=\count369
+\c@abbrvpenalty=\count370
+\c@highnamepenalty=\count371
+\c@lownamepenalty=\count372
+\c@maxparens=\count373
+\c@parenlevel=\count374
+\blx@tempcnta=\count375
+\blx@tempcntb=\count376
+\blx@tempcntc=\count377
+\c@blx@maxsection=\count378
+\blx@maxsegment@0=\count379
+\blx@notetype=\count380
+\blx@parenlevel@text=\count381
+\blx@parenlevel@foot=\count382
+\blx@sectionciteorder@0=\count383
+\blx@sectionciteorderinternal@0=\count384
+\blx@entrysetcounter=\count385
+\blx@biblioinstance=\count386
 \labelnumberwidth=\skip118
 \labelalphawidth=\skip119
 \biblabelsep=\skip120
@@ -699,9 +753,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count384
-\c@maxcomprange=\count385
-\c@mincompwidth=\count386
+\c@mincomprange=\count387
+\c@maxcomprange=\count388
+\c@mincompwidth=\count389
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\miktex\tex/latex/biblatex\blx-dm.def
@@ -711,74 +765,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count387
-\c@savedafterword=\count388
-\c@annotator=\count389
-\c@savedannotator=\count390
-\c@author=\count391
-\c@savedauthor=\count392
-\c@bookauthor=\count393
-\c@savedbookauthor=\count394
-\c@commentator=\count395
-\c@savedcommentator=\count396
-\c@editor=\count397
-\c@savededitor=\count398
-\c@editora=\count399
-\c@savededitora=\count400
-\c@editorb=\count401
-\c@savededitorb=\count402
-\c@editorc=\count403
-\c@savededitorc=\count404
-\c@foreword=\count405
-\c@savedforeword=\count406
-\c@holder=\count407
-\c@savedholder=\count408
-\c@introduction=\count409
-\c@savedintroduction=\count410
-\c@namea=\count411
-\c@savednamea=\count412
-\c@nameb=\count413
-\c@savednameb=\count414
-\c@namec=\count415
-\c@savednamec=\count416
-\c@translator=\count417
-\c@savedtranslator=\count418
-\c@shortauthor=\count419
-\c@savedshortauthor=\count420
-\c@shorteditor=\count421
-\c@savedshorteditor=\count422
-\c@labelname=\count423
-\c@savedlabelname=\count424
-\c@institution=\count425
-\c@savedinstitution=\count426
-\c@lista=\count427
-\c@savedlista=\count428
-\c@listb=\count429
-\c@savedlistb=\count430
-\c@listc=\count431
-\c@savedlistc=\count432
-\c@listd=\count433
-\c@savedlistd=\count434
-\c@liste=\count435
-\c@savedliste=\count436
-\c@listf=\count437
-\c@savedlistf=\count438
-\c@location=\count439
-\c@savedlocation=\count440
-\c@organization=\count441
-\c@savedorganization=\count442
-\c@origlocation=\count443
-\c@savedoriglocation=\count444
-\c@origpublisher=\count445
-\c@savedorigpublisher=\count446
-\c@publisher=\count447
-\c@savedpublisher=\count448
-\c@language=\count449
-\c@savedlanguage=\count450
-\c@origlanguage=\count451
-\c@savedoriglanguage=\count452
-\c@pageref=\count453
-\c@savedpageref=\count454
+\c@afterword=\count390
+\c@savedafterword=\count391
+\c@annotator=\count392
+\c@savedannotator=\count393
+\c@author=\count394
+\c@savedauthor=\count395
+\c@bookauthor=\count396
+\c@savedbookauthor=\count397
+\c@commentator=\count398
+\c@savedcommentator=\count399
+\c@editor=\count400
+\c@savededitor=\count401
+\c@editora=\count402
+\c@savededitora=\count403
+\c@editorb=\count404
+\c@savededitorb=\count405
+\c@editorc=\count406
+\c@savededitorc=\count407
+\c@foreword=\count408
+\c@savedforeword=\count409
+\c@holder=\count410
+\c@savedholder=\count411
+\c@introduction=\count412
+\c@savedintroduction=\count413
+\c@namea=\count414
+\c@savednamea=\count415
+\c@nameb=\count416
+\c@savednameb=\count417
+\c@namec=\count418
+\c@savednamec=\count419
+\c@translator=\count420
+\c@savedtranslator=\count421
+\c@shortauthor=\count422
+\c@savedshortauthor=\count423
+\c@shorteditor=\count424
+\c@savedshorteditor=\count425
+\c@labelname=\count426
+\c@savedlabelname=\count427
+\c@institution=\count428
+\c@savedinstitution=\count429
+\c@lista=\count430
+\c@savedlista=\count431
+\c@listb=\count432
+\c@savedlistb=\count433
+\c@listc=\count434
+\c@savedlistc=\count435
+\c@listd=\count436
+\c@savedlistd=\count437
+\c@liste=\count438
+\c@savedliste=\count439
+\c@listf=\count440
+\c@savedlistf=\count441
+\c@location=\count442
+\c@savedlocation=\count443
+\c@organization=\count444
+\c@savedorganization=\count445
+\c@origlocation=\count446
+\c@savedoriglocation=\count447
+\c@origpublisher=\count448
+\c@savedorigpublisher=\count449
+\c@publisher=\count450
+\c@savedpublisher=\count451
+\c@language=\count452
+\c@savedlanguage=\count453
+\c@origlanguage=\count454
+\c@savedoriglanguage=\count455
+\c@pageref=\count456
+\c@savedpageref=\count457
 \shorthandwidth=\skip126
 \shortjournalwidth=\skip127
 \shortserieswidth=\skip128
@@ -803,19 +857,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:\miktex\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count455
-\c@textcitetotal=\count456
-\c@textcitemaxnames=\count457
-\c@biburlbigbreakpenalty=\count458
-\c@biburlbreakpenalty=\count459
-\c@biburlnumpenalty=\count460
-\c@biburlucpenalty=\count461
-\c@biburllcpenalty=\count462
+\c@textcitecount=\count458
+\c@textcitetotal=\count459
+\c@textcitemaxnames=\count460
+\c@biburlbigbreakpenalty=\count461
+\c@biburlbreakpenalty=\count462
+\c@biburlnumpenalty=\count463
+\c@biburlucpenalty=\count464
+\c@biburllcpenalty=\count465
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count463
+\c@smartand=\count466
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -837,8 +891,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (C:\miktex\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count464
-\c@bbx:relatedtotal=\count465
+\c@bbx:relatedcount=\count467
+\c@bbx:relatedtotal=\count468
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -885,55 +939,55 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
-0.
+1.
 
 (C:\miktex\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: scrextend package is loaded.
-\caption@addmargin@hsize=\dimen187
-\caption@addmargin@linewidth=\dimen188
+\caption@addmargin@hsize=\dimen257
+\caption@addmargin@linewidth=\dimen258
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: `float' package detected.
 
 (C:\miktex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count466
-\scratchdimen=\dimen189
-\scratchbox=\box60
-\nofMPsegments=\count467
-\nofMParguments=\count468
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count469
-\MPscratchDim=\dimen190
-\MPnumerator=\count470
-\makeMPintoPDFobject=\count471
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count469
+\scratchdimen=\dimen259
+\scratchbox=\box62
+\nofMPsegments=\count470
+\nofMParguments=\count471
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count472
+\MPscratchDim=\dimen260
+\MPnumerator=\count473
+\makeMPintoPDFobject=\count474
+\everyMPtoPDFconversion=\toks37
 ) (C:\miktex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -976,8 +1030,8 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count472
-Package hyperref Info: Link coloring OFF on input line 10.
+\c@lstlisting=\count475
+Package hyperref Info: Link coloring OFF on input line 11.
 (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -995,8 +1049,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 10.
-Package biblatex Info: Reference segment=0 on input line 10.
+Package biblatex Info: Reference section=0 on input line 11.
+Package biblatex Info: Reference segment=0 on input line 11.
 (tex_files/title_page.tex
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  27.
@@ -1524,102 +1578,101 @@ File: images/figmaUI/landing-top.png Graphic file (type png)
 Package pdftex.def Info: images/figmaUI/landing-top.png  used on input line 481
 .
 (pdftex.def)             Requested size: 512.16841pt x 384.34822pt.
- [33 <./images/figmaUI/landing-top.png>]
-<images/figmaUI/login-crop.png, id=569, 1387.584pt x 962.3955pt>
+<images/figmaUI/login-crop.png, id=563, 1387.584pt x 962.3955pt>
 File: images/figmaUI/login-crop.png Graphic file (type png)
 <use images/figmaUI/login-crop.png>
-Package pdftex.def Info: images/figmaUI/login-crop.png  used on input line 494.
+Package pdftex.def Info: images/figmaUI/login-crop.png  used on input line 493.
 
 (pdftex.def)             Requested size: 512.1496pt x 355.21436pt.
- [34 <./images/figmaUI/login-crop.png>]
-<images/figmaUI/register1-crop.png, id=577, 1387.584pt x 1028.04076pt>
+ [33 <./images/figmaUI/landing-top.png>]
+<images/figmaUI/register1-crop.png, id=572, 1387.584pt x 1028.04076pt>
 File: images/figmaUI/register1-crop.png Graphic file (type png)
 <use images/figmaUI/register1-crop.png>
 Package pdftex.def Info: images/figmaUI/register1-crop.png  used on input line 
-506.
+504.
 (pdftex.def)             Requested size: 512.1496pt x 379.44362pt.
- [35 <./images/figmaUI/register1-crop.png>]
-<images/figmaUI/registerstep2.png, id=585, 1387.584pt x 917.22675pt>
+ [34 <./images/figmaUI/login-crop.png>]
+<images/figmaUI/registerstep2.png, id=580, 1387.584pt x 917.22675pt>
 File: images/figmaUI/registerstep2.png Graphic file (type png)
 <use images/figmaUI/registerstep2.png>
 Package pdftex.def Info: images/figmaUI/registerstep2.png  used on input line 5
-19.
+16.
 (pdftex.def)             Requested size: 512.1496pt x 338.54283pt.
-<images/figmaUI/register3-crop.png, id=587, 1387.584pt x 525.162pt>
+ [35 <./images/figmaUI/register1-crop.png>]
+<images/figmaUI/register3-crop.png, id=588, 1387.584pt x 525.162pt>
 File: images/figmaUI/register3-crop.png Graphic file (type png)
 <use images/figmaUI/register3-crop.png>
 Package pdftex.def Info: images/figmaUI/register3-crop.png  used on input line 
-530.
+527.
 (pdftex.def)             Requested size: 512.1496pt x 193.8341pt.
- [36 <./images/figmaUI/registerstep2.png>] [37 <./images/figmaUI/register3-crop
-.png>]
-<images/figmaUI/successregister.png, id=602, 1387.584pt x 896.148pt>
+ [36 <./images/figmaUI/registerstep2.png> <./images/figmaUI/register3-crop.png>
+]
+<images/figmaUI/successregister.png, id=597, 1387.584pt x 896.148pt>
 File: images/figmaUI/successregister.png Graphic file (type png)
 <use images/figmaUI/successregister.png>
 Package pdftex.def Info: images/figmaUI/successregister.png  used on input line
- 542.
+ 538.
 (pdftex.def)             Requested size: 512.1496pt x 330.76279pt.
- [38 <./images/figmaUI/successregister.png>]
-<images/figmaUI/documentspage1-crop.png, id=616, 1387.584pt x 870.8535pt>
+<images/figmaUI/documentspage1-crop.png, id=605, 1387.584pt x 870.8535pt>
 File: images/figmaUI/documentspage1-crop.png Graphic file (type png)
 <use images/figmaUI/documentspage1-crop.png>
 Package pdftex.def Info: images/figmaUI/documentspage1-crop.png  used on input 
-line 555.
+line 550.
 (pdftex.def)             Requested size: 512.1496pt x 321.42674pt.
-<images/figmaUI/success-crop.png, id=619, 1387.584pt x 482.40225pt>
+ [37 <./images/figmaUI/successregister.png>]
+<images/figmaUI/success-crop.png, id=620, 1387.584pt x 482.40225pt>
 File: images/figmaUI/success-crop.png Graphic file (type png)
 <use images/figmaUI/success-crop.png>
 Package pdftex.def Info: images/figmaUI/success-crop.png  used on input line 56
-6.
+1.
 (pdftex.def)             Requested size: 512.1496pt x 178.05174pt.
- [39 <./images/figmaUI/documentspage1-crop.png>]
-<images/figmaUI/unsuccess-crop.png, id=632, 1387.584pt x 642.60075pt>
+<images/figmaUI/unsuccess-crop.png, id=621, 1387.584pt x 642.60075pt>
 File: images/figmaUI/unsuccess-crop.png Graphic file (type png)
 <use images/figmaUI/unsuccess-crop.png>
 Package pdftex.def Info: images/figmaUI/unsuccess-crop.png  used on input line 
-573.
+568.
 (pdftex.def)             Requested size: 512.1496pt x 237.18004pt.
-<images/figmaUI/documentspage2-crop.png, id=634, 1387.584pt x 870.8535pt>
+ [38 <./images/figmaUI/documentspage1-crop.png> <./images/figmaUI/success-crop.
+png>]
+<images/figmaUI/documentspage2-crop.png, id=631, 1387.584pt x 870.8535pt>
 File: images/figmaUI/documentspage2-crop.png Graphic file (type png)
 <use images/figmaUI/documentspage2-crop.png>
 Package pdftex.def Info: images/figmaUI/documentspage2-crop.png  used on input 
-line 584.
+line 579.
 (pdftex.def)             Requested size: 512.1496pt x 321.42674pt.
-
-[40 <./images/figmaUI/success-crop.png> <./images/figmaUI/unsuccess-crop.png>]
-[41 <./images/figmaUI/documentspage2-crop.png>]
-<images/figmaUI/accountspage-account-crop.png, id=650, 1387.584pt x 626.94225pt
+ [39 <./images/figmaUI/unsuccess-crop.png> <./images/figmaUI/documentspage2-cro
+p.png>]
+<images/figmaUI/accountspage-account-crop.png, id=642, 1387.584pt x 626.94225pt
 >
 File: images/figmaUI/accountspage-account-crop.png Graphic file (type png)
 <use images/figmaUI/accountspage-account-crop.png>
 Package pdftex.def Info: images/figmaUI/accountspage-account-crop.png  used on 
-input line 598.
+input line 592.
 (pdftex.def)             Requested size: 512.1496pt x 231.40059pt.
-<images/figmaUI/accountspage-protection-crop.png, id=652, 1387.584pt x 336.0555
+<images/figmaUI/accountspage-protection-crop.png, id=644, 1387.584pt x 336.0555
 pt>
 File: images/figmaUI/accountspage-protection-crop.png Graphic file (type png)
 <use images/figmaUI/accountspage-protection-crop.png>
 Package pdftex.def Info: images/figmaUI/accountspage-protection-crop.png  used 
-on input line 609.
+on input line 603.
 (pdftex.def)             Requested size: 512.1496pt x 124.03604pt.
- [42 <./images/figmaUI/accountspage-account-crop.png> <./images/figmaUI/account
-spage-protection-crop.png>]
-<images/figmaUI/accountspage-documents-crop.png, id=660, 1387.584pt x 702.2235p
+<images/figmaUI/accountspage-documents-crop.png, id=646, 1387.584pt x 702.2235p
 t>
 File: images/figmaUI/accountspage-documents-crop.png Graphic file (type png)
 <use images/figmaUI/accountspage-documents-crop.png>
 Package pdftex.def Info: images/figmaUI/accountspage-documents-crop.png  used o
-n input line 621.
+n input line 614.
 (pdftex.def)             Requested size: 512.1496pt x 259.18643pt.
-)
-[43 <./images/figmaUI/accountspage-documents-crop.png>] (tex_files/midterm2.tex
+) [40 <./images/figmaUI/accountspage-account-crop.png> <./images/figmaUI/accoun
+tspage-protection-crop.png>] [41 <./images/figmaUI/accountspage-documents-crop.
+png>] (tex_files/midterm2.tex
 Chapter 5.
 
-LaTeX Warning: Citation 'alexei_pavlovschii_blocksign_nodate' on page 44 undefi
+LaTeX Warning: Citation 'alexei_pavlovschii_blocksign_nodate' on page 42 undefi
 ned on input line 3.
 
 
-LaTeX Warning: Citation 'vladimir_vitcovschii_blocksign_nodate' on page 44 unde
+LaTeX Warning: Citation 'vladimir_vitcovschii_blocksign_nodate' on page 42 unde
 fined on input line 3.
 
 
@@ -1628,136 +1681,138 @@ Overfull \hbox (149.15134pt too wide) in paragraph at lines 3--4
  
  []
 
-<images/main-project-routers.png, id=668, 1318.9275pt x 509.905pt>
+<images/main-project-routers.png, id=659, 1318.9275pt x 509.905pt>
 File: images/main-project-routers.png Graphic file (type png)
 <use images/main-project-routers.png>
 Package pdftex.def Info: images/main-project-routers.png  used on input line 10
 .
-(pdftex.def)             Requested size: 512.1496pt x 198.00629pt.
-<images/user-db-model.png, id=670, 2017.5375pt x 1377.145pt>
+(pdftex.def)             Requested size: 483.69684pt x 186.99686pt.
+<images/user-db-model.png, id=661, 2017.5375pt x 1377.145pt>
 File: images/user-db-model.png Graphic file (type png)
 <use images/user-db-model.png>
 Package pdftex.def Info: images/user-db-model.png  used on input line 25.
-(pdftex.def)             Requested size: 512.1496pt x 349.58081pt.
-[44
+(pdftex.def)             Requested size: 483.69684pt x 330.16432pt.
+[42
 
 
- <./images/main-project-routers.png>] [45 <./images/user-db-model.png>]
-<images/email-sending.png, id=684, 2754.29pt x 618.31pt>
+ <./images/main-project-routers.png>] [43 <./images/user-db-model.png>]
+<images/email-sending.png, id=676, 2754.29pt x 618.31pt>
 File: images/email-sending.png Graphic file (type png)
 <use images/email-sending.png>
 Package pdftex.def Info: images/email-sending.png  used on input line 45.
-(pdftex.def)             Requested size: 512.1496pt x 114.9705pt.
-<images/keygen.png, id=686, 2105.8675pt x 835.12pt>
+(pdftex.def)             Requested size: 483.69684pt x 108.58325pt.
+<images/keygen.png, id=678, 2105.8675pt x 835.12pt>
 File: images/keygen.png Graphic file (type png)
 <use images/keygen.png>
 Package pdftex.def Info: images/keygen.png  used on input line 55.
-(pdftex.def)             Requested size: 512.1496pt x 203.09615pt.
+(pdftex.def)             Requested size: 483.69684pt x 191.8187pt.
 
-[46 <./images/email-sending.png> <./images/keygen.png>]
-<images/payload-signature.png, id=696, 1421.31pt x 889.3225pt>
+[44 <./images/email-sending.png> <./images/keygen.png>]
+<images/payload-signature.png, id=688, 1421.31pt x 889.3225pt>
 File: images/payload-signature.png Graphic file (type png)
 <use images/payload-signature.png>
 Package pdftex.def Info: images/payload-signature.png  used on input line 69.
-(pdftex.def)             Requested size: 512.1496pt x 320.45439pt.
- [47 <./images/payload-signature.png>]
-<images/siteUI/code.png, id=704, 1429.59094pt x 730.22812pt>
+(pdftex.def)             Requested size: 483.69684pt x 302.6506pt.
+ [45 <./images/payload-signature.png>]
+<images/siteUI/code.png, id=696, 1429.59094pt x 730.22812pt>
 File: images/siteUI/code.png Graphic file (type png)
 <use images/siteUI/code.png>
 Package pdftex.def Info: images/siteUI/code.png  used on input line 87.
-(pdftex.def)             Requested size: 512.1496pt x 261.60054pt.
- [48 <./images/siteUI/code.png>] [49]
-<images/siteUI/codeMail.png, id=721, 667.74469pt x 409.53pt>
+(pdftex.def)             Requested size: 483.69684pt x 247.07089pt.
+ [46 <./images/siteUI/code.png>] [47]
+<images/siteUI/codeMail.png, id=712, 667.74469pt x 409.53pt>
 File: images/siteUI/codeMail.png Graphic file (type png)
 <use images/siteUI/codeMail.png>
 Package pdftex.def Info: images/siteUI/codeMail.png  used on input line 154.
-(pdftex.def)             Requested size: 512.1496pt x 314.12677pt.
-<images/siteUI/register.png, id=723, 1429.59094pt x 729.47531pt>
+(pdftex.def)             Requested size: 483.69684pt x 296.66106pt.
+<images/siteUI/register.png, id=714, 1429.59094pt x 729.47531pt>
 File: images/siteUI/register.png Graphic file (type png)
 <use images/siteUI/register.png>
 Package pdftex.def Info: images/siteUI/register.png  used on input line 163.
-(pdftex.def)             Requested size: 512.1496pt x 261.33086pt.
- [50 <./images/siteUI/codeMail.png>]
-<images/siteUI/thankYou.png, id=732, 662.475pt x 468.24937pt>
+(pdftex.def)             Requested size: 483.69684pt x 246.81618pt.
+ [48 <./images/siteUI/codeMail.png>]
+<images/siteUI/thankYou.png, id=723, 662.475pt x 468.24937pt>
 File: images/siteUI/thankYou.png Graphic file (type png)
 <use images/siteUI/thankYou.png>
 Package pdftex.def Info: images/siteUI/thankYou.png  used on input line 172.
-(pdftex.def)             Requested size: 512.1496pt x 362.01068pt.
- [51 <./images/siteUI/register.png>] [52 <./images/siteUI/thankYou.png>]
-<images/siteUI/mnemonicLogin.png, id=750, 925.95938pt x 410.2828pt>
+(pdftex.def)             Requested size: 483.69684pt x 341.8835pt.
+ [49 <./images/siteUI/register.png> <./images/siteUI/thankYou.png>]
+<images/siteUI/mnemonicLogin.png, id=736, 925.95938pt x 410.2828pt>
 File: images/siteUI/mnemonicLogin.png Graphic file (type png)
 <use images/siteUI/mnemonicLogin.png>
 Package pdftex.def Info: images/siteUI/mnemonicLogin.png  used on input line 19
 7.
-(pdftex.def)             Requested size: 512.1496pt x 226.9271pt.
-<images/siteUI/headerAccountUser.png, id=752, 1428.83812pt x 94.85437pt>
+(pdftex.def)             Requested size: 483.69684pt x 214.3249pt.
+
+[50]
+<images/siteUI/headerAccountUser.png, id=749, 1428.83812pt x 94.85437pt>
 File: images/siteUI/headerAccountUser.png Graphic file (type png)
 <use images/siteUI/headerAccountUser.png>
 Package pdftex.def Info: images/siteUI/headerAccountUser.png  used on input lin
 e 209.
-(pdftex.def)             Requested size: 512.1496pt x 33.99991pt.
- [53 <./images/siteUI/mnemonicLogin.png> <./images/siteUI/headerAccountUser.png
->]
-<images/siteUI/headerAccountAdmin.png, id=766, 554.82281pt x 218.31563pt>
+(pdftex.def)             Requested size: 483.69684pt x 32.10965pt.
+<images/siteUI/headerAccountAdmin.png, id=751, 554.82281pt x 218.31563pt>
 File: images/siteUI/headerAccountAdmin.png Graphic file (type png)
 <use images/siteUI/headerAccountAdmin.png>
 Package pdftex.def Info: images/siteUI/headerAccountAdmin.png  used on input li
 ne 218.
-(pdftex.def)             Requested size: 512.1496pt x 201.52571pt.
-<images/siteUI/adminConsole.png, id=768, 1444.64719pt x 577.40718pt>
+(pdftex.def)             Requested size: 483.69684pt x 190.32947pt.
+ [51 <./images/siteUI/mnemonicLogin.png> <./images/siteUI/headerAccountUser.png
+>]
+<images/siteUI/adminConsole.png, id=761, 1444.64719pt x 577.40718pt>
 File: images/siteUI/adminConsole.png Graphic file (type png)
 <use images/siteUI/adminConsole.png>
 Package pdftex.def Info: images/siteUI/adminConsole.png  used on input line 227
 .
-(pdftex.def)             Requested size: 512.1496pt x 204.69464pt.
-<images/siteUI/adminConsoleNoRequests.png, id=770, 876.27374pt x 154.32657pt>
+(pdftex.def)             Requested size: 483.69684pt x 193.32907pt.
+<images/siteUI/adminConsoleNoRequests.png, id=763, 876.27374pt x 154.32657pt>
 File: images/siteUI/adminConsoleNoRequests.png Graphic file (type png)
 <use images/siteUI/adminConsoleNoRequests.png>
 Package pdftex.def Info: images/siteUI/adminConsoleNoRequests.png  used on inpu
 t line 246.
-(pdftex.def)             Requested size: 512.1496pt x 90.19942pt.
- [54 <./images/siteUI/headerAccountAdmin.png> <./images/siteUI/adminConsole.png
+(pdftex.def)             Requested size: 483.69684pt x 85.18834pt.
+ [52 <./images/siteUI/headerAccountAdmin.png> <./images/siteUI/adminConsole.png
 >]
-<images/siteUI/finishRegMail.png, id=780, 900.36375pt x 396.7322pt>
+<images/siteUI/finishRegMail.png, id=773, 900.36375pt x 396.7322pt>
 File: images/siteUI/finishRegMail.png Graphic file (type png)
 <use images/siteUI/finishRegMail.png>
 Package pdftex.def Info: images/siteUI/finishRegMail.png  used on input line 25
 7.
-(pdftex.def)             Requested size: 512.1496pt x 225.67961pt.
-<images/siteUI/mnemonicPhrase.png, id=782, 507.39563pt x 606.76688pt>
+(pdftex.def)             Requested size: 483.69684pt x 213.13647pt.
+<images/siteUI/mnemonicPhrase.png, id=775, 507.39563pt x 606.76688pt>
 File: images/siteUI/mnemonicPhrase.png Graphic file (type png)
 <use images/siteUI/mnemonicPhrase.png>
 Package pdftex.def Info: images/siteUI/mnemonicPhrase.png  used on input line 2
 66.
-(pdftex.def)             Requested size: 512.1496pt x 612.46863pt.
- [55 <./images/siteUI/adminConsoleNoRequests.png> <./images/siteUI/finishRegMai
+(pdftex.def)             Requested size: 483.69684pt x 578.44362pt.
+ [53 <./images/siteUI/adminConsoleNoRequests.png> <./images/siteUI/finishRegMai
 l.png>]
-<images/siteUI/securityMethod.png, id=794, 724.95844pt x 437.38406pt>
+<images/siteUI/securityMethod.png, id=785, 724.95844pt x 437.38406pt>
 File: images/siteUI/securityMethod.png Graphic file (type png)
 <use images/siteUI/securityMethod.png>
 Package pdftex.def Info: images/siteUI/securityMethod.png  used on input line 2
 75.
-(pdftex.def)             Requested size: 512.1496pt x 308.99649pt.
- [56 <./images/siteUI/mnemonicPhrase.png>]
-<images/siteUI/pinForSite.png, id=801, 700.86844pt x 423.83344pt>
+(pdftex.def)             Requested size: 483.69684pt x 291.83113pt.
+ [54 <./images/siteUI/mnemonicPhrase.png>]
+<images/siteUI/pinForSite.png, id=792, 700.86844pt x 423.83344pt>
 File: images/siteUI/pinForSite.png Graphic file (type png)
 <use images/siteUI/pinForSite.png>
 Package pdftex.def Info: images/siteUI/pinForSite.png  used on input line 284.
-(pdftex.def)             Requested size: 512.1496pt x 309.73212pt.
- [57 <./images/siteUI/securityMethod.png>]
-<images/siteUI/logedIn.png, id=808, 1429.59094pt x 728.7225pt>
+(pdftex.def)             Requested size: 483.69684pt x 292.51004pt.
+ [55 <./images/siteUI/securityMethod.png> <./images/siteUI/pinForSite.png>]
+<images/siteUI/logedIn.png, id=801, 1429.59094pt x 728.7225pt>
 File: images/siteUI/logedIn.png Graphic file (type png)
 <use images/siteUI/logedIn.png>
 Package pdftex.def Info: images/siteUI/logedIn.png  used on input line 297.
-(pdftex.def)             Requested size: 512.1496pt x 261.06117pt.
- [58 <./images/siteUI/pinForSite.png>] [59 <./images/siteUI/logedIn.png>] [60] 
-[61]) [62] (tex_files/conclusion.tex
+(pdftex.def)             Requested size: 483.69684pt x 246.56148pt.
+ [56 <./images/siteUI/logedIn.png>] [57] [58] [59]) [60] (tex_files/conclusion.
+tex
 Overfull \hbox (4.03499pt too wide) in paragraph at lines 10--11
 []\OT1/ptm/m/n/12 The re-sults con-firm the fea-si-bil-ity of us-ing lightweigh
 t cryp-to-graphic li-braries and struc-tured database
  []
 
-) [63
+) [61
 
 
 ] (tex_files/bibliography.tex
@@ -1773,6 +1828,9 @@ L3 programming layer <2024-01-04>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 51BEF57DCBF2E5A111726E15FC0AB431;10622.
 
@@ -1785,18 +1843,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25738 strings out of 474486
- 456456 string characters out of 5760170
- 1938542 words of memory out of 5000000
- 47431 multiletter control sequences out of 15000+600000
+ 26849 strings out of 474486
+ 475680 string characters out of 5760170
+ 1939542 words of memory out of 5000000
+ 48510 multiletter control sequences out of 15000+600000
  587709 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,14n,121p,1210b,2314s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/miktex/fonts/type1/u
 rw/times/utmb8a.pfb><C:/miktex/fonts/type1/urw/times/utmr8a.pfb>
-Output written on main.pdf (63 pages, 8026055 bytes).
+Output written on main.pdf (61 pages, 8025611 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
- 227 named destinations out of 1000 (max. 500000)
+ 909 PDF objects out of 1000 (max. 8388607)
+ 225 named destinations out of 1000 (max. 500000)
  765 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -34,47 +34,47 @@
 \contentsline {section}{\numberline {4.3}Structural Modeling}{31}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Class Diagram}{31}{subsection.4.3.1}%
 \contentsline {section}{\numberline {4.4}Figma User Interface Mockups}{33}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Practical Implementation}{44}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Back-end architecture}{44}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Application Layer}{44}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Database Layer}{44}{subsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.1.3}Security Measures}{45}{subsection.5.1.3}%
-\contentsline {subsection}{\numberline {5.1.4}Authentication and Tokens}{45}{subsection.5.1.4}%
-\contentsline {subsection}{\numberline {5.1.5}Email Service}{46}{subsection.5.1.5}%
-\contentsline {subsection}{\numberline {5.1.6}Cryptographic Module}{46}{subsection.5.1.6}%
-\contentsline {subsection}{\numberline {5.1.7}Document Workflow}{47}{subsection.5.1.7}%
-\contentsline {subsection}{\numberline {5.1.8}Extensibility}{47}{subsection.5.1.8}%
-\contentsline {section}{\numberline {5.2}Front-end UI}{48}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Frontend Architecture}{48}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Landing Page and User Onboarding}{49}{subsection.5.2.2}%
-\contentsline {subsubsection}{Landing Page Design and Layout}{49}{subsubsection*.51}%
-\contentsline {subsubsection}{Feature Presentation}{49}{subsubsection*.52}%
-\contentsline {subsubsection}{Educational Content}{49}{subsubsection*.53}%
-\contentsline {subsubsection}{Trust Indicators}{49}{subsubsection*.54}%
-\contentsline {subsection}{\numberline {5.2.3}Registration Flow and User Identity}{50}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Authentication System and Security Features}{52}{subsection.5.2.4}%
-\contentsline {subsubsection}{Mnemonic-Based Authentication}{52}{subsubsection*.58}%
-\contentsline {subsubsection}{PIN-Based Quick Access}{53}{subsubsection*.59}%
-\contentsline {subsubsection}{Secure Login Interface}{53}{subsubsection*.60}%
-\contentsline {subsection}{\numberline {5.2.5}User role specified UI}{53}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Additional registration steps}{55}{subsection.5.2.6}%
-\contentsline {subsection}{\numberline {5.2.7}Document Management Interface}{58}{subsection.5.2.7}%
-\contentsline {subsubsection}{Dashboard and Navigation}{58}{subsubsection*.70}%
-\contentsline {subsubsection}{Document Creation and Upload}{59}{subsubsection*.72}%
-\contentsline {subsubsection}{Document Signing Workflow}{59}{subsubsection*.73}%
-\contentsline {subsubsection}{Document History and Verification}{60}{subsubsection*.74}%
-\contentsline {subsection}{\numberline {5.2.8}Responsive Design and User Experience}{60}{subsection.5.2.8}%
-\contentsline {subsubsection}{Mobile-First Approach}{60}{subsubsection*.75}%
-\contentsline {subsubsection}{Cross-Browser Compatibility}{60}{subsubsection*.76}%
-\contentsline {subsection}{\numberline {5.2.9}Client-Side Security Implementation}{60}{subsection.5.2.9}%
-\contentsline {subsubsection}{Cryptographic Key Management}{60}{subsubsection*.77}%
-\contentsline {subsubsection}{Secure Communication}{61}{subsubsection*.78}%
-\contentsline {subsection}{\numberline {5.2.10}Internationalization and Localization}{61}{subsection.5.2.10}%
-\contentsline {subsubsection}{Multi-Language Support}{61}{subsubsection*.79}%
-\contentsline {subsubsection}{Localization Features}{61}{subsubsection*.80}%
-\contentsline {subsection}{\numberline {5.2.11}Feature Accessibility by User Role}{61}{subsection.5.2.11}%
-\contentsline {subsubsection}{Public Features (Unauthorized Users)}{61}{subsubsection*.81}%
-\contentsline {subsubsection}{Authenticated User Features}{62}{subsubsection*.82}%
-\contentsline {subsection}{\numberline {5.2.12}Technology Integration and Performance}{62}{subsection.5.2.12}%
-\contentsline {subsubsection}{Performance Optimization}{62}{subsubsection*.83}%
-\contentsline {chapter}{CONCLUSIONS}{63}{subsubsection*.83}%
+\contentsline {chapter}{\numberline {5}Practical Implementation}{42}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Back-end architecture}{42}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Application Layer}{42}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Database Layer}{42}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Security Measures}{43}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Authentication and Tokens}{43}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}Email Service}{44}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}Cryptographic Module}{44}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Document Workflow}{45}{subsection.5.1.7}%
+\contentsline {subsection}{\numberline {5.1.8}Extensibility}{45}{subsection.5.1.8}%
+\contentsline {section}{\numberline {5.2}Front-end UI}{46}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Frontend Architecture}{46}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Landing Page and User Onboarding}{47}{subsection.5.2.2}%
+\contentsline {subsubsection}{Landing Page Design and Layout}{47}{subsubsection*.51}%
+\contentsline {subsubsection}{Feature Presentation}{47}{subsubsection*.52}%
+\contentsline {subsubsection}{Educational Content}{47}{subsubsection*.53}%
+\contentsline {subsubsection}{Trust Indicators}{47}{subsubsection*.54}%
+\contentsline {subsection}{\numberline {5.2.3}Registration Flow and User Identity}{48}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Authentication System and Security Features}{50}{subsection.5.2.4}%
+\contentsline {subsubsection}{Mnemonic-Based Authentication}{50}{subsubsection*.58}%
+\contentsline {subsubsection}{PIN-Based Quick Access}{50}{subsubsection*.59}%
+\contentsline {subsubsection}{Secure Login Interface}{50}{subsubsection*.60}%
+\contentsline {subsection}{\numberline {5.2.5}User role specified UI}{51}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Additional registration steps}{53}{subsection.5.2.6}%
+\contentsline {subsection}{\numberline {5.2.7}Document Management Interface}{56}{subsection.5.2.7}%
+\contentsline {subsubsection}{Dashboard and Navigation}{56}{subsubsection*.70}%
+\contentsline {subsubsection}{Document Creation and Upload}{56}{subsubsection*.72}%
+\contentsline {subsubsection}{Document Signing Workflow}{57}{subsubsection*.73}%
+\contentsline {subsubsection}{Document History and Verification}{57}{subsubsection*.74}%
+\contentsline {subsection}{\numberline {5.2.8}Responsive Design and User Experience}{57}{subsection.5.2.8}%
+\contentsline {subsubsection}{Mobile-First Approach}{57}{subsubsection*.75}%
+\contentsline {subsubsection}{Cross-Browser Compatibility}{57}{subsubsection*.76}%
+\contentsline {subsection}{\numberline {5.2.9}Client-Side Security Implementation}{58}{subsection.5.2.9}%
+\contentsline {subsubsection}{Cryptographic Key Management}{58}{subsubsection*.77}%
+\contentsline {subsubsection}{Secure Communication}{58}{subsubsection*.78}%
+\contentsline {subsection}{\numberline {5.2.10}Internationalization and Localization}{58}{subsection.5.2.10}%
+\contentsline {subsubsection}{Multi-Language Support}{58}{subsubsection*.79}%
+\contentsline {subsubsection}{Localization Features}{58}{subsubsection*.80}%
+\contentsline {subsection}{\numberline {5.2.11}Feature Accessibility by User Role}{59}{subsection.5.2.11}%
+\contentsline {subsubsection}{Public Features (Unauthorized Users)}{59}{subsubsection*.81}%
+\contentsline {subsubsection}{Authenticated User Features}{59}{subsubsection*.82}%
+\contentsline {subsection}{\numberline {5.2.12}Technology Integration and Performance}{59}{subsection.5.2.12}%
+\contentsline {subsubsection}{Performance Optimization}{59}{subsubsection*.83}%
+\contentsline {chapter}{CONCLUSIONS}{61}{subsubsection*.83}%

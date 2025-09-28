@@ -471,7 +471,10 @@ Altogether, this diagram highlights how users, roles, documents, participants, s
 \newpage
 \section{Figma User Interface Mockups}
 
-The landing page (Figure \ref{landing1}) is the first page seen by the user when entering the site, so it gives the user a clear description of the functionality the service provides.
+The landing page (Figure \ref{landing1}) is the first page seen by the user when entering the site, so it gives the user a clear description of the functionality the service provides. 
+In addition to the general introduction, the landing page highlights the main features of the platform such as secure digital document signing, document verification, and account management. 
+The page also provides quick navigation buttons for login and registration, along with a concise call-to-action section that encourages new users to get started immediately. 
+The design focuses on clarity, minimalism, and trust-building by including branding and possibly short explanations of how the service ensures security and authenticity.
 
 \begin{figure}[H]
     \centering
@@ -482,7 +485,9 @@ The landing page (Figure \ref{landing1}) is the first page seen by the user when
 
 \newpage
 The login page (Figure \ref{login}) has the possibility of entering via email and password, as well as entering through existing accounts in services such as Google. 
-
+It also contains a ``Forgot password?'' option to help users recover their credentials securely. 
+The design maintains a simple, uncluttered layout to make the login process quick and intuitive. 
+Security measures such as preventing brute-force attempts or notifying users of suspicious logins are typically included in the backend to protect user data.
 
 \begin{figure}[H]
     \centering
@@ -493,7 +498,8 @@ The login page (Figure \ref{login}) has the possibility of entering via email an
 
 \newpage
 The registration page (Figure \ref{register}) provides the user with the possibility to create an account in the service and lets the use of other services such as Google to provide the information needed to service. 
-
+The form includes basic personal data such as full name, email, and password, while enforcing password strength requirements. 
+The integration with third-party authentication providers ensures faster registration and reduces errors during manual data entry.
 
 \begin{figure}[H]
     \centering
@@ -504,7 +510,9 @@ The registration page (Figure \ref{register}) provides the user with the possibi
 
 \newpage
 The second step of registration (Figure \ref{registerstep2}) is a confirmation of the user's email. 
-
+An email with a verification link or code is sent to the address provided. 
+This step ensures the validity of the email and protects against fake accounts. 
+Without confirmation, the user cannot proceed to the next steps, which increases platform reliability and security. 
 
 \begin{figure}[H]
     \centering
@@ -513,9 +521,9 @@ The second step of registration (Figure \ref{registerstep2}) is a confirmation o
     \label{registerstep2}
 \end{figure}
 
-
-The third step of registration (Figure \ref{registerstep3}) is a confirmation of identity using sensitive personal data that is not stored or used after verification.
-
+The third step of registration (Figure \ref{registerstep3}) is a confirmation of identity using sensitive personal data that is not stored or used after verification. 
+This step may include providing a government-issued ID or other verification methods, processed through a secure third-party provider. 
+The system uses these checks only to validate the authenticity of the user, ensuring compliance with regulations while safeguarding privacy. 
 
 \begin{figure}[H]
     \centering
@@ -525,8 +533,9 @@ The third step of registration (Figure \ref{registerstep3}) is a confirmation of
 \end{figure}
 
 \newpage
-Then the user sees the successful finish (Figure \ref{documentspage1}) screen and is redirected to his account.
-
+Then the user sees the successful finish (Figure \ref{successregister}) screen and is redirected to his account. 
+This page confirms that the registration has been completed, and it often includes a ``Go to Dashboard'' or ``Start Now'' button. 
+It reassures the user with a confirmation message and sometimes provides short onboarding tips or links to documentation.
 
 \begin{figure}[H]
     \centering
@@ -536,11 +545,10 @@ Then the user sees the successful finish (Figure \ref{documentspage1}) screen an
 \end{figure}
 
 \newpage
-When authorized user gets access to the pages: documents( Figures \ref{documentspage1}, \ref{documentspage2}), account (Figures \ref{accountspage-account}, \ref{accountspage-protection}, \ref{accountspage-documents} )
+When authorized, the user gets access to the main features of the platform: documents (Figures \ref{documentspage1}, \ref{documentspage2}), and account settings (Figures \ref{accountspage-account}, \ref{accountspage-protection}, \ref{accountspage-documents}).
 
-
-The documents page has 2 main functionalities - uploading (Figure \ref{documentspage1}) and creating a session of signing the document, and second - verifying (Figure \ref{documentspage2}) if the file with the given users was ever signed. 
-
+The documents page has 2 main functionalities: uploading (Figure \ref{documentspage1}) and creating a session of signing the document, and verifying (Figure \ref{documentspage2}) whether a file with the given users was ever signed. 
+This structure makes the page a central hub for all document-related operations. 
 
 \begin{figure}[H]
     \centering
@@ -549,9 +557,9 @@ The documents page has 2 main functionalities - uploading (Figure \ref{documents
     \label{documentspage1}
 \end{figure}
 
-
-The results of verifying might be only exists (Figure \ref{documents-exists}) or does not exist (Figure \ref{documents-noinstance}).
-
+The results of verifying might be only ``exists'' (Figure \ref{documents-exists}) or ``does not exist'' (Figure \ref{documents-noinstance}). 
+When a document is confirmed as existing, metadata such as the signing parties, date, and document ID may be shown. 
+If the document is not found, the system suggests uploading it for signing or checking the entered details again.
 
 \begin{figure}[H]
     \centering
@@ -560,7 +568,6 @@ The results of verifying might be only exists (Figure \ref{documents-exists}) or
     \label{documents-exists}
 \end{figure}
 
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=18cm]{"images/figmaUI/unsuccess-crop.png"}
@@ -568,9 +575,9 @@ The results of verifying might be only exists (Figure \ref{documents-exists}) or
     \label{documents-noinstance}
 \end{figure}
 
-
-On the upload option (Figure \ref{documentspage2}) the session of the signing the document is created by adding the sides of the signing via account name/id. 
-
+On the upload option (Figure \ref{documentspage2}) the session of signing the document is created by adding the sides of the signing via account name/id. 
+The user can invite multiple parties, define the order of signing, and set additional security measures such as signing deadlines. 
+The interface ensures that uploaded files are stored securely and encrypted until the signing process is complete.
 
 \begin{figure}[H]
     \centering
@@ -580,9 +587,11 @@ On the upload option (Figure \ref{documentspage2}) the session of the signing th
 \end{figure}
 
 \newpage
-The account page gives the ability to manipulate the user account(Figure \ref{accountspage-account}) and protection(Figure \ref{accountspage-protection}) as well as view and sign the documents(Figure \ref{accountspage-documents}).
+The account page gives the ability to manage the user account (Figure \ref{accountspage-account}) and protection settings (Figure \ref{accountspage-protection}) as well as view and sign documents (Figure \ref{accountspage-documents}). 
+This separation into tabs makes navigation straightforward and intuitive. 
 
-The account tab (Figure \ref{accountspage-account}) has the customization of the previously introduced info.
+The account tab (Figure \ref{accountspage-account}) allows customization of the previously introduced personal information, including name, email, and profile image. 
+It also enables linking or unlinking third-party login services. 
 
 \begin{figure}[H]
     \centering
@@ -591,9 +600,9 @@ The account tab (Figure \ref{accountspage-account}) has the customization of the
     \label{accountspage-account}
 \end{figure}
 
-
-The protection tab (Figure \ref{accountspage-protection}) provides the possibility to change password and enable multi-factor authentication.
-
+The protection tab (Figure \ref{accountspage-protection}) provides the possibility to change password and enable multi-factor authentication. 
+It may also include login history, trusted devices, and alerts for unauthorized access. 
+This improves transparency and enhances user trust in the platform.
 
 \begin{figure}[H]
     \centering
@@ -603,8 +612,9 @@ The protection tab (Figure \ref{accountspage-protection}) provides the possibili
 \end{figure}
 
 \newpage
-The documents tab (Figure \ref{accountspage-documents}) gives the user list of the documents and pending.
-
+The documents tab (Figure \ref{accountspage-documents}) gives the user a list of their documents and pending requests. 
+Users can view details such as status (signed, pending, declined), participants, and timestamps. 
+From this tab, the user can also directly open a document for review or initiate a new signing process. 
 
 \begin{figure}[H]
     \centering
@@ -612,6 +622,3 @@ The documents tab (Figure \ref{accountspage-documents}) gives the user list of t
     \caption{Account page - View of the documents}
     \label{accountspage-documents}
 \end{figure}
-
-
-

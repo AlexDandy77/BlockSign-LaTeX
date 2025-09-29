@@ -468,9 +468,7 @@ Additionally, the system maintains VerificationRecords, which store blockchain-r
 
 Altogether, this diagram highlights how users, roles, documents, participants, signatures, and verification records interact. It reflects a cohesive domain model where documents are securely managed, signed by multiple parties, and validated against blockchain anchors to ensure integrity and trustworthiness.
 
-\newpage
 \section{Figma User Interface Mockups}
-
 The landing page (Figure \ref{landing1}) is the first page seen by the user when entering the site, so it gives the user a clear description of the functionality the service provides. 
 In addition to the general introduction, the landing page highlights the main features of the platform such as secure digital document signing, document verification, and account management. 
 The page also provides quick navigation buttons for login and registration, along with a concise call-to-action section that encourages new users to get started immediately. 
@@ -478,22 +476,23 @@ The design focuses on clarity, minimalism, and trust-building by including brand
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm, height=20cm, keepaspectratio]{"images/figmaUI/landing-top.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/landing-top.png"}}
     \caption{Landing page}
     \label{landing1}
 \end{figure}
 
 The login page (Figure \ref{login}) has the possibility of entering via email and password, as well as entering through existing accounts in services such as Google. 
-It also contains a ``Forgot password?'' option to help users recover their credentials securely. 
-The design maintains a simple, uncluttered layout to make the login process quick and intuitive. 
-Security measures such as preventing brute-force attempts or notifying users of suspicious logins are typically included in the backend to protect user data.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/login-crop.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/login-crop.png"}}
     \caption{Login page}
     \label{login}
 \end{figure}
+
+It also contains a \textbf{``Forgot password?''} option to help users recover their credentials securely. 
+The design maintains a simple, uncluttered layout to make the login process quick and intuitive. 
+Security measures such as preventing brute-force attempts or notifying users of suspicious logins are typically included in the backend to protect user data.
 
 The registration page (Figure \ref{register}) provides the user with the possibility to create an account in the service and lets the use of other services such as Google to provide the information needed to service. 
 The form includes basic personal data such as full name, email, and password, while enforcing password strength requirements. 
@@ -513,7 +512,7 @@ Without confirmation, the user cannot proceed to the next steps, which increases
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/registerstep2.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/registerstep2.png"}}
     \caption{Register - Verifying the email}
     \label{registerstep2}
 \end{figure}
@@ -535,19 +534,19 @@ It reassures the user with a confirmation message and sometimes provides short o
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/successregister.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/successregister.png"}}
     \caption{Register - Successful finish}
     \label{successregister}
 \end{figure}
 
-When authorized, the user gets access to the main features of the platform: documents (Figures \ref{documentspage1}, \ref{documentspage2}), and account settings (Figures \ref{accountspage-account}, \ref{accountspage-protection}, \ref{accountspage-documents}).
+When authorized, the user gets access to the main features of the platform: documents (Figures \ref{documentspage1}, \ref{documentspage2}), and account settings (Figures \ref{accountspage-account-protection}, \ref{accountspage-documents}).
 
 The documents page has 2 main functionalities: uploading (Figure \ref{documentspage1}) and creating a session of signing the document, and verifying (Figure \ref{documentspage2}) whether a file with the given users was ever signed. 
 This structure makes the page a central hub for all document-related operations. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/documentspage1-crop.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/documentspage1-crop.png"}}
     \caption{Documents page - Verify an existing document}
     \label{documentspage1}
 \end{figure}
@@ -558,14 +557,14 @@ If the document is not found, the system suggests uploading it for signing or ch
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/success-crop.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/success-crop.png"}}
     \caption{Documents page - Existing instance of document}
     \label{documents-exists}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/unsuccess-crop.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/unsuccess-crop.png"}}
     \caption{Documents page - Not existing instance of document}
     \label{documents-noinstance}
 \end{figure}
@@ -576,34 +575,27 @@ The interface ensures that uploaded files are stored securely and encrypted unti
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/documentspage2-crop.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/documentspage2-crop.png"}}
     \caption{Documents page - Upload and sign the document}
     \label{documentspage2}
 \end{figure}
 
-The account page gives the ability to manage the user account (Figure \ref{accountspage-account}) and protection settings (Figure \ref{accountspage-protection}) as well as view and sign documents (Figure \ref{accountspage-documents}). 
+The account page gives the ability to manage the user account and protection settings (Figure \ref{accountspage-account-protection}) as well as view and sign documents (Figure \ref{accountspage-documents}). 
 This separation into tabs makes navigation straightforward and intuitive. 
 
-The account tab (Figure \ref{accountspage-account}) allows customization of the previously introduced personal information, including name, email, and profile image. 
+The account tab allows customization of the previously introduced personal information, including name, email, and profile image. 
 It also enables linking or unlinking third-party login services. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/accountspage-account-crop.png"}
-    \caption{Account page - Possibility to modify personal info}
-    \label{accountspage-account}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/accountspage-account-protection.png"}}
+    \caption{Account page - Possibility to modify personal info and protection methods}
+    \label{accountspage-account-protection}
 \end{figure}
 
-The protection tab (Figure \ref{accountspage-protection}) provides the possibility to change password and enable multi-factor authentication. 
+The protection tab provides the possibility to change password and enable multi-factor authentication. 
 It may also include login history, trusted devices, and alerts for unauthorized access. 
 This improves transparency and enhances user trust in the platform.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=18cm]{"images/figmaUI/accountspage-protection-crop.png"}
-    \caption{Account page - Possibility to modify the protection methods}
-    \label{accountspage-protection}
-\end{figure}
 
 The documents tab (Figure \ref{accountspage-documents}) gives the user a list of their documents and pending requests. 
 Users can view details such as status (signed, pending, declined), participants, and timestamps. 
@@ -611,7 +603,7 @@ From this tab, the user can also directly open a document for review or initiate
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/accountspage-documents-crop.png"}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/accountspage-documents-crop.png"}}
     \caption{Account page - View of the documents}
     \label{accountspage-documents}
 \end{figure}

@@ -1,0 +1,998 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{interpol_identity_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3b1c241ace77bb8cf82da2a75acc8136}{%
+           family={{INTERPOL}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b1c241ace77bb8cf82da2a75acc8136}
+      \strng{fullhash}{3b1c241ace77bb8cf82da2a75acc8136}
+      \strng{fullhashraw}{3b1c241ace77bb8cf82da2a75acc8136}
+      \strng{bibnamehash}{3b1c241ace77bb8cf82da2a75acc8136}
+      \strng{authorbibnamehash}{3b1c241ace77bb8cf82da2a75acc8136}
+      \strng{authornamehash}{3b1c241ace77bb8cf82da2a75acc8136}
+      \strng{authorfullhash}{3b1c241ace77bb8cf82da2a75acc8136}
+      \strng{authorfullhashraw}{3b1c241ace77bb8cf82da2a75acc8136}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Identity and travel document fraud}
+      \verb{urlraw}
+      \verb https://www.interpol.int/en/Crimes/Counterfeit-currency-and-security-documents/Identity-and-travel-document-fraud
+      \endverb
+      \verb{url}
+      \verb https://www.interpol.int/en/Crimes/Counterfeit-currency-and-security-documents/Identity-and-travel-document-fraud
+      \endverb
+    \endentry
+    \entry{us_customs_and_border_protection_cincinnati_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9f9675e23625a7b8228c7a7ef65a8025}{%
+           family={{U.S. Customs and Border Protection}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f9675e23625a7b8228c7a7ef65a8025}
+      \strng{fullhash}{9f9675e23625a7b8228c7a7ef65a8025}
+      \strng{fullhashraw}{9f9675e23625a7b8228c7a7ef65a8025}
+      \strng{bibnamehash}{9f9675e23625a7b8228c7a7ef65a8025}
+      \strng{authorbibnamehash}{9f9675e23625a7b8228c7a7ef65a8025}
+      \strng{authornamehash}{9f9675e23625a7b8228c7a7ef65a8025}
+      \strng{authorfullhash}{9f9675e23625a7b8228c7a7ef65a8025}
+      \strng{authorfullhashraw}{9f9675e23625a7b8228c7a7ef65a8025}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cincinnati {CBP} Intercepts Thousands of Fraudulent and Counterfeit Documents During {FY}2023}
+      \verb{urlraw}
+      \verb https://www.cbp.gov/newsroom/local-media-release/cincinnati-cbp-intercepts-thousands-fraudulent-and-counterfeit
+      \endverb
+      \verb{url}
+      \verb https://www.cbp.gov/newsroom/local-media-release/cincinnati-cbp-intercepts-thousands-fraudulent-and-counterfeit
+      \endverb
+    \endentry
+    \entry{international_council_on_archives_emergency_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3ef43cc0b14b56666d70206702a002e6}{%
+           family={{International Council on Archives}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ef43cc0b14b56666d70206702a002e6}
+      \strng{fullhash}{3ef43cc0b14b56666d70206702a002e6}
+      \strng{fullhashraw}{3ef43cc0b14b56666d70206702a002e6}
+      \strng{bibnamehash}{3ef43cc0b14b56666d70206702a002e6}
+      \strng{authorbibnamehash}{3ef43cc0b14b56666d70206702a002e6}
+      \strng{authornamehash}{3ef43cc0b14b56666d70206702a002e6}
+      \strng{authorfullhash}{3ef43cc0b14b56666d70206702a002e6}
+      \strng{authorfullhashraw}{3ef43cc0b14b56666d70206702a002e6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Emergency Management and Disaster Preparedness: A Manual for Protecting Archives (2024)}
+      \verb{urlraw}
+      \verb https://www.ica.org/app/uploads/2024/10/Emergency-Management-and-Disaster-Preparedness-Manual_FINAL_VERSION_PDFA.pdf?utm_source=chatgpt.com
+      \endverb
+      \verb{url}
+      \verb https://www.ica.org/app/uploads/2024/10/Emergency-Management-and-Disaster-Preparedness-Manual_FINAL_VERSION_PDFA.pdf?utm_source=chatgpt.com
+      \endverb
+    \endentry
+    \entry{geoengineerorg_cologne_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7ed3a4b4a8fba04d985350aca58870d5}{%
+           family={{Geoengineer.org}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{7ed3a4b4a8fba04d985350aca58870d5}
+      \strng{fullhash}{7ed3a4b4a8fba04d985350aca58870d5}
+      \strng{fullhashraw}{7ed3a4b4a8fba04d985350aca58870d5}
+      \strng{bibnamehash}{7ed3a4b4a8fba04d985350aca58870d5}
+      \strng{authorbibnamehash}{7ed3a4b4a8fba04d985350aca58870d5}
+      \strng{authornamehash}{7ed3a4b4a8fba04d985350aca58870d5}
+      \strng{authorfullhash}{7ed3a4b4a8fba04d985350aca58870d5}
+      \strng{authorfullhashraw}{7ed3a4b4a8fba04d985350aca58870d5}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cologne Archive Collapse: How a 0.6m Void Led to Germany’s Costliest Construction Failure (2025)}
+      \verb{urlraw}
+      \verb https://www.geoengineer.org/news/cologne-archive-collapse-how-a-06m-void-led-to-germanys-costliest-construction-failure
+      \endverb
+      \verb{url}
+      \verb https://www.geoengineer.org/news/cologne-archive-collapse-how-a-06m-void-led-to-germanys-costliest-construction-failure
+      \endverb
+    \endentry
+    \entry{verizon_2024_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9ef23a446a119387586d089c425f2d55}{%
+           family={{Verizon}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ef23a446a119387586d089c425f2d55}
+      \strng{fullhash}{9ef23a446a119387586d089c425f2d55}
+      \strng{fullhashraw}{9ef23a446a119387586d089c425f2d55}
+      \strng{bibnamehash}{9ef23a446a119387586d089c425f2d55}
+      \strng{authorbibnamehash}{9ef23a446a119387586d089c425f2d55}
+      \strng{authornamehash}{9ef23a446a119387586d089c425f2d55}
+      \strng{authorfullhash}{9ef23a446a119387586d089c425f2d55}
+      \strng{authorfullhashraw}{9ef23a446a119387586d089c425f2d55}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2024 Data Breach Investigations Report ({DBIR})}
+      \verb{urlraw}
+      \verb https://www.verizon.com/business/resources/reports/2024-dbir-data-breach-investigations-report.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.verizon.com/business/resources/reports/2024-dbir-data-breach-investigations-report.pdf
+      \endverb
+    \endentry
+    \entry{ibm_cost_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cost of a Data Breach 2025 (live report page)}
+      \verb{urlraw}
+      \verb https://www.ibm.com/reports/data-breach
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/reports/data-breach
+      \endverb
+    \endentry
+    \entry{ibm_cost_nodate-1}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={{IBM}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhashraw}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cost of a Data Breach 2024}
+      \verb{urlraw}
+      \verb https://www.ibm.com/think/insights/cost-of-a-data-breach-2024-financial-industry
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/think/insights/cost-of-a-data-breach-2024-financial-industry
+      \endverb
+    \endentry
+    \entry{reuters__fbi_complaints_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2bc6b91ac33a92d8c71d4de95d86d71d}{%
+           family={{Reuters — FBI}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2bc6b91ac33a92d8c71d4de95d86d71d}
+      \strng{fullhash}{2bc6b91ac33a92d8c71d4de95d86d71d}
+      \strng{fullhashraw}{2bc6b91ac33a92d8c71d4de95d86d71d}
+      \strng{bibnamehash}{2bc6b91ac33a92d8c71d4de95d86d71d}
+      \strng{authorbibnamehash}{2bc6b91ac33a92d8c71d4de95d86d71d}
+      \strng{authornamehash}{2bc6b91ac33a92d8c71d4de95d86d71d}
+      \strng{authorfullhash}{2bc6b91ac33a92d8c71d4de95d86d71d}
+      \strng{authorfullhashraw}{2bc6b91ac33a92d8c71d4de95d86d71d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Complaints about ransomware attacks on U.S. infrastructure rose 9\% in 2024}
+      \verb{urlraw}
+      \verb https://www.reuters.com/world/us/complaints-about-ransomware-attacks-us-infrastructure-rise-9-fbi-says-2025-04-23/
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/world/us/complaints-about-ransomware-attacks-us-infrastructure-rise-9-fbi-says-2025-04-23/
+      \endverb
+    \endentry
+    \entry{wired_diginotar_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=2219d5b88d8d373ac37a2811b27c2c61}{%
+           family={{WIRED}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{fullhash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{fullhashraw}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{bibnamehash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{authorbibnamehash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{authornamehash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{authorfullhash}{2219d5b88d8d373ac37a2811b27c2c61}
+      \strng{authorfullhashraw}{2219d5b88d8d373ac37a2811b27c2c61}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{DigiNotar} Files for Bankruptcy in Wake of Devastating Hack}
+      \verb{urlraw}
+      \verb https://www.wired.com/2011/09/diginotar-bankruptcy/
+      \endverb
+      \verb{url}
+      \verb https://www.wired.com/2011/09/diginotar-bankruptcy/
+      \endverb
+    \endentry
+    \entry{hipaa_journal_verizon_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b9a4642011e7c3478d4f8b5cfb2d3ee8}{%
+           family={{HIPAA Journal}},
+           familyi={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{b9a4642011e7c3478d4f8b5cfb2d3ee8}
+      \strng{fullhash}{b9a4642011e7c3478d4f8b5cfb2d3ee8}
+      \strng{fullhashraw}{b9a4642011e7c3478d4f8b5cfb2d3ee8}
+      \strng{bibnamehash}{b9a4642011e7c3478d4f8b5cfb2d3ee8}
+      \strng{authorbibnamehash}{b9a4642011e7c3478d4f8b5cfb2d3ee8}
+      \strng{authornamehash}{b9a4642011e7c3478d4f8b5cfb2d3ee8}
+      \strng{authorfullhash}{b9a4642011e7c3478d4f8b5cfb2d3ee8}
+      \strng{authorfullhashraw}{b9a4642011e7c3478d4f8b5cfb2d3ee8}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Verizon 2024 {DBIR}: 70\% of healthcare breaches involved internal actors (sector-specific summary)}
+      \verb{urlraw}
+      \verb https://www.hipaajournal.com/verizon-2024-data-breach-investigations-report/
+      \endverb
+      \verb{url}
+      \verb https://www.hipaajournal.com/verizon-2024-data-breach-investigations-report/
+      \endverb
+    \endentry
+    \entry{eur-lex_gdpr_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=feafc26a93bfd912acdaa051491623b4}{%
+           family={{EUR-Lex}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{fullhash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{fullhashraw}{feafc26a93bfd912acdaa051491623b4}
+      \strng{bibnamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorbibnamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authornamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorfullhash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorfullhashraw}{feafc26a93bfd912acdaa051491623b4}
+      \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{GDPR} (Regulation ({EU}) 2016/679) official text}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng
+      \endverb
+    \endentry
+    \entry{eur-lex_eidas_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=feafc26a93bfd912acdaa051491623b4}{%
+           family={{EUR-Lex}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{fullhash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{fullhashraw}{feafc26a93bfd912acdaa051491623b4}
+      \strng{bibnamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorbibnamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authornamehash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorfullhash}{feafc26a93bfd912acdaa051491623b4}
+      \strng{authorfullhashraw}{feafc26a93bfd912acdaa051491623b4}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{eIDAS} (Regulation ({EU}) No 910/2014) consolidated}
+      \verb{urlraw}
+      \verb https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/eng
+      \endverb
+      \verb{url}
+      \verb https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/eng
+      \endverb
+    \endentry
+    \entry{owasp_top_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=24b95a7fdad5a850196cd87546dcc70b}{%
+           family={{OWASP}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{fullhash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{fullhashraw}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{bibnamehash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{authorbibnamehash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{authornamehash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{authorfullhash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{authorfullhashraw}{24b95a7fdad5a850196cd87546dcc70b}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Top 10 (2021)}
+      \verb{urlraw}
+      \verb https://owasp.org/Top10/
+      \endverb
+      \verb{url}
+      \verb https://owasp.org/Top10/
+      \endverb
+    \endentry
+    \entry{owasp_a01_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=24b95a7fdad5a850196cd87546dcc70b}{%
+           family={{OWASP}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{fullhash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{fullhashraw}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{bibnamehash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{authorbibnamehash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{authornamehash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{authorfullhash}{24b95a7fdad5a850196cd87546dcc70b}
+      \strng{authorfullhashraw}{24b95a7fdad5a850196cd87546dcc70b}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A01: Broken Access Control (2021)}
+      \verb{urlraw}
+      \verb https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+      \endverb
+      \verb{url}
+      \verb https://owasp.org/Top10/A01_2021-Broken_Access_Control/
+      \endverb
+    \endentry
+    \entry{world_economic_forum_global_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9f6d16e0eaf271813481bd46be0c7a35}{%
+           family={{World Economic Forum}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f6d16e0eaf271813481bd46be0c7a35}
+      \strng{fullhash}{9f6d16e0eaf271813481bd46be0c7a35}
+      \strng{fullhashraw}{9f6d16e0eaf271813481bd46be0c7a35}
+      \strng{bibnamehash}{9f6d16e0eaf271813481bd46be0c7a35}
+      \strng{authorbibnamehash}{9f6d16e0eaf271813481bd46be0c7a35}
+      \strng{authornamehash}{9f6d16e0eaf271813481bd46be0c7a35}
+      \strng{authorfullhash}{9f6d16e0eaf271813481bd46be0c7a35}
+      \strng{authorfullhashraw}{9f6d16e0eaf271813481bd46be0c7a35}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Risks Report 2023}
+      \verb{urlraw}
+      \verb https://www.weforum.org/publications/global-risks-report-2023
+      \endverb
+      \verb{url}
+      \verb https://www.weforum.org/publications/global-risks-report-2023
+      \endverb
+    \endentry
+    \entry{unesco_credentials_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=24a0ef0a6269be289db4de9570763de3}{%
+           family={{UNESCO}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{fullhash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{fullhashraw}{24a0ef0a6269be289db4de9570763de3}
+      \strng{bibnamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorbibnamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authornamehash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorfullhash}{24a0ef0a6269be289db4de9570763de3}
+      \strng{authorfullhashraw}{24a0ef0a6269be289db4de9570763de3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Credentials fraud now a global threat for universities}
+      \verb{urlraw}
+      \verb https://etico.iiep.unesco.org/en/credentials-fraud-now-global-threat-universities
+      \endverb
+      \verb{url}
+      \verb https://etico.iiep.unesco.org/en/credentials-fraud-now-global-threat-universities
+      \endverb
+    \endentry
+    \entry{european_comission_digital_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=516d1743b3db5136e2551ce1b0fbad49}{%
+           family={{European Comission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{fullhash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{fullhashraw}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{bibnamehash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{authorbibnamehash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{authornamehash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{authorfullhash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{authorfullhashraw}{516d1743b3db5136e2551ce1b0fbad49}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital Transformation of {SMEs}}
+      \verb{urlraw}
+      \verb https://commission.europa.eu/projects/digital-transformation-smes_en
+      \endverb
+      \verb{url}
+      \verb https://commission.europa.eu/projects/digital-transformation-smes_en
+      \endverb
+    \endentry
+    \entry{european_comission_eidas_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=516d1743b3db5136e2551ce1b0fbad49}{%
+           family={{European Comission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{fullhash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{fullhashraw}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{bibnamehash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{authorbibnamehash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{authornamehash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{authorfullhash}{516d1743b3db5136e2551ce1b0fbad49}
+      \strng{authorfullhashraw}{516d1743b3db5136e2551ce1b0fbad49}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{eIDAS} Regulation}
+      \verb{urlraw}
+      \verb https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation
+      \endverb
+      \verb{url}
+      \verb https://digital-strategy.ec.europa.eu/en/policies/eidas-regulation
+      \endverb
+    \endentry
+    \entry{ncfa_canada_future_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9118113e97ee39b20d403703501a2ee8}{%
+           family={{NCFA Canada}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{9118113e97ee39b20d403703501a2ee8}
+      \strng{fullhash}{9118113e97ee39b20d403703501a2ee8}
+      \strng{fullhashraw}{9118113e97ee39b20d403703501a2ee8}
+      \strng{bibnamehash}{9118113e97ee39b20d403703501a2ee8}
+      \strng{authorbibnamehash}{9118113e97ee39b20d403703501a2ee8}
+      \strng{authornamehash}{9118113e97ee39b20d403703501a2ee8}
+      \strng{authorfullhash}{9118113e97ee39b20d403703501a2ee8}
+      \strng{authorfullhashraw}{9118113e97ee39b20d403703501a2ee8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Future of Remote Online Notarization: Advancements in Security and Efficiency}
+      \verb{urlraw}
+      \verb https://ncfacanada.org/the-future-of-remote-online-notarization-advancements-in-security-and-efficiency
+      \endverb
+      \verb{url}
+      \verb https://ncfacanada.org/the-future-of-remote-online-notarization-advancements-in-security-and-efficiency
+      \endverb
+    \endentry
+    \entry{accenture_state_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=85416f57412c80180c68e887bff3b0f2}{%
+           family={{ACCENTURE}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{85416f57412c80180c68e887bff3b0f2}
+      \strng{fullhash}{85416f57412c80180c68e887bff3b0f2}
+      \strng{fullhashraw}{85416f57412c80180c68e887bff3b0f2}
+      \strng{bibnamehash}{85416f57412c80180c68e887bff3b0f2}
+      \strng{authorbibnamehash}{85416f57412c80180c68e887bff3b0f2}
+      \strng{authornamehash}{85416f57412c80180c68e887bff3b0f2}
+      \strng{authorfullhash}{85416f57412c80180c68e887bff3b0f2}
+      \strng{authorfullhashraw}{85416f57412c80180c68e887bff3b0f2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{State of Cybersecurity Resilience 2023}
+      \verb{urlraw}
+      \verb https://www.accenture.com/us-en/insights/security/state-cybersecurity
+      \endverb
+      \verb{url}
+      \verb https://www.accenture.com/us-en/insights/security/state-cybersecurity
+      \endverb
+    \endentry
+    \entry{kadir_canoz_use_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=5af436cec249d191db0d9b18274b689c}{%
+           family={{Kadir Canoz}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5af436cec249d191db0d9b18274b689c}
+      \strng{fullhash}{5af436cec249d191db0d9b18274b689c}
+      \strng{fullhashraw}{5af436cec249d191db0d9b18274b689c}
+      \strng{bibnamehash}{5af436cec249d191db0d9b18274b689c}
+      \strng{authorbibnamehash}{5af436cec249d191db0d9b18274b689c}
+      \strng{authornamehash}{5af436cec249d191db0d9b18274b689c}
+      \strng{authorfullhash}{5af436cec249d191db0d9b18274b689c}
+      \strng{authorfullhashraw}{5af436cec249d191db0d9b18274b689c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Use of electronic medical records in the digital healthcare system and its role in communication and medical information sharing among healthcare professionals}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S2352914823002198
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S2352914823002198
+      \endverb
+    \endentry
+    \entry{grand_view_horizon_global_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=389ae4787309783f56541a701cdefa97}{%
+           family={{Grand View Horizon}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{389ae4787309783f56541a701cdefa97}
+      \strng{fullhash}{389ae4787309783f56541a701cdefa97}
+      \strng{fullhashraw}{389ae4787309783f56541a701cdefa97}
+      \strng{bibnamehash}{389ae4787309783f56541a701cdefa97}
+      \strng{authorbibnamehash}{389ae4787309783f56541a701cdefa97}
+      \strng{authornamehash}{389ae4787309783f56541a701cdefa97}
+      \strng{authorfullhash}{389ae4787309783f56541a701cdefa97}
+      \strng{authorfullhashraw}{389ae4787309783f56541a701cdefa97}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Global Digital Signature Market Size \& Outlook, 2024-2030}
+      \verb{urlraw}
+      \verb https://www.grandviewresearch.com/horizon/outlook/digital-signature-market-size/global
+      \endverb
+      \verb{url}
+      \verb https://www.grandviewresearch.com/horizon/outlook/digital-signature-market-size/global
+      \endverb
+    \endentry
+    \entry{acumen_digital_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=31a56ed3a0a59664ab798a05c7979b6e}{%
+           family={{Acumen}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{31a56ed3a0a59664ab798a05c7979b6e}
+      \strng{fullhash}{31a56ed3a0a59664ab798a05c7979b6e}
+      \strng{fullhashraw}{31a56ed3a0a59664ab798a05c7979b6e}
+      \strng{bibnamehash}{31a56ed3a0a59664ab798a05c7979b6e}
+      \strng{authorbibnamehash}{31a56ed3a0a59664ab798a05c7979b6e}
+      \strng{authornamehash}{31a56ed3a0a59664ab798a05c7979b6e}
+      \strng{authorfullhash}{31a56ed3a0a59664ab798a05c7979b6e}
+      \strng{authorfullhashraw}{31a56ed3a0a59664ab798a05c7979b6e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Digital Signature Market Size Growing at 35.4\% {CAGR}}
+      \verb{urlraw}
+      \verb https://www.globenewswire.com/news-release/2023/01/30/2598004/0/en/Digital-Signature-Market-Size-Growing-at-35-4-CAGR-Set-to-Reach-USD-48-4-Billion-by-2030.html
+      \endverb
+      \verb{url}
+      \verb https://www.globenewswire.com/news-release/2023/01/30/2598004/0/en/Digital-Signature-Market-Size-Growing-at-35-4-CAGR-Set-to-Reach-USD-48-4-Billion-by-2030.html
+      \endverb
+    \endentry
+    \entry{electro_iq_e-signature_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=761f49179605cfc1b68a23da4e70e466}{%
+           family={{Electro IQ}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{761f49179605cfc1b68a23da4e70e466}
+      \strng{fullhash}{761f49179605cfc1b68a23da4e70e466}
+      \strng{fullhashraw}{761f49179605cfc1b68a23da4e70e466}
+      \strng{bibnamehash}{761f49179605cfc1b68a23da4e70e466}
+      \strng{authorbibnamehash}{761f49179605cfc1b68a23da4e70e466}
+      \strng{authornamehash}{761f49179605cfc1b68a23da4e70e466}
+      \strng{authorfullhash}{761f49179605cfc1b68a23da4e70e466}
+      \strng{authorfullhashraw}{761f49179605cfc1b68a23da4e70e466}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{E-signature and Digital Document Statistics}
+      \verb{urlraw}
+      \verb https://electroiq.com/stats/e-signature-and-digital-document-statistics
+      \endverb
+      \verb{url}
+      \verb https://electroiq.com/stats/e-signature-and-digital-document-statistics
+      \endverb
+    \endentry
+    \entry{doxychain_power_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ff51944c42c9b11bfed5612adf98c64f}{%
+           family={{DoxyChain}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff51944c42c9b11bfed5612adf98c64f}
+      \strng{fullhash}{ff51944c42c9b11bfed5612adf98c64f}
+      \strng{fullhashraw}{ff51944c42c9b11bfed5612adf98c64f}
+      \strng{bibnamehash}{ff51944c42c9b11bfed5612adf98c64f}
+      \strng{authorbibnamehash}{ff51944c42c9b11bfed5612adf98c64f}
+      \strng{authornamehash}{ff51944c42c9b11bfed5612adf98c64f}
+      \strng{authorfullhash}{ff51944c42c9b11bfed5612adf98c64f}
+      \strng{authorfullhashraw}{ff51944c42c9b11bfed5612adf98c64f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Power of Blockchain Notarization}
+      \verb{urlraw}
+      \verb https://www.doxychain.com/blog/the-power-of-blockchain-notarization-securing-digital-assets-against-deepfakes-and-fraud
+      \endverb
+      \verb{url}
+      \verb https://www.doxychain.com/blog/the-power-of-blockchain-notarization-securing-digital-assets-against-deepfakes-and-fraud
+      \endverb
+    \endentry
+    \entry{deeksha_uikey_blockchain-based_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7c98f506e4d27c54c6d233abcd956a21}{%
+           family={{Deeksha Uikey}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{7c98f506e4d27c54c6d233abcd956a21}
+      \strng{fullhash}{7c98f506e4d27c54c6d233abcd956a21}
+      \strng{fullhashraw}{7c98f506e4d27c54c6d233abcd956a21}
+      \strng{bibnamehash}{7c98f506e4d27c54c6d233abcd956a21}
+      \strng{authorbibnamehash}{7c98f506e4d27c54c6d233abcd956a21}
+      \strng{authornamehash}{7c98f506e4d27c54c6d233abcd956a21}
+      \strng{authorfullhash}{7c98f506e4d27c54c6d233abcd956a21}
+      \strng{authorfullhashraw}{7c98f506e4d27c54c6d233abcd956a21}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Blockchain-Based Digital Notary System Provides Reliable and Tamper-Proof Timestamping and Verification Services for Digital Documents: A Review}
+      \verb{urlraw}
+      \verb https://pdfs.semanticscholar.org/c1d0/ee0aa761ba214d5c4c899147aab358eace25.pdf][https://powerpatent.com/blog/blockchain-for-document-verification-and-notarization
+      \endverb
+      \verb{url}
+      \verb https://pdfs.semanticscholar.org/c1d0/ee0aa761ba214d5c4c899147aab358eace25.pdf][https://powerpatent.com/blog/blockchain-for-document-verification-and-notarization
+      \endverb
+    \endentry
+    \entry{tejas_chandrakant_mhapankar_future_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=57023671d02786b958b9f47957006f7b}{%
+           family={{Tejas Chandrakant Mhapankar}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{57023671d02786b958b9f47957006f7b}
+      \strng{fullhash}{57023671d02786b958b9f47957006f7b}
+      \strng{fullhashraw}{57023671d02786b958b9f47957006f7b}
+      \strng{bibnamehash}{57023671d02786b958b9f47957006f7b}
+      \strng{authorbibnamehash}{57023671d02786b958b9f47957006f7b}
+      \strng{authornamehash}{57023671d02786b958b9f47957006f7b}
+      \strng{authorfullhash}{57023671d02786b958b9f47957006f7b}
+      \strng{authorfullhashraw}{57023671d02786b958b9f47957006f7b}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Future Trends in Blockchain-Based Notarization: From Proof of Existence to Full Document Validation}
+      \verb{urlraw}
+      \verb https://harbinengineeringjournal.com/index.php/journal/article/download/4322/2423/6793
+      \endverb
+      \verb{url}
+      \verb https://harbinengineeringjournal.com/index.php/journal/article/download/4322/2423/6793
+      \endverb
+    \endentry
+    \entry{domenico_tortola_scalable_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c74e76fbd077c054a2f30c9890af20aa}{%
+           family={{Domenico Tortola}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c74e76fbd077c054a2f30c9890af20aa}
+      \strng{fullhash}{c74e76fbd077c054a2f30c9890af20aa}
+      \strng{fullhashraw}{c74e76fbd077c054a2f30c9890af20aa}
+      \strng{bibnamehash}{c74e76fbd077c054a2f30c9890af20aa}
+      \strng{authorbibnamehash}{c74e76fbd077c054a2f30c9890af20aa}
+      \strng{authornamehash}{c74e76fbd077c054a2f30c9890af20aa}
+      \strng{authorfullhash}{c74e76fbd077c054a2f30c9890af20aa}
+      \strng{authorfullhashraw}{c74e76fbd077c054a2f30c9890af20aa}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scalable Data Notarization Leveraging Hybrid {DLTs}}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2501.04571
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2501.04571
+      \endverb
+    \endentry
+    \entry{sutisoft_role_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b4e31dc94d4aad221cab2d5d5fd93fbc}{%
+           family={{SutiSoft}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4e31dc94d4aad221cab2d5d5fd93fbc}
+      \strng{fullhash}{b4e31dc94d4aad221cab2d5d5fd93fbc}
+      \strng{fullhashraw}{b4e31dc94d4aad221cab2d5d5fd93fbc}
+      \strng{bibnamehash}{b4e31dc94d4aad221cab2d5d5fd93fbc}
+      \strng{authorbibnamehash}{b4e31dc94d4aad221cab2d5d5fd93fbc}
+      \strng{authornamehash}{b4e31dc94d4aad221cab2d5d5fd93fbc}
+      \strng{authorfullhash}{b4e31dc94d4aad221cab2d5d5fd93fbc}
+      \strng{authorfullhashraw}{b4e31dc94d4aad221cab2d5d5fd93fbc}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Role of Multi-Factor Authentication in {eSingnatures} for Advanced Security}
+      \verb{urlraw}
+      \verb https://www.sutisoft.com/blog/esignature-multifactor-authentication-security/
+      \endverb
+      \verb{url}
+      \verb https://www.sutisoft.com/blog/esignature-multifactor-authentication-security/
+      \endverb
+    \endentry
+    \entry{pingidentity_eight_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=6f6f0299bb24736880ae196204accbe1}{%
+           family={{PingIdentity}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f6f0299bb24736880ae196204accbe1}
+      \strng{fullhash}{6f6f0299bb24736880ae196204accbe1}
+      \strng{fullhashraw}{6f6f0299bb24736880ae196204accbe1}
+      \strng{bibnamehash}{6f6f0299bb24736880ae196204accbe1}
+      \strng{authorbibnamehash}{6f6f0299bb24736880ae196204accbe1}
+      \strng{authornamehash}{6f6f0299bb24736880ae196204accbe1}
+      \strng{authorfullhash}{6f6f0299bb24736880ae196204accbe1}
+      \strng{authorfullhashraw}{6f6f0299bb24736880ae196204accbe1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Eight Benefits of Multi-Factor Authentication ({MFA})}
+      \verb{urlraw}
+      \verb https://www.pingidentity.com/en/resources/blog/post/eight-benefits-mfa.html
+      \endverb
+      \verb{url}
+      \verb https://www.pingidentity.com/en/resources/blog/post/eight-benefits-mfa.html
+      \endverb
+    \endentry
+    \entry{uplevel_systems_top_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=da41323421fd28c26151667c1bbdcae6}{%
+           family={{Uplevel Systems}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{da41323421fd28c26151667c1bbdcae6}
+      \strng{fullhash}{da41323421fd28c26151667c1bbdcae6}
+      \strng{fullhashraw}{da41323421fd28c26151667c1bbdcae6}
+      \strng{bibnamehash}{da41323421fd28c26151667c1bbdcae6}
+      \strng{authorbibnamehash}{da41323421fd28c26151667c1bbdcae6}
+      \strng{authornamehash}{da41323421fd28c26151667c1bbdcae6}
+      \strng{authorfullhash}{da41323421fd28c26151667c1bbdcae6}
+      \strng{authorfullhashraw}{da41323421fd28c26151667c1bbdcae6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Top 10 Benefits of Implementing Multi-Factor Authentication ({MFA}) for Small Businesses}
+      \verb{urlraw}
+      \verb https://www.uplevelsystems.com/blog/top-10-benefits-of-implementing-mfa-for-small-businesses
+      \endverb
+      \verb{url}
+      \verb https://www.uplevelsystems.com/blog/top-10-benefits-of-implementing-mfa-for-small-businesses
+      \endverb
+    \endentry
+    \entry{pronotary_how_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=45b22aea0b4dcb363b46ced4c583e6ec}{%
+           family={{ProNotary}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{45b22aea0b4dcb363b46ced4c583e6ec}
+      \strng{fullhash}{45b22aea0b4dcb363b46ced4c583e6ec}
+      \strng{fullhashraw}{45b22aea0b4dcb363b46ced4c583e6ec}
+      \strng{bibnamehash}{45b22aea0b4dcb363b46ced4c583e6ec}
+      \strng{authorbibnamehash}{45b22aea0b4dcb363b46ced4c583e6ec}
+      \strng{authornamehash}{45b22aea0b4dcb363b46ced4c583e6ec}
+      \strng{authorfullhash}{45b22aea0b4dcb363b46ced4c583e6ec}
+      \strng{authorfullhashraw}{45b22aea0b4dcb363b46ced4c583e6ec}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How Law Firms Are Using Remote Online Notarization to Increase Client Satisfaction}
+      \verb{urlraw}
+      \verb https://pronotary.com/blog/how-law-firms-are-using-remote-online-notarization-to-increase-client-satisfaction
+      \endverb
+      \verb{url}
+      \verb https://pronotary.com/blog/how-law-firms-are-using-remote-online-notarization-to-increase-client-satisfaction
+      \endverb
+    \endentry
+    \entry{wikipedia_enotary_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{ENotary}}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/ENotary
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/ENotary
+      \endverb
+    \endentry
+    \entry{wikipedia_notario_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Notario (firm)}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Notario_(firm)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Notario_(firm)
+      \endverb
+    \endentry
+    \entry{wikipedia_privacy_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9c677286866aad38f8e9b660f5411814}{%
+           family={{Wikipedia}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{fullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \strng{bibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorbibnamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authornamehash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhash}{9c677286866aad38f8e9b660f5411814}
+      \strng{authorfullhashraw}{9c677286866aad38f8e9b660f5411814}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Privacy and blockchain}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Privacy_and_blockchain
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Privacy_and_blockchain
+      \endverb
+    \endentry
+    \entry{alexei_pavlovschii_blocksign_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ef7f3b7689c599789c4b723c5b4b7e28}{%
+           family={{Alexei Pavlovschii}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{fullhash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{fullhashraw}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{bibnamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorbibnamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authornamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorfullhash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorfullhashraw}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BlockSign Server}
+      \verb{urlraw}
+      \verb https://github.com/AlexDandy77/BlockSign-Server
+      \endverb
+      \verb{url}
+      \verb https://github.com/AlexDandy77/BlockSign-Server
+      \endverb
+    \endentry
+    \entry{vladimir_vitcovschii_blocksign_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=89669e0865b80a50dbfc298925557853}{%
+           family={{Vladimir Vitcovschii}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{89669e0865b80a50dbfc298925557853}
+      \strng{fullhash}{89669e0865b80a50dbfc298925557853}
+      \strng{fullhashraw}{89669e0865b80a50dbfc298925557853}
+      \strng{bibnamehash}{89669e0865b80a50dbfc298925557853}
+      \strng{authorbibnamehash}{89669e0865b80a50dbfc298925557853}
+      \strng{authornamehash}{89669e0865b80a50dbfc298925557853}
+      \strng{authorfullhash}{89669e0865b80a50dbfc298925557853}
+      \strng{authorfullhashraw}{89669e0865b80a50dbfc298925557853}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BlockSign Front-end}
+      \verb{urlraw}
+      \verb https://github.com/NeValetik/BlockSign-FrontEnd
+      \endverb
+      \verb{url}
+      \verb https://github.com/NeValetik/BlockSign-FrontEnd
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

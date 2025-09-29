@@ -7,7 +7,7 @@ The back-end of the system has been developed with a focus on scalability, modul
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/main-project-routers.png"}}
+    \includegraphics[width=18cm]{"images/main-project-routers.png"}
     \caption{Main Project Routers}
     \label{main-project-routers}
 \end{figure}
@@ -22,7 +22,7 @@ The database schema is implemented using Prisma ORM on top of PostgreSQL. Entiti
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/user-db-model.png"}}
+    \includegraphics[width=18cm]{"images/user-db-model.png"}
     \caption{User Database Model}
     \label{user-db-model}
 \end{figure}
@@ -42,7 +42,7 @@ The system integrates Nodemailer as an email delivery mechanism configured with 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/email-sending.png"}}
+    \includegraphics[width=18cm]{"images/email-sending.png"}
     \caption{Email Sending Mechanism}
     \label{email-sending}
 \end{figure}
@@ -52,7 +52,7 @@ Security of authentication and documents is achieved with the Ed25519 digital si
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/keygen.png"}}
+    \includegraphics[width=18cm]{"images/keygen.png"}
     \caption{Key Pairs Generation Mechanism}
     \label{keygen}
 \end{figure}
@@ -66,7 +66,7 @@ Participants selected by the creator receive an email with the PDF attached and 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/payload-signature.png"}}
+    \includegraphics[width=18cm]{"images/payload-signature.png"}
     \caption{Build Paylaod and Verify Signature}
     \label{payload-signature}
 \end{figure}
@@ -84,7 +84,7 @@ The front-end is built using Next.js 14 with React.js as the core framework, lev
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/code.png"}}
+    \includegraphics[width=18cm]{"images/siteUI/frontStack.png"}
     \caption{Frontend Technology Stack Implementation}
     \label{frontend-stack}
 \end{figure}
@@ -151,7 +151,7 @@ Users receive an email containing a six-digit verification code that must be ent
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/codeMail.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/codeMail.png"}}
     \caption{Email Verification Code}
     \label{registration-email}
 \end{figure}
@@ -160,7 +160,7 @@ The registration form captures essential user information including full name, e
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/register.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/register.png"}}
     \caption{User Registration Form}
     \label{registration-form}
 \end{figure}
@@ -169,7 +169,7 @@ Upon successful submission, users see a confirmation page indicating that their 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/thankYou.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/thankYou.png"}}
     \caption{Registration Success Confirmation}
     \label{registration-success}
 \end{figure}
@@ -190,23 +190,23 @@ Users are presented with additional security options, including the ability to s
 For enhanced user experience, the system offers an optional PIN-based authentication method that allows users to access their accounts without entering the full mnemonic phrase for routine operations (Figure \ref{pin-for-site}). The PIN is stored locally and encrypted using the user's public key, ensuring that it cannot be used without the corresponding private key.
 
 \subsubsection{Secure Login Interface}
-The login interface supports both mnemonic phrase authentication and PIN-based access. Users can choose their preferred authentication method based on their security preferences and usage patterns (Figure \ref{mnemonic-login}).
+The login interface (Figure \ref{mnemonic-login}) supports both mnemonic phrase authentication and PIN access. 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/mnemonicLogin.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/mnemonicLogin.png"}}
     \caption{Mnemonic-Based Login Interface}
     \label{mnemonic-login}
 \end{figure}
 
-The interface provides clear feedback during the authentication process and includes security features such as automatic session timeout and secure token management.
+Users can choose their preferred authentication method based on their security preferences and usage patterns. The interface provides clear feedback during the authentication process and includes security features such as automatic session timeout and secure token management.
 
 \subsection{User role specified UI}
 The authorized user is represented by the possibility to view his account info in the header as well as having acess to the authorized only pages (Figure \ref{header-account-user}).
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/headerAccountUser.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/headerAccountUser.png"}}
     \caption{Header Account User}
     \label{header-account-user}
 \end{figure}
@@ -215,73 +215,63 @@ Also there is some difference for the admin header, it has additional button to 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/headerAccountAdmin.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/headerAccountAdmin.png"}}
     \caption{Header Account Admin}
     \label{header-account-admin}
 \end{figure}
 
-Navigating to the admin console will lead to the following page (Figure \ref{admin-console}):
+Navigating to the admin console will lead to the page, where admin can confirm or reject the registration requests (Figure \ref{admin-console}). 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/adminConsole.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/adminConsole.png"}}
     \caption{Admin Console}
     \label{admin-console}
 \end{figure}
 
-On this page the admin can confirm or reject the registration requests. The requests are listed in the table with the following information:
-
-\begin{itemize}
-    \item Full Name
-    \item Email
-    \item Phone
-    \item idnp
-    \item Action
-\end{itemize}
-
-If there are no requests, the admin will see the following page (Figure \ref{admin-console-empty}):
+The requests are listed in the table with the user information: Full Name, Email, Phone, IDNP and Action: Approve or Deny. If there are no requests, the page will display message: "No active requests" (Figure \ref{admin-console-empty}).
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/adminConsoleNoRequests.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/adminConsoleNoRequests.png"}}
     \caption{Admin Console Empty}
     \label{admin-console-empty}
 \end{figure}
 
 \subsection{Additional registration steps}
 
-Then an email with the finish of the registration process is sent to the user (Figure \ref{finish-registration-mail}).
+After that an email with the finish of the registration process is sent to the user (Figure \ref{finish-registration-mail}).
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/finishRegMail.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/finishRegMail.png"}}
     \caption{Finish Registration Mail}
     \label{finish-registration-mail}
 \end{figure}
 
-Clicking the button or link will lead to the following page (Figure \ref{mnemonic-phrase}):
+The email contains a button which redirects user directly to finish registration process. There is as well the link, which can be manually used to paste in the browser URL field. Clicking the button or link will lead to the page of the last registration stage - Generating the mnemonic seed phrase and instructions to save it by the user to the safe place (Figure \ref{mnemonic-phrase}).
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/mnemonicPhrase.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/mnemonicPhrase.png"}}
     \caption{Mnemonic Phrase}
     \label{mnemonic-phrase}
 \end{figure}
 
-Here the user can see his mnemonic phrase and store it in a secure way (Figure \ref{mnemonic-phrase}). The phrase is generated on each refresh, but is valid only after clicking the button continue otherwise it is not valid anywhere. Then the user can choose to set a pin or remain only with mnemonic phrase (Figure \ref{security-method}).
+The phrase is generated on each refresh, but is valid only after clicking the button continue otherwise it is not valid anywhere. Then the user can choose to set an additional PIN-code or remain only with mnemonic phrase (Figure \ref{security-method}).
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/securityMethod.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/securityMethod.png"}}
     \caption{Security Method Selection}
     \label{security-method}
 \end{figure}
 
-Then the user can set a pin for the site (Figure \ref{pin-for-site}). The pin is a shorter way to access the account and site functionality to avoid using the mnemonic phrase every time. 
+The PIN-code is a shorter way to access the account and site functionality to avoid using the mnemonic phrase every time (Figure \ref{pin-for-site}). 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/pinForSite.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/pinForSite.png"}}
     \caption{PIN Setup for Convenient Access}
     \label{pin-for-site}
 \end{figure}
@@ -294,7 +284,7 @@ Once authenticated, users are presented with a clean and intuitive dashboard tha
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=17cm]{"images/siteUI/logedIn.png"}}
+    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/logedIn.png"}}
     \caption{User Dashboard After Login}
     \label{logged-in-dashboard}
 \end{figure}
@@ -354,29 +344,9 @@ All communication between the frontend and backend uses HTTPS encryption. The ap
 API requests are authenticated using JWT tokens with short expiration times, and refresh tokens are stored in secure HTTP-only cookies to prevent JavaScript-based attacks.
 
 \subsection{Internationalization and Localization}
-The application supports multiple languages to serve a diverse user base. The internationalization system uses i18next for dynamic language switching and locale-specific formatting.
-
-\subsubsection{Multi-Language Support}
-Currently supported languages include:
-\begin{itemize}
-    \item English (default)
-    \item Romanian
-    \item Russian
-\end{itemize}
-
-The language selection interface allows users to switch between supported languages dynamically, with all text content, error messages, and user interface elements updating accordingly.
-
-\subsubsection{Localization Features}
-The localization system handles:
-\begin{itemize}
-    \item Date and time formatting according to locale preferences
-    \item Number formatting and currency display
-    \item Text direction support for future RTL language integration
-    \item Culturally appropriate messaging and terminology
-\end{itemize}
+The application supports multiple languages to serve a diverse user base. The internationalization system uses i18next for dynamic language switching and locale-specific formatting. Currently supported languages include English (default), Romanian and Russian. The language selection interface allows users to switch between supported languages dynamically, with all text content, error messages, and user interface elements updating accordingly. The localization system handles date and time formatting according to locale preferences, number formatting, currency display, text direction support for future RTL language integration as well as culturally appropriate messaging/terminology.
 
 \subsection{Feature Accessibility by User Role}
-
 The BlockSign platform implements a role-based access control system that provides different levels of functionality based on user authentication status and administrative privileges.
 
 \subsubsection{Public Features (Unauthorized Users)}
@@ -404,10 +374,7 @@ Registered and verified users gain access to comprehensive document management c
 \end{itemize}
 
 \subsection{Technology Integration and Performance}
-The frontend implementation leverages modern web technologies to provide optimal performance and user experience across different devices and network conditions.
-
-\subsubsection{Performance Optimization}
-Key performance features include:
+The frontend implementation leverages modern web technologies to provide optimal performance and user experience across different devices and network conditions. Key performance features include:
 \begin{itemize}
     \item \textbf{Code Splitting}: Dynamic imports and lazy loading for reduced initial bundle size
     \item \textbf{Image Optimization}: Automatic image compression and format selection for faster loading

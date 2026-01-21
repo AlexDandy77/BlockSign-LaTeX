@@ -1,17 +1,21 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.14)  29 SEP 2025 18:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2025.10.1)  22 JAN 2026 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./main.tex
 (main.tex
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+L3 programming layer <2025-09-02>
 (tum_report.cls
 Document Class: tum_report 10/08/2023 A LaTeX Report Template for Technical Uni
 versity of Moldova
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/size10.clo
 File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count275
@@ -27,24 +31,30 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen149
 ))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen150
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count284
@@ -95,7 +105,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2949.
 LaTeX Info: Redefining \] on input line 2950.
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/babel/babel.sty
 Package: babel 2025/08/03 v25.12 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count296
@@ -116,23 +127,26 @@ on input line 2078.
 \U@D=\dimen158
 \l@unhyphenated=\language79
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count297
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ld
-f
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-
-english.tex
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/babel/locale/en/babel-english.tex
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 12.
 )
@@ -143,13 +157,16 @@ Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 ))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
@@ -166,33 +183,42 @@ Package caption Info: Standard document class detected.
 Package caption Info: Option `figurewithin=chapter' requires the `newfloat' pac
 kage on input line 172.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/newfloat\newfloat.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/newfloat/newfloat.sty
 Package: newfloat 2023/10/01 v1.2 Defining new floating environments (AR)
 Package newfloat Info: Document class `report' detected (original).
 )
 \c@caption@flags=\count298
 \c@continuedfloat=\count299
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
-)) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/mathcolor.ltx))
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks23
 \inpenc@posthook=\toks24
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/csquotes/csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count300
 )
@@ -204,20 +230,24 @@ Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \csq@tshold=\count306
 \csq@ltx@everypar=\toks25
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/csquotes/csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
 Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
 Package csquotes Info: ... configuration file loaded successfully.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/csquotes/csquotes.cfg
 File: csquotes.cfg 
 ))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tools/enumerate.sty
 Package: enumerate 2023/07/04 v3.00 enumerate extensions (DPC)
 \@enLab=\toks26
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip54
 \enit@outerparindent=\dimen167
@@ -226,12 +256,14 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@count@id=\count307
 \enitdp@description=\count308
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/eso-pic/eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \ESO@tempdima=\dimen168
 \ESO@tempdimb=\dimen169
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip55
@@ -250,7 +282,8 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthR=\skip68
 \@temptokenb=\toks28
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count309
 \float@exts=\toks29
@@ -258,13 +291,16 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks30
 \@floatcapt=\box57
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
 \Gm@cnth=\count310
@@ -280,18 +316,22 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen177
 \Gm@dimlist=\toks31
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/geometry/geometry.cfg))
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
-g
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
@@ -299,10 +339,12 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 \Gin@req@height=\dimen178
 \Gin@req@width=\dimen179
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/listings/listings.sty
 \lst@mode=\count313
 \lst@gtempboxa=\box58
 \lst@token=\toks32
@@ -316,21 +358,25 @@ Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 \lst@lineno=\count318
 \lst@maxwidth=\dimen183
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/listings/lstpatch.sty
 File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/listings/lstmisc.sty
 File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
 \c@lstnumber=\count319
 \lst@skipnumbers=\count320
 \lst@framebox=\box59
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/listings/listings.cfg
 File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
 Package: listings 2024/09/23 1.10c (Carsten Heinz)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\mathptmx.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/psnfss/mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -366,24 +412,28 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip69
 \multirow@cntb=\count321
 \multirow@dima=\skip70
 \bigstrutjot=\dimen184
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/mwe\mwe.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/mwe/mwe.sty
 Package: mwe 2018/03/30 v0.5 Package to support minimal working examples (MWE)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3ke
-ys2e.sty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-08-13 L3 programming layer (loader) 
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/lipsum/lipsum.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3packages/l3keys2e/l3keys2e.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3kernel/expl3.sty
+Package: expl3 2025-09-02 L3 programming layer (loader) 
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdft
-ex.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count322
 ))
@@ -394,11 +444,14 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_a_int=\count324
 \l__lipsum_b_int=\count325
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/lipsum/lipsum.ltd.tex))
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count326
@@ -420,27 +473,32 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count342
 \c@blind@pangrammax=\count343
 ))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrextend.st
-y
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrextend.sty
 Package: scrextend 2025/09/09 v3.48 KOMA-Script package (extend other classes w
 ith features of KOMA-Script classes)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrkbase.sty
 Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrbase.sty
 Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrlfile.sty
 Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hoo
-k.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrlfile-hook.sty
 Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
 
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrlogo.sty
 Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
 )))
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
@@ -450,15 +508,17 @@ Already applied: [0000/00/00] Usage of raw or classic option list on input line
 Package scrextend Info: File `scrsize12pt.clo' used to setup font sizes on inpu
 t line 60.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrsize12pt.
-clo
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/koma-script/scrsize12pt.clo
 File: scrsize12pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (12pt
 )
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count344
 \sf@farskip=\skip71
@@ -474,7 +534,8 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@top=\skip74
 \sf@bottom=\skip75
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box60
 \beforetitleunit=\skip76
@@ -486,7 +547,8 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidthlast=\dimen189
 \titlewidthfirst=\dimen190
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip78
@@ -530,74 +592,89 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftsubtabindent=\skip116
 \cftsubtabnumwidth=\skip117
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
-eys.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.st
-y
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.
-sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.st
-y
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+))
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+)
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitl
-estring.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count351
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.st
-y
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/stringenc/stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen191
 \Hy@linkcounter=\count352
 \Hy@pagecounter=\count353
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count354
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -613,11 +690,12 @@ Package hyperref Info: Bookmarks ON on input line 4462.
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen192
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.
-sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -637,17 +715,18 @@ Package hyperref Info: PDF/A mode OFF on input line 6108.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/hyperref/hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count360
 \c@bookmark@seq@number=\count361
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfile
-check.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqueco
-unter.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -657,27 +736,35 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `unicode' set `true' on input line 233.
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/adjustbox/adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/xkeyval.tex
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/xkeyval/xkvutils.tex
 \XKV@toks=\toks34
 \XKV@tempa@toks=\toks35
 )
 \XKV@depth=\count362
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+))
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/adjustbox/adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+)
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/adjustbox/trimclip.sty
 Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.st
-y
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box61
 )
@@ -687,7 +774,8 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@ury=\dimen198
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen199
@@ -699,10 +787,13 @@ File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 \adjbox@pdepth=\dimen261
 \adjbox@ptotalheight=\dimen262
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count363
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+)
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box62
 \sift@deathcycles=\count364
@@ -710,17 +801,22 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@roff=\dimen264
 )
 ==> First Aid for varwidth.sty applied!
-) (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+)
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count365
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \c@tabx@nest=\count366
@@ -783,7 +879,8 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -875,12 +972,15 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 \c@textcitecount=\count480
 \c@textcitetotal=\count481
@@ -899,24 +999,26 @@ File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.bbx
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex-ieee/ieee.bbx
 File: ieee.bbx 2025-08-01 v1.4f biblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-com
-p.bbx
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/bbx/numeric-comp.bbx
 File: numeric-comp.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/bbx/numeric.bbx
 File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bb
-x
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/bbx/standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count489
 \c@bbx:relatedtotal=\count490
@@ -924,13 +1026,14 @@ File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-ieee\ieee.cbx
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex-ieee/ieee.cbx
 File: ieee.cbx 2025-08-01 v1.4f biblatex citation style
 Package biblatex Info: Trying to load citation style 'numeric-verb'...
 Package biblatex Info: ... file 'numeric-verb.cbx' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-ver
-b.cbx
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/cbx/numeric-verb.cbx
 File: numeric-verb.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -946,20 +1049,21 @@ Package biblatex Info: Redefining '\textcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2025-08-13 L3 programming layer (loader) 
+(biblatex)             2025-09-02 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.
-sty
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
-.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/blx-case-expl3.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/l3packages/xparse/xparse.sty
 Package: xparse 2024-08-16 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
@@ -970,7 +1074,9 @@ Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 1
 1.
- (C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (main.aux)
 \openout1 = `main.aux'.
@@ -1004,8 +1110,8 @@ Package caption Info: scrextend package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package newfloat Info: `float' package detected.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
-i
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/conte
+xt/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count491
 \scratchdimen=\dimen267
@@ -1019,14 +1125,14 @@ i
 \makeMPintoPDFobject=\count496
 \everyMPtoPDFconversion=\toks37
 )
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
-se.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
-g
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -1072,7 +1178,8 @@ Package hyperref Info: Link coloring OFF on input line 11.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/biblatex/lbx/english.lbx
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
 Package biblatex Info: Input encoding 'utf8' detected.
@@ -1089,25 +1196,29 @@ Package biblatex Info: Reference segment=0 on input line 11.
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  27.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
  27.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
  27.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
  27.
 
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -1117,18 +1228,17 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 42.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 41.
 
 
 [1
 
-{C:/Users/asus/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/asus/
-AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}])
-(tex_files/abstract.tex)
+{/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pd
+ftex/pdftex.map}]) (tex_files/abstract.tex)
 
 [2
 
@@ -1138,54 +1248,59 @@ AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}])
 
 [3
 
-])
+]
+
+[4])
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
 
 
-[4] (tex_files/introduction.tex)
+[5] (tex_files/introduction.tex)
 
-[5
+[6
 
 
 ] (tex_files/midterm1.tex
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/listings/lstlang1.sty
 File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
 Chapter 1.
-<images/signature-forgery.jpg, id=328, 1927.2pt x 803.0pt>
+<images/signature-forgery.jpg, id=426, 1927.2pt x 803.0pt>
 File: images/signature-forgery.jpg Graphic file (type jpg)
 <use images/signature-forgery.jpg>
 Package pdftex.def Info: images/signature-forgery.jpg  used on input line 32.
 (pdftex.def)             Requested size: 512.1496pt x 213.39436pt.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 3
 7.
-(C:\Users\asus\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+
+(/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-<images/man-in-the-middle.png, id=334, 883.3pt x 488.82625pt>
+<images/man-in-the-middle.png, id=432, 883.3pt x 488.82625pt>
 File: images/man-in-the-middle.png Graphic file (type png)
 <use images/man-in-the-middle.png>
 Package pdftex.def Info: images/man-in-the-middle.png  used on input line 41.
 (pdftex.def)             Requested size: 512.1496pt x 283.43736pt.
 
 
-[6
+[7
 
 
  <./images/signature-forgery.jpg>]
 
-[7 <./images/man-in-the-middle.png>]
-<images/owasp-top10.png, id=366, 2597.705pt x 1371.1225pt>
+[8 <./images/man-in-the-middle.png>]
+<images/owasp-top10.png, id=464, 2597.705pt x 1371.1225pt>
 File: images/owasp-top10.png Graphic file (type png)
 <use images/owasp-top10.png>
 Package pdftex.def Info: images/owasp-top10.png  used on input line 56.
 (pdftex.def)             Requested size: 512.1496pt x 270.3073pt.
 
 
-[8 <./images/owasp-top10.png>]
-<images/soc-compliance-standards.png, id=391, 1027.84pt x 897.3525pt>
+[9 <./images/owasp-top10.png>]
+<images/soc-compliance-standards.png, id=489, 1027.84pt x 897.3525pt>
 File: images/soc-compliance-standards.png Graphic file (type png)
 <use images/soc-compliance-standards.png>
 Package pdftex.def Info: images/soc-compliance-standards.png  used on input lin
@@ -1193,9 +1308,9 @@ e 79.
 (pdftex.def)             Requested size: 512.1496pt x 447.12788pt.
 
 
-[9 <./images/soc-compliance-standards.png>]
+[10 <./images/soc-compliance-standards.png>]
 Chapter 2.
-<images/digital-certificates.png, id=401, 1579.40062pt x 905.63344pt>
+<images/digital-certificates.png, id=499, 1579.40062pt x 905.63344pt>
 File: images/digital-certificates.png Graphic file (type png)
 <use images/digital-certificates.png>
 Package pdftex.def Info: images/digital-certificates.png  used on input line 98
@@ -1203,10 +1318,10 @@ Package pdftex.def Info: images/digital-certificates.png  used on input line 98
 (pdftex.def)             Requested size: 512.1496pt x 293.66408pt.
 
 
-[10
+[11
 
  <./images/digital-certificates.png>]
-<images/cbp-travel-document.jpg, id=413, 1204.5pt x 732.7375pt>
+<images/cbp-travel-document.jpg, id=511, 1204.5pt x 732.7375pt>
 File: images/cbp-travel-document.jpg Graphic file (type jpg)
 <use images/cbp-travel-document.jpg>
 Package pdftex.def Info: images/cbp-travel-document.jpg  used on input line 111
@@ -1214,37 +1329,37 @@ Package pdftex.def Info: images/cbp-travel-document.jpg  used on input line 111
 (pdftex.def)             Requested size: 512.1496pt x 311.57144pt.
 
 
-[11 <./images/cbp-travel-document.jpg>]
-<images/loan-agreement.jpg, id=425, 1003.75pt x 564.1075pt>
+[12 <./images/cbp-travel-document.jpg>]
+<images/loan-agreement.jpg, id=523, 1003.75pt x 564.1075pt>
 File: images/loan-agreement.jpg Graphic file (type jpg)
 <use images/loan-agreement.jpg>
 Package pdftex.def Info: images/loan-agreement.jpg  used on input line 125.
 (pdftex.def)             Requested size: 512.1496pt x 287.83734pt.
 
 
-[12 <./images/loan-agreement.jpg>]
-<images/market-growth.png, id=440, 1164.60094pt x 481.8pt>
+[13 <./images/loan-agreement.jpg>]
+<images/market-growth.png, id=539, 1164.60094pt x 481.8pt>
 File: images/market-growth.png Graphic file (type png)
 <use images/market-growth.png>
 Package pdftex.def Info: images/market-growth.png  used on input line 141.
 (pdftex.def)             Requested size: 512.1496pt x 211.88237pt.
-<images/market-growth-2.png, id=441, 1467.23157pt x 586.44093pt>
+<images/market-growth-2.png, id=540, 1467.23157pt x 586.44093pt>
 File: images/market-growth-2.png Graphic file (type png)
 <use images/market-growth-2.png>
 Package pdftex.def Info: images/market-growth-2.png  used on input line 150.
 (pdftex.def)             Requested size: 512.1496pt x 204.70259pt.
 
 
-[13 <./images/market-growth.png> <./images/market-growth-2.png>]
-<images/market-share.png, id=453, 875.52094pt x 498.36188pt>
+[14 <./images/market-growth.png> <./images/market-growth-2.png>]
+<images/market-share.png, id=551, 875.52094pt x 498.36188pt>
 File: images/market-share.png Graphic file (type png)
 <use images/market-share.png>
 Package pdftex.def Info: images/market-share.png  used on input line 169.
 (pdftex.def)             Requested size: 512.1496pt x 291.52911pt.
 
 
-[14 <./images/market-share.png>]
-<images/benefits-signatures.png, id=466, 733.99219pt x 450.18187pt>
+[15 <./images/market-share.png>]
+<images/benefits-signatures.png, id=564, 733.99219pt x 450.18187pt>
 File: images/benefits-signatures.png Graphic file (type png)
 <use images/benefits-signatures.png>
 Package pdftex.def Info: images/benefits-signatures.png  used on input line 189
@@ -1252,8 +1367,8 @@ Package pdftex.def Info: images/benefits-signatures.png  used on input line 189
 (pdftex.def)             Requested size: 512.1496pt x 314.13599pt.
 
 
-[15 <./images/benefits-signatures.png>]
-<images/blockchain-notarization.png, id=478, 722.7pt x 407.5225pt>
+[16 <./images/benefits-signatures.png>]
+<images/blockchain-notarization.png, id=576, 722.7pt x 407.5225pt>
 File: images/blockchain-notarization.png Graphic file (type png)
 <use images/blockchain-notarization.png>
 Package pdftex.def Info: images/blockchain-notarization.png  used on input line
@@ -1261,79 +1376,87 @@ Package pdftex.def Info: images/blockchain-notarization.png  used on input line
 (pdftex.def)             Requested size: 512.1496pt x 288.79579pt.
 
 
-[16 <./images/blockchain-notarization.png>]
-<images/multifactor-auth.jpg, id=496, 1606.0pt x 697.60625pt>
+[17 <./images/blockchain-notarization.png>]
+<images/multifactor-auth.jpg, id=594, 1606.0pt x 697.60625pt>
 File: images/multifactor-auth.jpg Graphic file (type jpg)
 <use images/multifactor-auth.jpg>
 Package pdftex.def Info: images/multifactor-auth.jpg  used on input line 237.
 (pdftex.def)             Requested size: 512.1496pt x 222.47214pt.
 
 
-[17 <./images/multifactor-auth.jpg>]
-<images/remote-notarization.png, id=510, 1655.18375pt x 1010.77625pt>
+[18 <./images/multifactor-auth.jpg>]
+<images/remote-notarization.png, id=608, 1655.18375pt x 1010.77625pt>
 File: images/remote-notarization.png Graphic file (type png)
 <use images/remote-notarization.png>
 Package pdftex.def Info: images/remote-notarization.png  used on input line 255
 .
 (pdftex.def)             Requested size: 512.1496pt x 312.75131pt.
-<images/zero-knowledge.png, id=514, 1204.5pt x 744.7825pt>
+<images/zero-knowledge.png, id=612, 1204.5pt x 744.7825pt>
 File: images/zero-knowledge.png Graphic file (type png)
 <use images/zero-knowledge.png>
 Package pdftex.def Info: images/zero-knowledge.png  used on input line 272.
 (pdftex.def)             Requested size: 512.1496pt x 316.69316pt.
 
 
-[18 <./images/remote-notarization.png>]
+[19 <./images/remote-notarization.png>]
 
-[19 <./images/zero-knowledge.png>]
+[20 <./images/zero-knowledge.png>]
 Chapter 3.
 
+Overfull \hbox (8.32576pt too wide) in paragraph at lines 297--298
+[]\OT1/ptm/b/n/12 Authentication and Iden-tity Man-age-ment \OT1/ptm/m/n/12 { u
+ser au-then-ti-ca-tion is han-dled through challenge-response
+ []
 
-[20
+
+
+[21
 
 ]
-<images/signing-verifying.png, id=538, 549.55313pt x 411.78844pt>
+<images/signing-verifying.png, id=636, 549.55313pt x 411.78844pt>
 File: images/signing-verifying.png Graphic file (type png)
 <use images/signing-verifying.png>
 Package pdftex.def Info: images/signing-verifying.png  used on input line 306.
 (pdftex.def)             Requested size: 512.1496pt x 383.79497pt.
 
 
-[21 <./images/signing-verifying.png (PNG copy)>]
+[22 <./images/signing-verifying.png (PNG copy)>]
 Chapter 4.
-<images/func-non-func.png, id=545, 1445.4pt x 813.0375pt>
+<images/func-non-func.png, id=643, 1445.4pt x 813.0375pt>
 File: images/func-non-func.png Graphic file (type png)
 <use images/func-non-func.png>
 Package pdftex.def Info: images/func-non-func.png  used on input line 321.
 (pdftex.def)             Requested size: 512.1496pt x 288.07826pt.
 
 
-[22
+[23
 
  <./images/func-non-func.png>]
-<images/oauth-mechanism.jpg, id=556, 865.73438pt x 372.64218pt>
-File: images/oauth-mechanism.jpg Graphic file (type jpg)
-<use images/oauth-mechanism.jpg>
-Package pdftex.def Info: images/oauth-mechanism.jpg  used on input line 346.
-(pdftex.def)             Requested size: 512.1496pt x 220.45401pt.
+<images/challenge-response.png, id=654, 1293.83376pt x 655.44875pt>
+File: images/challenge-response.png Graphic file (type png)
+<use images/challenge-response.png>
+Package pdftex.def Info: images/challenge-response.png  used on input line 346.
+
+(pdftex.def)             Requested size: 512.1496pt x 259.45448pt.
 
 
-[23 <./images/oauth-mechanism.jpg>]
-<images/jwt-mechanism.png, id=563, 1515.6625pt x 775.89874pt>
+[24 <./images/challenge-response.png>]
+<images/jwt-mechanism.png, id=662, 1515.6625pt x 775.89874pt>
 File: images/jwt-mechanism.png Graphic file (type png)
 <use images/jwt-mechanism.png>
 Package pdftex.def Info: images/jwt-mechanism.png  used on input line 369.
 (pdftex.def)             Requested size: 512.1496pt x 262.1801pt.
 
 
-[24 <./images/jwt-mechanism.png>]
-<images/umlDiagrams/uml-use-registration.png, id=574, 648.17157pt x 421.575pt>
+[25 <./images/jwt-mechanism.png>]
+<images/umlDiagrams/uml-use-registration.png, id=674, 741.77126pt x 563.10374pt
+>
 File: images/umlDiagrams/uml-use-registration.png Graphic file (type png)
 <use images/umlDiagrams/uml-use-registration.png>
 Package pdftex.def Info: images/umlDiagrams/uml-use-registration.png  used on i
 nput line 386.
-(pdftex.def)             Requested size: 512.1496pt x 333.12422pt.
-<images/umlDiagrams/uml-use-create.png, id=576, 647.41875pt x 438.13687pt>
+(pdftex.def)             Requested size: 512.1496pt x 388.79977pt.
+<images/umlDiagrams/uml-use-create.png, id=676, 647.41875pt x 438.13687pt>
 File: images/umlDiagrams/uml-use-create.png Graphic file (type png)
 <use images/umlDiagrams/uml-use-create.png>
 Package pdftex.def Info: images/umlDiagrams/uml-use-create.png  used on input l
@@ -1341,8 +1464,8 @@ ine 394.
 (pdftex.def)             Requested size: 512.1496pt x 346.61237pt.
 
 
-[25 <./images/umlDiagrams/uml-use-registration.png>]
-<images/umlDiagrams/uml-use-verify.png, id=587, 612.03656pt x 271.76532pt>
+[26 <./images/umlDiagrams/uml-use-registration.png>]
+<images/umlDiagrams/uml-use-verify.png, id=686, 612.03656pt x 271.76532pt>
 File: images/umlDiagrams/uml-use-verify.png Graphic file (type png)
 <use images/umlDiagrams/uml-use-verify.png>
 Package pdftex.def Info: images/umlDiagrams/uml-use-verify.png  used on input l
@@ -1350,8 +1473,8 @@ ine 402.
 (pdftex.def)             Requested size: 512.1496pt x 227.42291pt.
 
 
-[26 <./images/umlDiagrams/uml-use-create.png>]
-<images/umlDiagrams/uml-use-approve.png, id=598, 676.02562pt x 307.1475pt>
+[27 <./images/umlDiagrams/uml-use-create.png>]
+<images/umlDiagrams/uml-use-approve.png, id=697, 676.02562pt x 307.1475pt>
 File: images/umlDiagrams/uml-use-approve.png Graphic file (type png)
 <use images/umlDiagrams/uml-use-approve.png>
 Package pdftex.def Info: images/umlDiagrams/uml-use-approve.png  used on input 
@@ -1359,16 +1482,16 @@ line 410.
 (pdftex.def)             Requested size: 512.1496pt x 232.6987pt.
 
 
-[27 <./images/umlDiagrams/uml-use-verify.png> <./images/umlDiagrams/uml-use-app
+[28 <./images/umlDiagrams/uml-use-verify.png> <./images/umlDiagrams/uml-use-app
 rove.png>]
-<images/umlDiagrams/uml-sequence-registration.png, id=608, 831.105pt x 564.6093
+<images/umlDiagrams/uml-sequence-registration.png, id=707, 831.105pt x 564.6093
 8pt>
 File: images/umlDiagrams/uml-sequence-registration.png Graphic file (type png)
 <use images/umlDiagrams/uml-sequence-registration.png>
 Package pdftex.def Info: images/umlDiagrams/uml-sequence-registration.png  used
  on input line 421.
 (pdftex.def)             Requested size: 512.1496pt x 347.94345pt.
-<images/umlDiagrams/uml-sequence-create.png, id=610, 630.10406pt x 530.73282pt>
+<images/umlDiagrams/uml-sequence-create.png, id=709, 630.10406pt x 530.73282pt>
 
 File: images/umlDiagrams/uml-sequence-create.png Graphic file (type png)
 <use images/umlDiagrams/uml-sequence-create.png>
@@ -1377,8 +1500,8 @@ put line 429.
 (pdftex.def)             Requested size: 512.1496pt x 431.40561pt.
 
 
-[28 <./images/umlDiagrams/uml-sequence-registration.png>]
-<images/umlDiagrams/uml-sequence-verify.png, id=620, 722.7pt x 544.28343pt>
+[29 <./images/umlDiagrams/uml-sequence-registration.png>]
+<images/umlDiagrams/uml-sequence-verify.png, id=719, 722.7pt x 544.28343pt>
 File: images/umlDiagrams/uml-sequence-verify.png Graphic file (type png)
 <use images/umlDiagrams/uml-sequence-verify.png>
 Package pdftex.def Info: images/umlDiagrams/uml-sequence-verify.png  used on in
@@ -1386,8 +1509,8 @@ put line 437.
 (pdftex.def)             Requested size: 512.1496pt x 385.71309pt.
 
 
-[29 <./images/umlDiagrams/uml-sequence-create.png>]
-<images/umlDiagrams/uml-sequence-approve.png, id=630, 666.23906pt x 477.28313pt
+[30 <./images/umlDiagrams/uml-sequence-create.png>]
+<images/umlDiagrams/uml-sequence-approve.png, id=729, 666.23906pt x 477.28313pt
 >
 File: images/umlDiagrams/uml-sequence-approve.png Graphic file (type png)
 <use images/umlDiagrams/uml-sequence-approve.png>
@@ -1396,129 +1519,122 @@ nput line 445.
 (pdftex.def)             Requested size: 512.1496pt x 366.91924pt.
 
 
-[30 <./images/umlDiagrams/uml-sequence-verify.png>]
+[31 <./images/umlDiagrams/uml-sequence-verify.png>]
 
-[31 <./images/umlDiagrams/uml-sequence-approve.png>]
-<images/umlDiagrams/uml-class-core-domain.png, id=646, 894.34125pt x 510.40688p
+[32 <./images/umlDiagrams/uml-sequence-approve.png>]
+<images/umlDiagrams/uml-class-core-domain.png, id=745, 724.20563pt x 501.37312p
 t>
 File: images/umlDiagrams/uml-class-core-domain.png Graphic file (type png)
 <use images/umlDiagrams/uml-class-core-domain.png>
 Package pdftex.def Info: images/umlDiagrams/uml-class-core-domain.png  used on 
 input line 462.
-(pdftex.def)             Requested size: 512.1496pt x 292.29008pt.
-<images/figmaUI/landing-top.png, id=648, 1306.28024pt x 676.32675pt>
+(pdftex.def)             Requested size: 512.1496pt x 354.56973pt.
+<images/figmaUI/landing-top.png, id=747, 1306.28024pt x 676.32675pt>
 File: images/figmaUI/landing-top.png Graphic file (type png)
 <use images/figmaUI/landing-top.png>
-Package pdftex.def Info: images/figmaUI/landing-top.png  used on input line 479
+Package pdftex.def Info: images/figmaUI/landing-top.png  used on input line 477
 .
 (pdftex.def)             Requested size: 512.1496pt x 265.16988pt.
 
 
-[32 <./images/umlDiagrams/uml-class-core-domain.png>]
-<images/figmaUI/login-crop.png, id=656, 1387.584pt x 850.97925pt>
+[33 <./images/umlDiagrams/uml-class-core-domain.png>]
+<images/figmaUI/login-crop.png, id=755, 1387.584pt x 850.97925pt>
 File: images/figmaUI/login-crop.png Graphic file (type png)
 <use images/figmaUI/login-crop.png>
-Package pdftex.def Info: images/figmaUI/login-crop.png  used on input line 488.
+Package pdftex.def Info: images/figmaUI/login-crop.png  used on input line 486.
 
 (pdftex.def)             Requested size: 512.1496pt x 314.09128pt.
 
 
-[33 <./images/figmaUI/landing-top.png> <./images/figmaUI/login-crop.png>]
-<images/figmaUI/register1-crop.png, id=665, 1387.584pt x 1028.04076pt>
-File: images/figmaUI/register1-crop.png Graphic file (type png)
-<use images/figmaUI/register1-crop.png>
-Package pdftex.def Info: images/figmaUI/register1-crop.png  used on input line 
-503.
-(pdftex.def)             Requested size: 512.1496pt x 379.44362pt.
-<images/figmaUI/registerstep2.png, id=667, 805.8105pt x 399.894pt>
+[34 <./images/figmaUI/landing-top.png> <./images/figmaUI/login-crop.png>]
+<images/figmaUI/registerstep2.png, id=764, 1387.584pt x 1028.04076pt>
 File: images/figmaUI/registerstep2.png Graphic file (type png)
 <use images/figmaUI/registerstep2.png>
-Package pdftex.def Info: images/figmaUI/registerstep2.png  used on input line 5
-15.
+Package pdftex.def Info: images/figmaUI/registerstep2.png  used on input line 4
+98.
+(pdftex.def)             Requested size: 512.1496pt x 379.44362pt.
+<images/figmaUI/registerstep1.png, id=766, 805.8105pt x 399.894pt>
+File: images/figmaUI/registerstep1.png Graphic file (type png)
+<use images/figmaUI/registerstep1.png>
+Package pdftex.def Info: images/figmaUI/registerstep1.png  used on input line 5
+07.
 (pdftex.def)             Requested size: 512.1496pt x 254.17393pt.
 
 
-[34 <./images/figmaUI/register1-crop.png>]
-<images/figmaUI/register3-crop.png, id=676, 1387.584pt x 525.162pt>
-File: images/figmaUI/register3-crop.png Graphic file (type png)
-<use images/figmaUI/register3-crop.png>
-Package pdftex.def Info: images/figmaUI/register3-crop.png  used on input line 
-526.
-(pdftex.def)             Requested size: 512.1496pt x 193.8341pt.
-<images/figmaUI/successregister.png, id=678, 1294.23524pt x 410.13225pt>
+[35 <./images/figmaUI/registerstep2.png>]
+<images/figmaUI/successregister.png, id=775, 999.735pt x 385.44pt>
 File: images/figmaUI/successregister.png Graphic file (type png)
 <use images/figmaUI/successregister.png>
 Package pdftex.def Info: images/figmaUI/successregister.png  used on input line
- 537.
-(pdftex.def)             Requested size: 512.1496pt x 162.29771pt.
-
-
-[35 <./images/figmaUI/registerstep2.png> <./images/figmaUI/register3-crop.png>]
-<images/figmaUI/documentspage1-crop.png, id=693, 1061.76675pt x 666.69075pt>
+ 517.
+(pdftex.def)             Requested size: 512.1496pt x 197.45987pt.
+<images/figmaUI/documentspage1-crop.png, id=781, 1061.76675pt x 666.69075pt>
 File: images/figmaUI/documentspage1-crop.png Graphic file (type png)
 <use images/figmaUI/documentspage1-crop.png>
 Package pdftex.def Info: images/figmaUI/documentspage1-crop.png  used on input 
-line 549.
+line 528.
 (pdftex.def)             Requested size: 512.1496pt x 321.58472pt.
 
 
-[36 <./images/figmaUI/successregister.png> <./images/figmaUI/documentspage1-cro
-p.png>]
-<images/figmaUI/success-crop.png, id=708, 761.244pt x 326.4195pt>
+[36 <./images/figmaUI/registerstep1.png> <./images/figmaUI/successregister.png>
+]
+<images/figmaUI/success-crop.png, id=795, 761.244pt x 326.4195pt>
 File: images/figmaUI/success-crop.png Graphic file (type png)
 <use images/figmaUI/success-crop.png>
-Package pdftex.def Info: images/figmaUI/success-crop.png  used on input line 56
-0.
+Package pdftex.def Info: images/figmaUI/success-crop.png  used on input line 53
+9.
 (pdftex.def)             Requested size: 512.1496pt x 219.62135pt.
-<images/figmaUI/unsuccess-crop.png, id=709, 913.011pt x 497.4585pt>
+<images/figmaUI/unsuccess-crop.png, id=796, 913.011pt x 497.4585pt>
 File: images/figmaUI/unsuccess-crop.png Graphic file (type png)
 <use images/figmaUI/unsuccess-crop.png>
 Package pdftex.def Info: images/figmaUI/unsuccess-crop.png  used on input line 
-567.
+546.
 (pdftex.def)             Requested size: 512.1496pt x 279.04547pt.
 
 
-[37 <./images/figmaUI/success-crop.png> <./images/figmaUI/unsuccess-crop.png>]
-<images/figmaUI/documentspage2-crop.png, id=718, 840.741pt x 734.14275pt>
+[37 <./images/figmaUI/documentspage1-crop.png> <./images/figmaUI/success-crop.p
+ng>]
+<images/figmaUI/documentspage2-crop.png, id=807, 1369.115pt x 733.74126pt>
 File: images/figmaUI/documentspage2-crop.png Graphic file (type png)
 <use images/figmaUI/documentspage2-crop.png>
 Package pdftex.def Info: images/figmaUI/documentspage2-crop.png  used on input 
-line 578.
-(pdftex.def)             Requested size: 512.1496pt x 447.23271pt.
-<images/figmaUI/accountspage-account-protection.png, id=721, 1123.19624pt x 626
+line 556.
+(pdftex.def)             Requested size: 512.1496pt x 274.48053pt.
+<images/figmaUI/accountspage-account-protection.png, id=809, 1123.19624pt x 626
 .94225pt>
 File: images/figmaUI/accountspage-account-protection.png Graphic file (type png
 )
 <use images/figmaUI/accountspage-account-protection.png>
 Package pdftex.def Info: images/figmaUI/accountspage-account-protection.png  us
-ed on input line 591.
+ed on input line 565.
 (pdftex.def)             Requested size: 512.1496pt x 285.87141pt.
 
 
-[38 <./images/figmaUI/documentspage2-crop.png>]
-<images/figmaUI/accountspage-documents-crop.png, id=728, 1140.05925pt x 404.109
-76pt>
+[38 <./images/figmaUI/unsuccess-crop.png> <./images/figmaUI/documentspage2-crop
+.png>]
+<images/figmaUI/accountspage-documents-crop.png, id=817, 1258.7025pt x 618.31pt
+>
 File: images/figmaUI/accountspage-documents-crop.png Graphic file (type png)
 <use images/figmaUI/accountspage-documents-crop.png>
 Package pdftex.def Info: images/figmaUI/accountspage-documents-crop.png  used o
-n input line 606.
-(pdftex.def)             Requested size: 512.1496pt x 181.54556pt.
+n input line 576.
+(pdftex.def)             Requested size: 512.1496pt x 251.58408pt.
 )
 
 [39 <./images/figmaUI/accountspage-account-protection.png> <./images/figmaUI/ac
 countspage-documents-crop.png>] (tex_files/midterm2.tex
 Chapter 5.
-<images/main-project-routers.png, id=738, 1318.9275pt x 509.905pt>
+<images/main-project-routers.png, id=828, 1381.16pt x 465.74pt>
 File: images/main-project-routers.png Graphic file (type png)
 <use images/main-project-routers.png>
 Package pdftex.def Info: images/main-project-routers.png  used on input line 10
 .
-(pdftex.def)             Requested size: 512.1496pt x 198.00629pt.
-<images/user-db-model.png, id=740, 2017.5375pt x 1377.145pt>
+(pdftex.def)             Requested size: 512.1496pt x 172.70485pt.
+<images/user-db-model.png, id=830, 1353.055pt x 896.34875pt>
 File: images/user-db-model.png Graphic file (type png)
 <use images/user-db-model.png>
 Package pdftex.def Info: images/user-db-model.png  used on input line 25.
-(pdftex.def)             Requested size: 512.1496pt x 349.58081pt.
+(pdftex.def)             Requested size: 512.1496pt x 339.28938pt.
 
 
 [40
@@ -1527,28 +1643,28 @@ Package pdftex.def Info: images/user-db-model.png  used on input line 25.
  <./images/main-project-routers.png>]
 
 [41 <./images/user-db-model.png>]
-<images/email-sending.png, id=756, 2754.29pt x 618.31pt>
+<images/email-sending.png, id=847, 1949.2825pt x 530.98375pt>
 File: images/email-sending.png Graphic file (type png)
 <use images/email-sending.png>
 Package pdftex.def Info: images/email-sending.png  used on input line 45.
-(pdftex.def)             Requested size: 512.1496pt x 114.9705pt.
-<images/keygen.png, id=758, 2105.8675pt x 835.12pt>
+(pdftex.def)             Requested size: 512.1496pt x 139.5109pt.
+<images/keygen.png, id=849, 1365.1pt x 520.94624pt>
 File: images/keygen.png Graphic file (type png)
 <use images/keygen.png>
 Package pdftex.def Info: images/keygen.png  used on input line 55.
-(pdftex.def)             Requested size: 512.1496pt x 203.09615pt.
+(pdftex.def)             Requested size: 512.1496pt x 195.44975pt.
 
 
 [42 <./images/email-sending.png> <./images/keygen.png>]
-<images/payload-signature.png, id=768, 1421.31pt x 889.3225pt>
+<images/payload-signature.png, id=859, 1007.765pt x 576.1525pt>
 File: images/payload-signature.png Graphic file (type png)
 <use images/payload-signature.png>
 Package pdftex.def Info: images/payload-signature.png  used on input line 69.
-(pdftex.def)             Requested size: 512.1496pt x 320.45439pt.
+(pdftex.def)             Requested size: 512.1496pt x 292.80528pt.
 
 
 [43 <./images/payload-signature.png>]
-<images/siteUI/frontStack.png, id=777, 1284.8pt x 771.88374pt>
+<images/siteUI/frontStack.png, id=868, 1284.8pt x 771.88374pt>
 File: images/siteUI/frontStack.png Graphic file (type png)
 <use images/siteUI/frontStack.png>
 Package pdftex.def Info: images/siteUI/frontStack.png  used on input line 87.
@@ -1558,119 +1674,153 @@ Package pdftex.def Info: images/siteUI/frontStack.png  used on input line 87.
 [44 <./images/siteUI/frontStack.png>]
 
 [45]
-<images/siteUI/codeMail.png, id=793, 539.76656pt x 409.53pt>
-File: images/siteUI/codeMail.png Graphic file (type png)
-<use images/siteUI/codeMail.png>
-Package pdftex.def Info: images/siteUI/codeMail.png  used on input line 154.
-(pdftex.def)             Requested size: 512.1496pt x 388.58261pt.
-<images/siteUI/register.png, id=795, 864.98157pt x 447.92343pt>
-File: images/siteUI/register.png Graphic file (type png)
-<use images/siteUI/register.png>
-Package pdftex.def Info: images/siteUI/register.png  used on input line 163.
-(pdftex.def)             Requested size: 512.1496pt x 265.22256pt.
-
-
-[46 <./images/siteUI/codeMail.png>]
-<images/siteUI/thankYou.png, id=804, 662.475pt x 314.67563pt>
-File: images/siteUI/thankYou.png Graphic file (type png)
-<use images/siteUI/thankYou.png>
-Package pdftex.def Info: images/siteUI/thankYou.png  used on input line 172.
-(pdftex.def)             Requested size: 512.1496pt x 243.28049pt.
-
-
-[47 <./images/siteUI/register.png> <./images/siteUI/thankYou.png>]
-<images/siteUI/mnemonicLogin.png, id=816, 925.95938pt x 298.11375pt>
-File: images/siteUI/mnemonicLogin.png Graphic file (type png)
-<use images/siteUI/mnemonicLogin.png>
-Package pdftex.def Info: images/siteUI/mnemonicLogin.png  used on input line 19
-7.
-(pdftex.def)             Requested size: 512.1496pt x 164.88647pt.
-
-
-[48 <./images/siteUI/mnemonicLogin.png>]
-<images/siteUI/headerAccountUser.png, id=830, 1189.44376pt x 70.01157pt>
+<images/siteUI/headerAccountUser.png, id=884, 1189.44376pt x 70.01157pt>
 File: images/siteUI/headerAccountUser.png Graphic file (type png)
 <use images/siteUI/headerAccountUser.png>
 Package pdftex.def Info: images/siteUI/headerAccountUser.png  used on input lin
-e 209.
+e 152.
 (pdftex.def)             Requested size: 512.1496pt x 30.14497pt.
-<images/siteUI/headerAccountAdmin.png, id=832, 481.8pt x 175.40532pt>
-File: images/siteUI/headerAccountAdmin.png Graphic file (type png)
-<use images/siteUI/headerAccountAdmin.png>
-Package pdftex.def Info: images/siteUI/headerAccountAdmin.png  used on input li
-ne 218.
-(pdftex.def)             Requested size: 512.1496pt x 186.47206pt.
-<images/siteUI/adminConsole.png, id=834, 1444.64719pt x 371.88937pt>
+<images/siteUI/adminConsole.png, id=886, 1043.9pt x 304.13625pt>
 File: images/siteUI/adminConsole.png Graphic file (type png)
 <use images/siteUI/adminConsole.png>
-Package pdftex.def Info: images/siteUI/adminConsole.png  used on input line 227
+Package pdftex.def Info: images/siteUI/adminConsole.png  used on input line 161
 .
-(pdftex.def)             Requested size: 512.1496pt x 131.83722pt.
-
-
-[49 <./images/siteUI/headerAccountUser.png (PNG copy)> <./images/siteUI/headerA
-ccountAdmin.png> <./images/siteUI/adminConsole.png>]
-<images/siteUI/adminConsoleNoRequests.png, id=846, 458.46281pt x 80.55093pt>
+(pdftex.def)             Requested size: 512.1496pt x 149.21368pt.
+<images/siteUI/adminConsoleNoRequests.png, id=888, 1061.9675pt x 404.51125pt>
 File: images/siteUI/adminConsoleNoRequests.png Graphic file (type png)
 <use images/siteUI/adminConsoleNoRequests.png>
 Package pdftex.def Info: images/siteUI/adminConsoleNoRequests.png  used on inpu
-t line 236.
-(pdftex.def)             Requested size: 512.1496pt x 89.98781pt.
-<images/siteUI/finishRegMail.png, id=848, 847.66687pt x 381.67593pt>
+t line 170.
+(pdftex.def)             Requested size: 512.1496pt x 195.08287pt.
+
+
+[46 <./images/siteUI/headerAccountUser.png> <./images/siteUI/adminConsole.png> 
+<./images/siteUI/adminConsoleNoRequests.png>]
+<images/siteUI/wallet-details.png, id=900, 1047.915pt x 492.84125pt>
+File: images/siteUI/wallet-details.png Graphic file (type png)
+<use images/siteUI/wallet-details.png>
+Package pdftex.def Info: images/siteUI/wallet-details.png  used on input line 1
+79.
+(pdftex.def)             Requested size: 512.1496pt x 240.87015pt.
+<images/siteUI/blockchain-docs-details.png, id=902, 1053.9375pt x 564.1075pt>
+File: images/siteUI/blockchain-docs-details.png Graphic file (type png)
+<use images/siteUI/blockchain-docs-details.png>
+Package pdftex.def Info: images/siteUI/blockchain-docs-details.png  used on inp
+ut line 188.
+(pdftex.def)             Requested size: 512.1496pt x 274.13408pt.
+<images/siteUI/finishRegMail.png, id=904, 660.4675pt x 767.86874pt>
 File: images/siteUI/finishRegMail.png Graphic file (type png)
 <use images/siteUI/finishRegMail.png>
-Package pdftex.def Info: images/siteUI/finishRegMail.png  used on input line 24
-7.
-(pdftex.def)             Requested size: 512.1496pt x 230.6089pt.
-<images/siteUI/mnemonicPhrase.png, id=850, 483.30562pt x 572.1375pt>
+Package pdftex.def Info: images/siteUI/finishRegMail.png  used on input line 19
+9.
+(pdftex.def)             Requested size: 512.1496pt x 595.45535pt.
+
+
+[47 <./images/siteUI/wallet-details.png> <./images/siteUI/blockchain-docs-detai
+ls.png>]
+<images/siteUI/mnemonicPhrase.png, id=915, 496.85625pt x 635.37375pt>
 File: images/siteUI/mnemonicPhrase.png Graphic file (type png)
 <use images/siteUI/mnemonicPhrase.png>
 Package pdftex.def Info: images/siteUI/mnemonicPhrase.png  used on input line 2
-56.
-(pdftex.def)             Requested size: 512.1496pt x 606.34937pt.
+08.
+(pdftex.def)             Requested size: 512.1496pt x 654.98518pt.
 
 
-[50 <./images/siteUI/adminConsoleNoRequests.png> <./images/siteUI/finishRegMail
-.png>]
-<images/siteUI/securityMethod.png, id=860, 724.95844pt x 406.51875pt>
+[48 <./images/siteUI/finishRegMail.png>]
+
+[49 <./images/siteUI/mnemonicPhrase.png>]
+<images/siteUI/securityMethod.png, id=929, 857.2025pt x 508.90125pt>
 File: images/siteUI/securityMethod.png Graphic file (type png)
 <use images/siteUI/securityMethod.png>
 Package pdftex.def Info: images/siteUI/securityMethod.png  used on input line 2
-65.
-(pdftex.def)             Requested size: 512.1496pt x 287.19124pt.
+17.
+(pdftex.def)             Requested size: 512.1496pt x 304.05408pt.
 
 
-[51 <./images/siteUI/mnemonicPhrase.png>]
-<images/siteUI/pinForSite.png, id=867, 700.86844pt x 406.51875pt>
-File: images/siteUI/pinForSite.png Graphic file (type png)
-<use images/siteUI/pinForSite.png>
-Package pdftex.def Info: images/siteUI/pinForSite.png  used on input line 274.
-(pdftex.def)             Requested size: 512.1496pt x 297.07877pt.
+[50 <./images/siteUI/securityMethod.png>]
 
+[51]
 
-[52 <./images/siteUI/securityMethod.png> <./images/siteUI/pinForSite.png>]
-<images/siteUI/logedIn.png, id=875, 1209.76968pt x 728.7225pt>
-File: images/siteUI/logedIn.png Graphic file (type png)
-<use images/siteUI/logedIn.png>
-Package pdftex.def Info: images/siteUI/logedIn.png  used on input line 287.
-(pdftex.def)             Requested size: 512.1496pt x 308.4965pt.
+[52]
 
+[53]
+<images/mobileUI/1.PNG, id=959, 639.89063pt x 1256.19313pt>
+File: images/mobileUI/1.PNG Graphic file (type png)
+<use images/mobileUI/1.PNG>
+Package pdftex.def Info: images/mobileUI/1.PNG  used on input line 336.
+(pdftex.def)             Requested size: 204.85672pt x 402.16252pt.
 
-[53 <./images/siteUI/logedIn.png>]
 
 [54]
+<images/mobileUI/2.png, id=968, 641.89813pt x 1315.41437pt>
+File: images/mobileUI/2.png Graphic file (type png)
+<use images/mobileUI/2.png>
+Package pdftex.def Info: images/mobileUI/2.png  used on input line 349.
+(pdftex.def)             Requested size: 153.64644pt x 314.86288pt.
 
-[55])
 
-[56] (tex_files/conclusion.tex
-Overfull \hbox (4.03499pt too wide) in paragraph at lines 10--11
-[]\OT1/ptm/m/n/12 The re-sults con-firm the fea-si-bil-ity of us-ing lightweigh
-t cryp-to-graphic li-braries and struc-tured database
+[55 <./images/mobileUI/1.PNG>]
+
+[56 <./images/mobileUI/2.png>]
+<images/mobileUI/3.PNG, id=992, 644.4075pt x 1098.60437pt>
+File: images/mobileUI/3.PNG Graphic file (type png)
+<use images/mobileUI/3.PNG>
+Package pdftex.def Info: images/mobileUI/3.PNG  used on input line 378.
+(pdftex.def)             Requested size: 179.2555pt x 305.59552pt.
+
+
+[57 <./images/mobileUI/3.PNG>]
+<images/mobileUI/4.png, id=1002, 644.4075pt x 969.12062pt>
+File: images/mobileUI/4.png Graphic file (type png)
+<use images/mobileUI/4.png>
+Package pdftex.def Info: images/mobileUI/4.png  used on input line 393.
+(pdftex.def)             Requested size: 179.2555pt x 269.57741pt.
+
+
+[58 <./images/mobileUI/4.png>]
+Overfull \hbox (0.56717pt too wide) in paragraph at lines 401--402
+[]\OT1/ptm/m/n/12 The ap-pli-ca-tion in-cludes a pub-lic ver-i-fi-ca-tion fea-t
+ure ac-ces-si-ble with-out au-then-ti-ca-tion (Fig-ure []5.19[]): 
  []
 
-)
+<images/mobileUI/5.png, id=1012, 644.4075pt x 1394.20876pt>
+File: images/mobileUI/5.png Graphic file (type png)
+<use images/mobileUI/5.png>
+Package pdftex.def Info: images/mobileUI/5.png  used on input line 405.
+(pdftex.def)             Requested size: 179.2555pt x 387.82292pt.
 
-[57
+
+[59 <./images/mobileUI/5.png>]
+<images/mobileUI/6.png, id=1020, 644.4075pt x 915.92188pt>
+File: images/mobileUI/6.png Graphic file (type png)
+<use images/mobileUI/6.png>
+Package pdftex.def Info: images/mobileUI/6.png  used on input line 422.
+(pdftex.def)             Requested size: 179.2555pt x 254.77928pt.
+
+
+[60]
+
+[61 <./images/mobileUI/6.png>]
+
+[62]
+
+[63]
+
+[64]
+Overfull \hbox (4.47964pt too wide) in paragraph at lines 490--491
+[]\OT1/ptm/m/n/12 The log-ging strat-egy im-ple-ments struc-tured log-ging thro
+ugh-out the ap-pli-ca-tion, with JSON-formatted
+ []
+
+
+
+[65]
+
+[66])
+
+[67] (tex_files/conclusion.tex)
+
+[68
 
 
 ] (tex_files/bibliography.tex
@@ -1682,7 +1832,7 @@ ps : / / www . verizon .
 
 
 
-[58
+[69
 
 
 
@@ -1702,51 +1852,39 @@ ience 2023\OT1/ptm/m/n/12 . [On-line]. Avail-able: []$\OT1/cmtt/m/n/12 https :
 
 
 
-[59])
+[70])
 
-[60] (main.aux)
+[71] (main.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
+L3 programming layer <2025-09-02>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: 7FE8E465565682B2951FECF66225D358;10728
-(rerunfilecheck)             After:  C9D3F2DB8B23ED188621C5F28504E892;10728.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: C70D310FE0E3B2F9DCCE33754210E5A1;14096.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27145 strings out of 468132
- 497590 string characters out of 5431175
- 1460988 words of memory out of 5000000
- 55108 multiletter control sequences out of 15000+600000
+ 27214 strings out of 468135
+ 505935 string characters out of 5419178
+ 1461188 words of memory out of 5000000
+ 55122 multiletter control sequences out of 15000+600000
  657263 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,9n,121p,1217b,2326s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{chapter*.82} has been referenced but does not exist
-, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection*.80} has been referenced but does not
- exist, replaced by a fixed one
-
-<C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
-y10.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmtt12.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/ti
-mes/utmb8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/tim
-es/utmr8a.pfb><C:/Users/asus/AppData/Local/Programs/MiKTeX/fonts/type1/urw/time
-s/utmri8a.pfb>
-Output written on main.pdf (60 pages, 7736229 bytes).
+ 123i,9n,121p,1601b,2326s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/fonts/e
+nc/dvips/base/8r.enc}</Users/alexeydandy/Library/Application Support/MiKTeX/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/alexeydandy/Libra
+ry/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmt
+t12.pfb></Users/alexeydandy/Library/Application Support/MiKTeX/texmfs/install/f
+onts/type1/urw/times/utmb8a.pfb></Users/alexeydandy/Library/Application Support
+/MiKTeX/texmfs/install/fonts/type1/urw/times/utmr8a.pfb></Users/alexeydandy/Lib
+rary/Application Support/MiKTeX/texmfs/install/fonts/type1/urw/times/utmri8a.pf
+b>
+Output written on main.pdf (71 pages, 13021211 bytes).
 PDF statistics:
- 1088 PDF objects out of 1200 (max. 8388607)
- 260 named destinations out of 1000 (max. 500000)
- 768 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 315 named destinations out of 1000 (max. 500000)
+ 920 words of extra memory for PDF output out of 10000 (max. 10000000)
 

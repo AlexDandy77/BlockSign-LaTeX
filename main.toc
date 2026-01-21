@@ -1,39 +1,39 @@
 \babel@toc {english}{}\relax 
 \thispagestyle {empty}
-\contentsline {chapter}{INTRODUCTION}{5}{chapter*.2}%
-\contentsline {chapter}{\numberline {1}PROBLEM FRAMING}{6}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Problem Description}{6}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Problem Statement}{9}{section.1.2}%
-\contentsline {chapter}{\numberline {2}Domain Analysis}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Target Audience}{10}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Individual Users}{10}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Educational Institutions}{10}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Small and Medium Enterprises (SMEs)}{11}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Government Institutions}{11}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Law Firms and Notary Services}{11}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Financial and Banking Sectors}{12}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}Healthcare Organizations}{12}{subsection.2.1.7}%
-\contentsline {section}{\numberline {2.2}Market Size and Growth}{12}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Key Competitors and Solutions}{13}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Trends and Opportunities}{14}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Challenges and Barriers}{15}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Technical Research}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Blockchain-Based Notarization}{16}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Electronic Signatures with Multi-Factor Authentication}{17}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Electronic \& Remote Notarization}{17}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Advanced Cryptographic Techniques}{18}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Hybrid and Scalable Architectures}{19}{subsection.2.3.5}%
-\contentsline {chapter}{\numberline {3}Solution Proposal}{20}{chapter.3}%
-\contentsline {chapter}{\numberline {4}System Design}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Technical Requirements}{22}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Functional Requirements}{22}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Non-Functional Requirements}{24}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Behavioral Modeling}{25}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Use Case Diagrams}{25}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Sequence Diagrams}{28}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4.3}Structural Modeling}{31}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Class Diagram}{31}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Figma User Interface Mockups}{32}{section.4.4}%
+\contentsline {chapter}{INTRODUCTION}{6}{chapter*.2}%
+\contentsline {chapter}{\numberline {1}PROBLEM FRAMING}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Problem Description}{7}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{10}{section.1.2}%
+\contentsline {chapter}{\numberline {2}Domain Analysis}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Target Audience}{11}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Individual Users}{11}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Educational Institutions}{11}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Small and Medium Enterprises (SMEs)}{12}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Government Institutions}{12}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Law Firms and Notary Services}{12}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Financial and Banking Sectors}{13}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}Healthcare Organizations}{13}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Market Size and Growth}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Key Competitors and Solutions}{14}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Trends and Opportunities}{15}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Challenges and Barriers}{16}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Technical Research}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Blockchain-Based Notarization}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Electronic Signatures with Multi-Factor Authentication}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Electronic \& Remote Notarization}{18}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Advanced Cryptographic Techniques}{19}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Hybrid and Scalable Architectures}{20}{subsection.2.3.5}%
+\contentsline {chapter}{\numberline {3}Solution Proposal}{21}{chapter.3}%
+\contentsline {chapter}{\numberline {4}System Design}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Technical Requirements}{23}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Functional Requirements}{23}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Non-Functional Requirements}{25}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Behavioral Modeling}{26}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Use Case Diagrams}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Sequence Diagrams}{29}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4.3}Structural Modeling}{32}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Class Diagram}{32}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Figma User Interface Mockups}{33}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Practical Implementation}{40}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Back-end architecture}{40}{section.5.1}%
 \contentsline {subsection}{\numberline {5.1.1}Application Layer}{40}{subsection.5.1.1}%
@@ -44,35 +44,66 @@
 \contentsline {subsection}{\numberline {5.1.6}Cryptographic Module}{42}{subsection.5.1.6}%
 \contentsline {subsection}{\numberline {5.1.7}Document Workflow}{43}{subsection.5.1.7}%
 \contentsline {subsection}{\numberline {5.1.8}Extensibility}{43}{subsection.5.1.8}%
-\contentsline {section}{\numberline {5.2}Front-end UI}{44}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Front-end UI}{43}{section.5.2}%
 \contentsline {subsection}{\numberline {5.2.1}Frontend Architecture}{44}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Landing Page and User Onboarding}{45}{subsection.5.2.2}%
-\contentsline {subsubsection}{Landing Page Design and Layout}{45}{subsubsection*.50}%
-\contentsline {subsubsection}{Feature Presentation}{45}{subsubsection*.51}%
-\contentsline {subsubsection}{Educational Content}{45}{subsubsection*.52}%
-\contentsline {subsubsection}{Trust Indicators}{45}{subsubsection*.53}%
-\contentsline {subsection}{\numberline {5.2.3}Registration Flow and User Identity}{46}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Authentication System and Security Features}{48}{subsection.5.2.4}%
-\contentsline {subsubsection}{Mnemonic-Based Authentication}{48}{subsubsection*.57}%
-\contentsline {subsubsection}{PIN-Based Quick Access}{48}{subsubsection*.58}%
-\contentsline {subsubsection}{Secure Login Interface}{48}{subsubsection*.59}%
-\contentsline {subsection}{\numberline {5.2.5}User role specified UI}{49}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Additional registration steps}{50}{subsection.5.2.6}%
-\contentsline {subsection}{\numberline {5.2.7}Document Management Interface}{53}{subsection.5.2.7}%
-\contentsline {subsubsection}{Dashboard and Navigation}{53}{subsubsection*.69}%
-\contentsline {subsubsection}{Document Creation and Upload}{53}{subsubsection*.71}%
-\contentsline {subsubsection}{Document Signing Workflow}{54}{subsubsection*.72}%
-\contentsline {subsubsection}{Document History and Verification}{54}{subsubsection*.73}%
-\contentsline {subsection}{\numberline {5.2.8}Responsive Design and User Experience}{54}{subsection.5.2.8}%
-\contentsline {subsubsection}{Mobile-First Approach}{54}{subsubsection*.74}%
-\contentsline {subsubsection}{Cross-Browser Compatibility}{54}{subsubsection*.75}%
-\contentsline {subsection}{\numberline {5.2.9}Client-Side Security Implementation}{55}{subsection.5.2.9}%
-\contentsline {subsubsection}{Cryptographic Key Management}{55}{subsubsection*.76}%
-\contentsline {subsubsection}{Secure Communication}{55}{subsubsection*.77}%
-\contentsline {subsection}{\numberline {5.2.10}Internationalization and Localization}{55}{subsection.5.2.10}%
-\contentsline {subsection}{\numberline {5.2.11}Feature Accessibility by User Role}{55}{subsection.5.2.11}%
-\contentsline {subsubsection}{Public Features (Unauthorized Users)}{55}{subsubsection*.78}%
-\contentsline {subsubsection}{Authenticated User Features}{56}{subsubsection*.79}%
-\contentsline {subsection}{\numberline {5.2.12}Technology Integration and Performance}{56}{subsection.5.2.12}%
-\contentsline {chapter}{CONCLUSIONS}{57}{subsection.5.2.12}%
-\contentsline {chapter}{BIBLIOGRAPHY}{58}{chapter*.81}%
+\contentsline {subsection}{\numberline {5.2.2}Landing Page and User Onboarding}{44}{subsection.5.2.2}%
+\contentsline {subsubsection}{Landing Page Design and Layout}{45}{subsubsection*.49}%
+\contentsline {subsubsection}{Feature Presentation}{45}{subsubsection*.50}%
+\contentsline {subsubsection}{Educational Content}{45}{subsubsection*.51}%
+\contentsline {subsubsection}{Trust Indicators}{45}{subsubsection*.52}%
+\contentsline {subsection}{\numberline {5.2.3}User role specified UI}{46}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Additional registration steps}{47}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Document Management Interface}{50}{subsection.5.2.5}%
+\contentsline {subsubsection}{Dashboard and Navigation}{50}{subsubsection*.61}%
+\contentsline {subsubsection}{Document Creation and Upload}{50}{subsubsection*.62}%
+\contentsline {subsubsection}{Document Signing Workflow}{51}{subsubsection*.63}%
+\contentsline {subsubsection}{Document History and Verification}{51}{subsubsection*.64}%
+\contentsline {subsection}{\numberline {5.2.6}Responsive Design and User Experience}{51}{subsection.5.2.6}%
+\contentsline {subsubsection}{Mobile-First Approach}{51}{subsubsection*.65}%
+\contentsline {subsubsection}{Cross-Browser Compatibility}{51}{subsubsection*.66}%
+\contentsline {subsection}{\numberline {5.2.7}Client-Side Security Implementation}{52}{subsection.5.2.7}%
+\contentsline {subsubsection}{Cryptographic Key Management}{52}{subsubsection*.67}%
+\contentsline {subsubsection}{Secure Communication}{52}{subsubsection*.68}%
+\contentsline {subsection}{\numberline {5.2.8}Internationalization and Localization}{52}{subsection.5.2.8}%
+\contentsline {subsection}{\numberline {5.2.9}Feature Accessibility by User Role}{52}{subsection.5.2.9}%
+\contentsline {subsubsection}{Public Features (Unauthorized Users)}{52}{subsubsection*.69}%
+\contentsline {subsubsection}{Authenticated User Features}{53}{subsubsection*.70}%
+\contentsline {subsection}{\numberline {5.2.10}Technology Integration and Performance}{53}{subsection.5.2.10}%
+\contentsline {section}{\numberline {5.3}iOS Mobile Application}{53}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Mobile Architecture}{54}{subsection.5.3.1}%
+\contentsline {subsubsection}{Core Components}{54}{subsubsection*.71}%
+\contentsline {subsection}{\numberline {5.3.2}Authentication and Security}{54}{subsection.5.3.2}%
+\contentsline {subsubsection}{Biometric Integration}{54}{subsubsection*.72}%
+\contentsline {subsubsection}{Cryptographic Implementation}{55}{subsubsection*.74}%
+\contentsline {subsection}{\numberline {5.3.3}Document Management}{56}{subsection.5.3.3}%
+\contentsline {subsubsection}{Registration Flow}{56}{subsubsection*.76}%
+\contentsline {subsubsection}{Multi-Step Registration Process}{56}{subsubsection*.77}%
+\contentsline {subsubsection}{Deep Link Integration}{57}{subsubsection*.78}%
+\contentsline {subsubsection}{Document Creation}{57}{subsubsection*.79}%
+\contentsline {subsubsection}{Document Dashboard}{58}{subsubsection*.81}%
+\contentsline {subsubsection}{Document Details and Signing}{58}{subsubsection*.82}%
+\contentsline {subsection}{\numberline {5.3.4}Document Verification}{59}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}User Interface Design}{60}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Settings and Account Management}{60}{subsection.5.3.6}%
+\contentsline {subsection}{\numberline {5.3.7}Offline Capabilities and Caching}{61}{subsection.5.3.7}%
+\contentsline {subsection}{\numberline {5.3.8}Error Handling and User Feedback}{61}{subsection.5.3.8}%
+\contentsline {subsection}{\numberline {5.3.9}App Store Compliance}{62}{subsection.5.3.9}%
+\contentsline {section}{\numberline {5.4}DevOps \& Deployment}{62}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Cloud Infrastructure}{62}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}Mobile Application Deployment}{63}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}Containerization Strategy}{63}{subsection.5.4.3}%
+\contentsline {subsubsection}{Docker Configuration}{63}{subsubsection*.86}%
+\contentsline {subsubsection}{Docker Compose Orchestration}{63}{subsubsection*.87}%
+\contentsline {subsection}{\numberline {5.4.4}Continuous Integration and Deployment}{64}{subsection.5.4.4}%
+\contentsline {subsubsection}{CI/CD Workflow}{64}{subsubsection*.88}%
+\contentsline {subsubsection}{GitHub Actions Configuration}{64}{subsubsection*.89}%
+\contentsline {subsection}{\numberline {5.4.5}Database Management}{64}{subsection.5.4.5}%
+\contentsline {subsubsection}{Migration Strategy}{64}{subsubsection*.90}%
+\contentsline {subsubsection}{Database Security}{65}{subsubsection*.91}%
+\contentsline {subsection}{\numberline {5.4.6}Environment Configuration}{65}{subsection.5.4.6}%
+\contentsline {subsection}{\numberline {5.4.7}Monitoring and Logging}{65}{subsection.5.4.7}%
+\contentsline {subsection}{\numberline {5.4.8}Security Hardening}{66}{subsection.5.4.8}%
+\contentsline {subsection}{\numberline {5.4.9}Scalability Considerations}{66}{subsection.5.4.9}%
+\contentsline {subsection}{\numberline {5.4.10}Disaster Recovery}{67}{subsection.5.4.10}%
+\contentsline {chapter}{CONCLUSIONS}{68}{subsection.5.4.10}%
+\contentsline {chapter}{BIBLIOGRAPHY}{69}{chapter*.93}%

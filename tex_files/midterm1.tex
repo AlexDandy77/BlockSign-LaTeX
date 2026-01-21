@@ -197,8 +197,8 @@ However, adoption still faces some challenges:
 \begin{itemize}[leftmargin=1.5em]
     \item Legal frameworks vary widely across countries, slowing global standardization and interoperability.
     \item Many institutions remain comfortable with traditional notarization; change can feel risky.
-    \item Balancing high security with simplicity is tough—systems that are too complex won’t encourage adoption.
-    \item Public blockchains can struggle with scalability and can be costly for frequent use.
+    \item Balancing high security with simplicity is tough — systems that are too complex won’t encourage adoption.
+    \item Some blockchains can struggle with scalability and can be costly for frequent use.
 \end{itemize}
 
 
@@ -289,14 +289,14 @@ To address limitations of public blockchains (e.g., transaction fees, latency) a
 \chapter{Solution Proposal}
 Based on defined problems and domain research, it is evident that existing document management approaches face serious limitations. Physical records remain vulnerable to forgery, loss, and destruction, while digital records suffer from risks such as unauthorized modification, cyberattacks, and dependence on centralized authorities. Current protections, including digital signatures and certificate-based systems, mitigate some threats but are not sufficient to guarantee authenticity, long-term verifiability, and compliance with modern security standards. At the same time, regulatory frameworks such as GDPR and eIDAS demand solutions that ensure confidentiality, integrity, and accountability. These findings highlight the need for a system that not only secures documents but also provides transparency, privacy, and user trust.
 
-The proposed solution is a blockchain-based notarization platform that enables the creation, signing, and verification of documents in a secure and transparent manner. The platform leverages blockchain to store only the cryptographic hash of documents, ensuring immutability and tamper resistance without exposing sensitive content. This approach allows users to instantly verify document authenticity by comparing a locally computed hash with the one recorded on the blockchain, making the verification process fast, reliable, and independent of intermediaries.
+The proposed solution is a blockchain-based notarization platform that enables the creation, signing, and verification of documents in a secure and transparent manner. The platform leverages blockchain to store the payload of documents, ensuring immutability and tamper resistance without exposing sensitive content. This approach allows users to instantly verify document authenticity by matching a locally computed hash with the records on the blockchain, making the verification process fast, reliable, and independent of intermediaries.
 
 The architecture of the system is structured around four main components:
 \begin{enumerate}
     \item \textbf{Client Applications (Web and Mobile)} – provide users with an accessible interface to create, sign, and verify documents. Both platforms support multilingual functionality (English, Russian, Romanian) and integrate usability features such as search, filtering, and history tracking.
-    \item Authentication and Identity Management – user authentication is handled through Google OAuth2 and local registration flows, with strong password policies and multi-factor authentication (MFA) applied during sensitive operations such as signing. Identity verification relies on a one-time check of personal identifiers (e.g., IDNP), which are not stored long term, ensuring compliance with privacy regulations. Session management is secured with JWT tokens.
-    \item Application Server – coordinates document workflows, including creation, pending approvals, and signature collection. The server computes document hashes, manages participant approvals, and interacts with both the blockchain network and the database. It also enforces security controls such as input validation, secure APIs, and proper session handling.
-    \item Blockchain and Database Layer – the blockchain serves as a public, immutable ledger for document hashes, timestamps, and participant references, ensuring integrity and transparency. The database stores only operational metadata and user account information, excluding sensitive identity data. Together, these layers guarantee both system efficiency and data protection.
+    \item \textbf{Authentication and Identity Management} – user authentication is handled through challenge-response registration flows, with strong security policies and multi-factor authentication (FaceID) applied during sensitive operations such as signing. Identity verification relies on a one-time check of personal identifiers (e.g., IDNP), which are not stored long term, ensuring compliance with privacy regulations. Session management is secured with JWT tokens.
+    \item \textbf{Application Server} – coordinates document workflows, including creation, pending approvals, and signature collection. The server computes document hashes, manages participant approvals, and interacts with both the blockchain network and the database. It also enforces security controls such as input validation, secure APIs, and proper session handling.
+    \item \textbf{Blockchain and Database Layer} – the blockchain serves as a public, immutable ledger for document hashes, timestamps, and participant references, ensuring integrity and transparency. The database stores only operational metadata and user account information, excluding sensitive identity data. Together, these layers guarantee both system efficiency and data protection.
 \end{enumerate}
 
 Functionally, the platform supports a full document lifecycle: registration and identity verification, creation and upload of documents, participant assignment, approval workflows, signing, and final notarization on the blockchain (Figure \ref{signing-verifying}). Each step is backed by security controls, ensuring that fraudulent activity, tampering, or unauthorized access is either prevented or immediately detectable.
@@ -326,34 +326,34 @@ This section describes the architectural backbone of the project, mainly Functio
 \subsection{Functional Requirements}
 The application is designed around three primary user roles:
 \begin{enumerate}
-    \item \textbf{Unauthorized users}, who may access only the main page and perform registration or login.
-    \item \textbf{Authorized users}, who gain full access to document-related services such as creation, signing, verification, and account management.
+    \item \textbf{Unauthorized users}, who may access the main page, perform registration or login, as well as verify a document.
+    \item \textbf{Authorized users}, who gain full access to document-related services such as creation, signing, and account management.
     \item \textbf{Administrators}, who are responsible for managing the user database and can access limited user information when necessary.
 \end{enumerate}
 
 The system incorporates a wide set of functions to support these roles. First, it provides multilingual support, ensuring that the entire interface is available in English, Russian, and Romanian. The main page allows navigation to registration, login, and account pages, as well as a mail integration for sending quick requests to support.
 
-On the documents page, authorized users may create new documents by uploading files through a drag-and-drop interface, specifying the parties involved, and submitting them for signing. Pending documents appear in the personal cabinet of each participant until all signatures are collected. At the same time, users can verify documents by uploading a file, generating its hash, and comparing it with blockchain records. If no match is found, a notification is displayed.
+On the documents page, authorized users may create new documents by uploading files through a drag-and-drop interface, specifying the parties involved, and submitting them for signing. Pending documents appear in the personal cabinet of each participant until all signatures are collected. At the same time, users can verify documents by uploading a file. System generates the hash, and performs a search to check for related blockchain records. If no match is found, a notification is displayed.
 
-The account page contains a full history of signed and pending documents. Each entry provides a preview, the date, file size, hash, status, and the option to download. Account management includes editing personal details, changing passwords, enabling multi-factor authentication, verifying a phone number, and connecting an authenticator app.
+The account page contains a full history of signed and pending documents. Each entry provides a name, status, date, owner, participants, signature, and the option to download \& view. Account management includes editing personal details and enabling multi-factor authentication.
 
-Additional functionality is provided through search and filters, which allow users to locate documents based on keywords, sides, or metadata. Pending documents can be opened in a PDF viewer for review and signed electronically. Once the final party signs, the system hashes the document and records it immutably on the blockchain.
+Additional functionality is provided through search and filters, which allow users to locate documents based on keywords, status, or metadata. Pending documents can be opened in a PDF viewer for review and signed electronically. Once the final party signs, the system prepares the payload of the document and records it immutably on the blockchain.
 
-Finally, the system enforces secure authorization and registration flows. Users may authenticate through Google OAuth 2.0 or via local registration (Figure \ref{oauth-mechanism}). 
+Finally, the system enforces secure authorization and registration flows. Users may authenticate on any device through secure challenge-response mechanism (Figure \ref{challenge-response}). 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/oauth-mechanism.jpg"}
-    \caption{OAuth Mechanism Description}
-    \label{oauth-mechanism}
+    \includegraphics[width=18cm]{"images/challenge-response.png"}
+    \caption{Challenge-Response Mechanism}
+    \label{challenge-response}
 \end{figure}
 
-Registration follows a structured, multi-step process: (1) account creation with password and phone validation, (2) email verification through a six-digit code, and (3) submission of identity data (IDNP, birth date, selfie) for administrative approval. A password recovery mechanism is also implemented, allowing users to initiate a reset request by email, verify the reset code, and set a new password meeting complexity requirements .
+Registration follows a structured, multi-step process: (1) email verification through a six-digit code, (2) user data entry, and (3) submission of identity data (IDNP, birth date, selfie) for administrative approval.
 
 \subsection{Non-Functional Requirements}
 Beyond functionality, the application is governed by several non-functional requirements that ensure its performance, usability, and security.
 
-From a performance perspective, documents themselves are never stored on the blockchain. Instead, only their final cryptographic hash is recorded. This guarantees integrity verification without exposing sensitive content or overloading the ledger.
+From a performance perspective, documents themselves are never stored on the blockchain. Instead, only their payload is recorded. This guarantees integrity verification without exposing sensitive content or overloading the ledger.
 
 Regarding usability, the system is designed as both a web application and a mobile application, ensuring broad accessibility. To support a diverse user base, the entire interface is available in three languages: English, Russian, and Romanian.
 
@@ -371,7 +371,7 @@ In terms of security, the platform adopts multiple protective measures:
     \label{jwt-mechanism}
 \end{figure}
 
-Finally, the system adheres to privacy and compliance standards. The blockchain stores only document hashes, with no personal data or file content, ensuring confidentiality and compliance with data protection principles.
+Finally, the system adheres to privacy and compliance standards. The blockchain stores only document payload, with no personal data or file content, ensuring confidentiality and compliance with data protection principles.
 
 
 \section{Behavioral Modeling}
@@ -380,7 +380,7 @@ To capture the dynamic aspects of the system and illustrate how users and compon
 \subsection{Use Case Diagrams}
 The use case diagrams represent the primary interactions between different user roles and the system, highlighting the functionalities available to each category of user. There are four main use cases described:
 \begin{enumerate}
-    \item \textbf{Registration process:} The Figure \ref{uml-use-registration} illustrates the registration process for an unauthenticated user. The actor initiates the flow by selecting the option to register into the system. The process includes several mandatory steps such as filling in registration data, providing personal information, verifying the email, and awaiting administrator approval. An optional extension allows the user to authenticate through Google OAuth as part of the email verification step. The diagram highlights the dependencies between activities using «include» and «extend» relationships, showing that registration is a structured, multi-step procedure designed to ensure security and identity verification.
+    \item \textbf{Registration process:} The Figure \ref{uml-use-registration} illustrates the registration process for an unauthenticated user. The actor initiates the flow by selecting the option to register into the system. The process includes several mandatory steps such as filling in registration data, providing personal information, verifying the email, and awaiting administrator approval. The diagram highlights the dependencies between activities using «include» relationships, showing that registration is a structured, multi-step procedure designed to ensure security and identity verification.
     \begin{figure}[H]
         \centering
         \includegraphics[width=18cm]{"images/umlDiagrams/uml-use-registration.png"}
@@ -396,7 +396,7 @@ The use case diagrams represent the primary interactions between different user 
         \label{uml-use-create}
     \end{figure}
 
-    \item \textbf{Document Verification:} The Figure \ref{uml-use-verify} depicts the process of verifying a document by an authenticated user. The actor initiates the verification by uploading the document and providing the participants’ identifiers. The system then calculates the cryptographic hash of the uploaded file and performs a check against existing blockchain records. If a corresponding hash is found, the document is confirmed as authentic and unaltered; otherwise, the system indicates that no match exists. This diagram highlights the structured verification workflow, where hashing and blockchain lookups ensure document integrity and transparency in the verification process.
+    \item \textbf{Document Verification:} The Figure \ref{uml-use-verify} depicts the process of verifying a document by an authenticated user. The actor initiates the verification by uploading the document and submiting for verification. The system then calculates the cryptographic hash of the uploaded file and performs a check against existing blockchain records. If a corresponding record exists, the document is confirmed as authentic and unaltered; otherwise, the system indicates that no match exists. This diagram highlights the structured verification workflow, where hashing and blockchain lookups ensure document integrity and transparency in the verification process.
     \begin{figure}[H]
         \centering
         \includegraphics[width=18cm]{"images/umlDiagrams/uml-use-verify.png"}
@@ -415,7 +415,7 @@ The use case diagrams represent the primary interactions between different user 
 
 \subsection{Sequence Diagrams}
 The sequence diagrams illustrate the chronological flow of actions and messages for key scenarios, showing how the system components collaborate to achieve the intended operations.\begin{enumerate}
-    \item \textbf{Registration process:} The Figure \ref{uml-sequence-registration} illustrates the registration workflow for an unauthenticated user. The process begins when the user initiates registration, which triggers the client interface to start the registration procedure and confirm the initiation with the server. The client then renders the registration window where the user provides personal data. At this point, the server initiates an email verification by sending a code to the user’s email account. The client displays this code input field, and the user submits the verification code to confirm the email. The server validates the code and returns a response, which the client displays as a status message. Once verified, the user submits the full registration data, and the server saves the request, confirms the creation, and the client interface updates the UI to reflect successful registration. This sequence diagram emphasizes the interaction between the user, client UI, server, and email service to ensure secure and validated registration.
+    \item \textbf{Registration process:} The Figure \ref{uml-sequence-registration} illustrates the registration workflow for an unauthenticated user. The process begins when the user initiates registration, which triggers the client interface to start the registration procedure and confirm the initiation with the server. The client then renders the registration window where the user provides his email. At this point, the server initiates an email verification by sending a code to the user’s email account. The client displays this code input field, and the user submits the verification code to confirm the email. The server validates the code and user can contunue to introduce personal data. The user submits the full registration data, and the server saves the request, confirms the creation, and the client interface updates the UI to reflect successful registration request. This sequence diagram emphasizes the interaction between the user, client UI, server, and email service to ensure secure and validated registration.
     \begin{figure}[H]
         \centering
         \includegraphics[width=18cm]{"images/umlDiagrams/uml-sequence-registration.png"}
@@ -431,7 +431,7 @@ The sequence diagrams illustrate the chronological flow of actions and messages 
         \label{uml-sequence-create}
     \end{figure}
 
-    \item \textbf{Document Verification:} The Figure \ref{uml-sequence-verify} shows the workflow for document verification by an authorized user. The process begins when the user initiates the verification through the client interface, which renders the UI. The user uploads the document and enters the participants’ IDs before confirming the action. The client then sends a verification request to the server. The server computes a cryptographic hash of the uploaded file and queries the blockchain to check whether a matching record already exists. The blockchain responds with the result of the lookup, which the server forwards back to the client. Finally, the client displays the verification outcome to the user. This diagram highlights the critical interaction between user actions, system components, and blockchain infrastructure to ensure document authenticity and integrity.
+    \item \textbf{Document Verification:} The Figure \ref{uml-sequence-verify} shows the workflow for document verification by an authorized user. The process begins when the user initiates the verification through the client interface, which renders the UI. The user uploads the document and submits the form. The client then sends a verification request to the server. The server computes a cryptographic hash of the uploaded file and queries the blockchain to check whether a matching record already exists. The blockchain responds with the result of the lookup, which the server forwards back to the client. Finally, the client displays the verification outcome to the user. This diagram highlights the critical interaction between user actions, system components, and blockchain infrastructure to ensure document authenticity and integrity.
     \begin{figure}[H]
         \centering
         \includegraphics[width=18cm]{"images/umlDiagrams/uml-sequence-verify.png"}
@@ -464,9 +464,7 @@ The Document class represents notarized files with properties like ID, title, ow
     \label{uml-class-core-domain}
 \end{figure}
 
-Additionally, the system maintains VerificationRecords, which store blockchain-related data like hash values, algorithms, anchoring timestamps, and network references. These records provide functions to verify integrity, check anchoring, and generate summaries.
-
-Altogether, this diagram highlights how users, roles, documents, participants, signatures, and verification records interact. It reflects a cohesive domain model where documents are securely managed, signed by multiple parties, and validated against blockchain anchors to ensure integrity and trustworthiness.
+Altogether, this diagram highlights how users, documents, participants, signatures, and registration requests interact. It reflects a cohesive domain model where documents are securely managed, signed by multiple parties, and validated against blockchain anchors to ensure integrity and trustworthiness.
 
 \section{Figma User Interface Mockups}
 The landing page (Figure \ref{landing1}) is the first page seen by the user when entering the site, so it gives the user a clear description of the functionality the service provides. 
@@ -476,134 +474,106 @@ The design focuses on clarity, minimalism, and trust-building by including brand
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/landing-top.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/landing-top.png"}
     \caption{Landing page}
     \label{landing1}
 \end{figure}
 
-The login page (Figure \ref{login}) has the possibility of entering via email and password, as well as entering through existing accounts in services such as Google. 
+The login page (Figure \ref{login}) gives user the possibility of entering via email and seed phrase. 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/login-crop.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/login-crop.png"}
     \caption{Login page}
     \label{login}
 \end{figure}
 
-It also contains a \textbf{``Forgot password?''} option to help users recover their credentials securely. 
 The design maintains a simple, uncluttered layout to make the login process quick and intuitive. 
-Security measures such as preventing brute-force attempts or notifying users of suspicious logins are typically included in the backend to protect user data.
+Security measures such as preventing brute-force attempts or notifying users of suspicious logins are included in the backend to protect user data.
 
-The registration page (Figure \ref{register}) provides the user with the possibility to create an account in the service and lets the use of other services such as Google to provide the information needed to service. 
-The form includes basic personal data such as full name, email, and password, while enforcing password strength requirements. 
-The integration with third-party authentication providers ensures faster registration and reduces errors during manual data entry.
+The registration page (Figure \ref{registerstep1}) provides the user with the possibility to create an account in the service. The first step is to enter the email to which will be sent a verification code. This step ensures the validity of the email and protects against fake accounts. Without confirmation, the user cannot proceed to the next steps, which increases platform reliability and security. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/register1-crop.png"}
+    \includegraphics[width=18cm]{"images/figmaUI/registerstep2.png"}
     \caption{Register page - User info}
-    \label{register}
-\end{figure}
-
-The second step of registration (Figure \ref{registerstep2}) is a confirmation of the user's email. 
-An email with a verification link or code is sent to the address provided. 
-This step ensures the validity of the email and protects against fake accounts. 
-Without confirmation, the user cannot proceed to the next steps, which increases platform reliability and security. 
-
-\begin{figure}[H]
-    \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/registerstep2.png"}}
-    \caption{Register - Verifying the email}
     \label{registerstep2}
 \end{figure}
 
-The third step of registration (Figure \ref{registerstep3}) is a confirmation of identity using sensitive personal data that is not stored or used after verification. 
-This step may include providing a government-issued ID or other verification methods, processed through a secure third-party provider. 
-The system uses these checks only to validate the authenticity of the user, ensuring compliance with regulations while safeguarding privacy. 
+The second step of registration (Figure \ref{registerstep2}) is submitting the form with personal data, which indludes: full name, username, phone number, idnp, birth date and a selfie. 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=18cm]{"images/figmaUI/register3-crop.png"}
-    \caption{Register - Confirming the identity}
-    \label{registerstep3}
+    \includegraphics[width=18cm]{"images/figmaUI/registerstep1.png"}
+    \caption{Register - Verifying the email}
+    \label{registerstep1}
 \end{figure}
 
-Then the user sees the successful finish (Figure \ref{successregister}) screen and is redirected to his account. 
-This page confirms that the registration has been completed, and it often includes a ``Go to Dashboard'' or ``Start Now'' button. 
-It reassures the user with a confirmation message and sometimes provides short onboarding tips or links to documentation.
+After submitting the form the user sees the successful request (Figure \ref{successregister}) screen. 
+This page confirms that the registration request was created and now user should await admin approval. 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/successregister.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/successregister.png"}
     \caption{Register - Successful finish}
     \label{successregister}
 \end{figure}
 
-When authorized, the user gets access to the main features of the platform: documents (Figures \ref{documentspage1}, \ref{documentspage2}), and account settings (Figures \ref{accountspage-account-protection}, \ref{accountspage-documents}).
+After confirmation, the user can finish registration process by following the link from the email and generating the seed phrase. Once this is done, the user gets access to the main features of the platform: documents (Figures \ref{documentspage1}), and account settings (Figures \ref{accountspage-account-protection}, \ref{accountspage-documents}).
 
-The documents page has 2 main functionalities: uploading (Figure \ref{documentspage1}) and creating a session of signing the document, and verifying (Figure \ref{documentspage2}) whether a file with the given users was ever signed. 
-This structure makes the page a central hub for all document-related operations. 
+The documents page has 2 main functionalities: verifying a document (Figure \ref{documentspage1}) and creating a new document (Figure \ref{documentspage2}). This structure makes the page a central hub for all document-related operations. 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/documentspage1-crop.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/documentspage1-crop.png"}
     \caption{Documents page - Verify an existing document}
     \label{documentspage1}
 \end{figure}
 
-The results of verifying might be only ``exists'' (Figure \ref{documents-exists}) or ``does not exist'' (Figure \ref{documents-noinstance}). 
-When a document is confirmed as existing, metadata such as the signing parties, date, and document ID may be shown. 
-If the document is not found, the system suggests uploading it for signing or checking the entered details again.
+The results of verifying might be only ``verified'' (Figure \ref{documents-exists}) or ``not found'' (Figure \ref{documents-noinstance}). 
+When a document is confirmed as existing, metadata such as the signing parties, date, document ID, owner are shown. 
+If the document is not found, the system displays a message that there is no such document anchored to the blockchain.
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/success-crop.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/success-crop.png"}
     \caption{Documents page - Existing instance of document}
     \label{documents-exists}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/unsuccess-crop.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/unsuccess-crop.png"}
     \caption{Documents page - Not existing instance of document}
     \label{documents-noinstance}
 \end{figure}
 
-On the upload option (Figure \ref{documentspage2}) the session of signing the document is created by adding the sides of the signing via account name/id. 
-The user can invite multiple parties, define the order of signing, and set additional security measures such as signing deadlines. 
-The interface ensures that uploaded files are stored securely and encrypted until the signing process is complete.
+On the document creation option (Figure \ref{documentspage2}) user can select a document and tag multiple parties. 
+The system ensures that uploaded files are stored securely and encrypted until the signing process is complete.
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/documentspage2-crop.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/documentspage2-crop.png"}
     \caption{Documents page - Upload and sign the document}
     \label{documentspage2}
 \end{figure}
 
-The account page gives the ability to manage the user account and protection settings (Figure \ref{accountspage-account-protection}) as well as view and sign documents (Figure \ref{accountspage-documents}). 
-This separation into tabs makes navigation straightforward and intuitive. 
-
-The account tab allows customization of the previously introduced personal information, including name, email, and profile image. 
-It also enables linking or unlinking third-party login services. 
+The account page gives the ability to view the user details and set protection settings (Figure \ref{accountspage-account-protection}). 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/accountspage-account-protection.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/accountspage-account-protection.png"}
     \caption{Account page - Possibility to modify personal info and protection methods}
     \label{accountspage-account-protection}
 \end{figure}
 
-The protection tab provides the possibility to change password and enable multi-factor authentication. 
-It may also include login history, trusted devices, and alerts for unauthorized access. 
-This improves transparency and enhances user trust in the platform.
+The protection tab provides the possibility to change PIN, it may also include login history, trusted devices, and alerts for unauthorized access. 
 
-The documents tab (Figure \ref{accountspage-documents}) gives the user a list of their documents and pending requests. 
-Users can view details such as status (signed, pending, declined), participants, and timestamps. 
-From this tab, the user can also directly open a document for review or initiate a new signing process. 
+The documents tab (Figure \ref{accountspage-documents}) gives the user a list of their active and pending documents. 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/figmaUI/accountspage-documents-crop.png"}}
+    \includegraphics[width=18cm]{"images/figmaUI/accountspage-documents-crop.png"}
     \caption{Account page - View of the documents}
     \label{accountspage-documents}
 \end{figure}

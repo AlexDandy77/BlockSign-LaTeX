@@ -954,6 +954,7 @@
       \strng{authornamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
       \strng{authorfullhash}{ef7f3b7689c599789c4b723c5b4b7e28}
       \strng{authorfullhashraw}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \field{extraname}{1}
       \field{sortinit}{4}
       \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
@@ -990,6 +991,33 @@
       \endverb
       \verb{url}
       \verb https://github.com/NeValetik/BlockSign-FrontEnd
+      \endverb
+    \endentry
+    \entry{ios_mobile_blocksign_nodate}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=ef7f3b7689c599789c4b723c5b4b7e28}{%
+           family={{Alexei Pavlovschii}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{fullhash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{fullhashraw}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{bibnamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorbibnamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authornamehash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorfullhash}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \strng{authorfullhashraw}{ef7f3b7689c599789c4b723c5b4b7e28}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BlockSign iOS}
+      \verb{urlraw}
+      \verb https://github.com/AlexDandy77/BlockSign-iOS
+      \endverb
+      \verb{url}
+      \verb https://github.com/AlexDandy77/BlockSign-iOS
       \endverb
     \endentry
   \enddatalist

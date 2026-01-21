@@ -1,6 +1,6 @@
 % PART 5: Practical Implementation
 \chapter{Practical Implementation}
-The Project repositories are hosted on GitHub, are public and can be accessed by following these references: Back-end Core Logic\cite{alexei_pavlovschii_blocksign_nodate} and Front-end User Interface\cite{vladimir_vitcovschii_blocksign_nodate}.
+The Project repositories are hosted on GitHub, are public and can be accessed by following these references: Back-end Core Logic\cite{alexei_pavlovschii_blocksign_nodate}, Front-end User Interface\cite{vladimir_vitcovschii_blocksign_nodate} and iOS Mobile\cite{ios_mobile_blocksign_nodate}.
 
 \section{Back-end architecture}
 The back-end of the system has been developed with a focus on scalability, modularity, and security. Its purpose is to provide all the critical functionality required for user registration, authentication, document management, and secure verification of signatures (Figure \ref{main-project-routers}). 
@@ -74,7 +74,7 @@ Participants selected by the creator receive an email with the PDF attached and 
 Their signatures are then added to the database. Once all required signatures are collected, the document status changes to signed, and a notification is sent to all involved parties.
 
 \subsection{Extensibility}
-The modular design of the back-end makes it adaptable to future improvements. Currently, documents are distributed as email attachments, but the system is ready for integration with external storage providers such as AWS S3. The ChainAnchor entity in the future versions of database will anticipate the anchoring of finalized document hashes on blockchain networks. Similarly, while usernames are currently used to tag participants, the design leaves room for later integration with decentralized identity systems.
+The modular design of the back-end makes it adaptable to future improvements. Currently, the project works on Polygon blockchain, but there can be added the functionality of choosing the blockchain network by the document creator. Similarly, while usernames are currently used to tag participants, the design leaves room for later integration with decentralized identity systems or phone book integrations.
 
 \section{Front-end UI}
 The front-end of the BlockSign system represents a modern, secure, and user-centric web application built using cutting-edge technologies. The implementation emphasizes client-side security, responsive design, and intuitive user experience while maintaining the highest standards of cryptographic security.
@@ -144,98 +144,50 @@ The page incorporates various trust indicators to build user confidence:
 
 The user onboarding process is designed to be intuitive and secure, guiding users through each step of the registration and setup process with clear instructions and visual feedback. Progressive disclosure techniques are used to avoid overwhelming new users while ensuring they understand the security implications of their actions.
 
-\subsection{Registration Flow and User Identity}
-The registration process implements a multi-step verification system that ensures user authenticity while maintaining privacy. The flow begins with basic user information collection and email verification through OTP (One-Time Password) codes.
-
-Users receive an email containing a six-digit verification code that must be entered to proceed with the registration (Figure \ref{registration-email}).
-
-\begin{figure}[H]
-    \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/codeMail.png"}}
-    \caption{Email Verification Code}
-    \label{registration-email}
-\end{figure}
-
-The registration form captures essential user information including full name, email, phone number, and IDNP (personal identification number) for identity verification purposes (Figure \ref{registration-form}).
-
-\begin{figure}[H]
-    \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/register.png"}}
-    \caption{User Registration Form}
-    \label{registration-form}
-\end{figure}
-
-Upon successful submission, users see a confirmation page indicating that their registration request has been submitted for administrative review (Figure \ref{registration-success}).
-
-\begin{figure}[H]
-    \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/thankYou.png"}}
-    \caption{Registration Success Confirmation}
-    \label{registration-success}
-\end{figure}
-
-Once the administrator approves the registration request, users receive a notification email to complete their account setup.
-
-\subsection{Authentication System and Security Features}
-The authentication system implements a passwordless approach using cryptographic key pairs and mnemonic phrases. This section details the user interface components that facilitate secure authentication while maintaining usability.
-
-\subsubsection{Mnemonic-Based Authentication}
-After registration approval, users are guided through a secure key generation process. The system generates a 12-word mnemonic phrase that serves as the master key for the user's cryptographic identity. This approach ensures that users maintain complete control over their authentication credentials without relying on traditional password-based systems.
-
-The mnemonic phrase generation interface provides clear instructions for users to securely store their recovery phrase (Figure \ref{mnemonic-phrase}). The interface emphasizes the importance of keeping the phrase secure and warns users about the consequences of losing access to it.
-
-Users are presented with additional security options, including the ability to set up a PIN for convenient access while maintaining the security of the mnemonic phrase (Figure \ref{security-method}). This dual-layer approach balances security with user convenience.
-
-\subsubsection{PIN-Based Quick Access}
-For enhanced user experience, the system offers an optional PIN-based authentication method that allows users to access their accounts without entering the full mnemonic phrase for routine operations (Figure \ref{pin-for-site}). The PIN is stored locally and encrypted using the user's public key, ensuring that it cannot be used without the corresponding private key.
-
-\subsubsection{Secure Login Interface}
-The login interface (Figure \ref{mnemonic-login}) supports both mnemonic phrase authentication and PIN access. 
-
-\begin{figure}[H]
-    \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/mnemonicLogin.png"}}
-    \caption{Mnemonic-Based Login Interface}
-    \label{mnemonic-login}
-\end{figure}
-
-Users can choose their preferred authentication method based on their security preferences and usage patterns. The interface provides clear feedback during the authentication process and includes security features such as automatic session timeout and secure token management.
-
 \subsection{User role specified UI}
 The authorized user is represented by the possibility to view his account info in the header as well as having acess to the authorized only pages (Figure \ref{header-account-user}).
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/headerAccountUser.png"}}
+    \includegraphics[width=18cm]{"images/siteUI/headerAccountUser.png"}
     \caption{Header Account User}
     \label{header-account-user}
-\end{figure}
-
-Also there is some difference for the admin header, it has additional button to navigate to the admin console (Figure \ref{header-account-admin}).
-
-\begin{figure}[H]
-    \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/headerAccountAdmin.png"}}
-    \caption{Header Account Admin}
-    \label{header-account-admin}
 \end{figure}
 
 Navigating to the admin console will lead to the page, where admin can confirm or reject the registration requests (Figure \ref{admin-console}). 
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/adminConsole.png"}}
+    \includegraphics[width=18cm]{"images/siteUI/adminConsole.png"}
     \caption{Admin Console}
     \label{admin-console}
 \end{figure}
 
-The requests are listed in the table with the user information: Full Name, Email, Phone, IDNP and Action: Approve or Deny. If there are no requests, the page will display message: "No active requests" (Figure \ref{admin-console-empty}).
+The requests are listed in the table with the user information: Full Name, Email, Phone, IDNP and Action: Approve or Decline. If there are no requests, the page will display message: "No active requests" (Figure \ref{admin-console-empty}).
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/adminConsoleNoRequests.png"}}
+    \includegraphics[width=18cm]{"images/siteUI/adminConsoleNoRequests.png"}
     \caption{Admin Console Empty}
     \label{admin-console-empty}
+\end{figure}
+
+Administrator also have the ability to view the blockchain details such as: wallet information, which includes address, network, balance, total number of anchored documents (Figure \ref{wallet-details}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=18cm]{"images/siteUI/wallet-details.png"}
+    \caption{Blockchain \& Wallet}
+    \label{wallet-details}
+\end{figure}
+
+There is as well the list of all anchored documents and overall statistics (Figure \ref{blockchain-docs-details}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=18cm]{"images/siteUI/blockchain-docs-details.png"}
+    \caption{Blockchain Documents Details}
+    \label{blockchain-docs-details}
 \end{figure}
 
 \subsection{Additional registration steps}
@@ -244,7 +196,7 @@ After that an email with the finish of the registration process is sent to the u
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/finishRegMail.png"}}
+    \includegraphics[width=18cm]{"images/siteUI/finishRegMail.png"}
     \caption{Finish Registration Mail}
     \label{finish-registration-mail}
 \end{figure}
@@ -253,7 +205,7 @@ The email contains a button which redirects user directly to finish registration
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/mnemonicPhrase.png"}}
+    \includegraphics[width=18cm]{"images/siteUI/mnemonicPhrase.png"}
     \caption{Mnemonic Phrase}
     \label{mnemonic-phrase}
 \end{figure}
@@ -262,34 +214,16 @@ The phrase is generated on each refresh, but is valid only after clicking the bu
 
 \begin{figure}[H]
     \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/securityMethod.png"}}
+    \includegraphics[width=18cm]{"images/siteUI/securityMethod.png"}
     \caption{Security Method Selection}
     \label{security-method}
-\end{figure}
-
-The PIN-code is a shorter way to access the account and site functionality to avoid using the mnemonic phrase every time (Figure \ref{pin-for-site}). 
-
-\begin{figure}[H]
-    \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/pinForSite.png"}}
-    \caption{PIN Setup for Convenient Access}
-    \label{pin-for-site}
 \end{figure}
 
 \subsection{Document Management Interface}
 The document management system provides users with comprehensive tools for uploading, signing, and managing digital documents. The interface is designed to streamline the document workflow while maintaining the highest security standards.
 
 \subsubsection{Dashboard and Navigation}
-Once authenticated, users are presented with a clean and intuitive dashboard that provides access to all document-related functionality. The dashboard displays recent document activity, pending signature requests, and quick access to document creation tools (Figure \ref{logged-in-dashboard}).
-
-\begin{figure}[H]
-    \centering
-    \adjustbox{fbox,center}{\includegraphics[width=18cm]{"images/siteUI/logedIn.png"}}
-    \caption{User Dashboard After Login}
-    \label{logged-in-dashboard}
-\end{figure}
-
-The navigation system is designed to be intuitive, with clear visual indicators for different user roles and permissions. Authorized users can easily access their document library, create new documents, and manage their account settings.
+Once authenticated, users are presented with a clean and intuitive dashboard that provides access to all document-related functionality. The dashboard displays recent document activity, pending signature requests, and quick access to document creation tools. Navigation system is designed to be intuitive, with clear visual indicators for different user roles and permissions. Authorized users can easily access their document library, create new documents, and manage their account settings.
 
 \subsubsection{Document Creation and Upload}
 The document creation process guides users through uploading PDF files and configuring signature requirements. The interface includes drag-and-drop functionality for easy file upload, along with validation to ensure only supported file formats are accepted.
@@ -381,3 +315,185 @@ The frontend implementation leverages modern web technologies to provide optimal
     \item \textbf{Caching Strategy}: Strategic use of browser caching for static assets and API responses
     \item \textbf{Progressive Loading}: Incremental content loading to improve perceived performance
 \end{itemize}
+
+\section{iOS Mobile Application}
+The BlockSign iOS application extends the platform's capabilities to mobile devices, providing users with a native, secure, and user-friendly experience for managing digital signatures on the go. Built using SwiftUI and following Apple's Human Interface Guidelines, the application maintains feature parity with the web platform while leveraging iOS-specific capabilities for enhanced security and usability.
+
+\subsection{Mobile Architecture}
+The iOS application follows the MVVM (Model-View-ViewModel) architectural pattern, ensuring clear separation of concerns and maintainable code structure. The architecture is designed to handle offline scenarios gracefully while maintaining cryptographic security standards.
+
+\subsubsection{Core Components}
+The application is structured around several key architectural components that work together to provide a seamless user experience. The Models layer defines data structures representing users, documents, signatures, and registration workflows, ensuring type-safe data handling throughout the application. ViewModels serve as the business logic layer, managing authentication flows, document operations, and registration processes while maintaining clean separation from the presentation layer. The Views layer consists of SwiftUI-based user interface components that provide intuitive navigation and interaction patterns optimized for mobile devices. Services provide utility modules for critical functions including API communication, biometric authentication, and cryptographic operations. Finally, the Utils layer includes helper functions for BIP-39 mnemonic generation, application theming, and configuration management, supporting the core functionality with reusable utilities.
+
+\subsection{Authentication and Security}
+The mobile application implements passwordless authentication using Ed25519 digital signatures, maintaining consistency with the web platform's security model. Users authenticate by signing cryptographic challenges with their private keys, which are securely derived from BIP-39 mnemonic phrases.
+
+\subsubsection{Biometric Integration}
+The iOS application leverages native biometric authentication capabilities to provide seamless and secure access. Face ID serves as the primary biometric authentication method on supported devices, offering quick and secure access without requiring manual credential entry. For devices without Face ID (Figure \ref{mobile-login}), Touch ID provides an alternative biometric option, ensuring all users can benefit from biometric security. Mnemonic phrases and private keys are stored securely using iOS Keychain Services, which provides hardware-backed encryption on devices with Secure Enclave. The application integrates deeply with the LocalAuthentication framework to handle biometric verification, including fallback scenarios and user cancellation gracefully.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{images/mobileUI/1.PNG}
+    \caption{iOS login screen with email entry}
+    \label{mobile-login}
+\end{figure}
+
+\subsubsection{Cryptographic Implementation}
+The application implements client-side cryptography using native Swift libraries and carefully selected third-party packages to ensure maximum security and compatibility. The BIP-39 implementation handles mnemonic phrase generation and validation following Bitcoin Improvement Proposal 39 standards, ensuring compatibility with industry-standard wallet recovery mechanisms. For key derivation, the application uses SLIP-0010 to generate hierarchical deterministic Ed25519 keys from the mnemonic phrase, allowing for secure and reproducible key generation. Ed25519 signature generation and verification are implemented using a pure Swift implementation, eliminating external dependencies for this critical security function. Document integrity verification relies on SHA-256 hashing implemented through the CommonCrypto framework, providing fast and reliable hash computation. When users opt for additional security with PIN codes, the application employs PBKDF2 for key derivation, adding an extra layer of protection. All cryptographic operations are performed locally on the device, ensuring that private keys never leave the user's control.
+
+\subsection{Document Management}
+The mobile application provides comprehensive document management capabilities optimized for touch interfaces (Figure \ref{mobile-documents}):
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{images/mobileUI/2.png}
+    \caption{My Documents dashboard with status indicators}
+    \label{mobile-documents}
+\end{figure}
+
+\subsubsection{Registration Flow}
+The application provides a streamlined registration experience with deep link support for email verification:
+
+\subsubsection{Multi-Step Registration Process}
+The registration workflow guides users through several verification steps:
+
+\begin{enumerate}
+    \item \textbf{Email Entry}: Initial email address submission with validation
+    \item \textbf{OTP Verification}: Six-digit code entry with automatic submission upon completion
+    \item \textbf{User Details}: Personal information including full name, phone number, and IDNP
+    \item \textbf{Request Submission}: Pending approval status with clear user feedback
+    \item \textbf{Email Verification}: Deep link activation via email notification
+    \item \textbf{Mnemonic Generation}: Client-side seed phrase creation with secure storage instructions
+    \item \textbf{Account Completion}: Final setup including public key registration and signature verification
+\end{enumerate}
+
+\subsubsection{Deep Link Integration}
+The application implements custom URL scheme handling for seamless email-to-app transitions. A custom blocksign:// protocol enables deep linking, allowing email notifications to open the app directly to specific screens. The application securely extracts registration tokens from deep link URLs, validating them before processing to prevent malicious link exploitation. State management ensures proper handling of the app state during deep link activation, whether the app is in the foreground, background, or not running. For users who haven't installed the app, the system provides a web-based completion option as a fallback, ensuring the registration process can be completed regardless of platform availability.
+
+\subsubsection{Document Creation}
+Users can create new signing requests directly from their mobile devices (Figure \ref{mobile-create-document}).
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/mobileUI/3.PNG}
+    \caption{Create new document interface with participant management}
+    \label{mobile-create-document}
+\end{figure}
+
+The native file picker integration allows for seamless PDF selection from the device's file system, iCloud Drive, or other configured storage providers. Participant management functionality enables adding multiple signers by entering their email addresses or usernames, with validation to ensure all required information is correctly formatted. The application automatically calculates the SHA-256 hash of selected documents, providing visual feedback during the computation process to keep users informed. Client-side payload signing uses the securely stored private key to generate the initial signature, maintaining the zero-trust security model. Real-time progress indicators display upload status during file transfer to the server, giving users confidence that the operation is proceeding correctly.
+
+\subsubsection{Document Dashboard}
+The main dashboard presents users with an organized and intuitive view of their documents. Documents are displayed in a chronologically ordered list, making it easy to find recent items and track document history over time. Visual status badges provide immediate feedback on document state, clearly distinguishing between pending, signed, and rejected documents through color-coded indicators. The interface supports pull-to-refresh gestures, allowing users to update their document list with an intuitive downward swipe motion. Swipe gestures enable quick actions on individual documents, streamlining common operations without requiring multiple navigation steps. The dashboard includes fast search functionality that filters documents by title or status, helping users quickly locate specific items even in large document collections.
+
+\subsubsection{Document Details and Signing}
+The document details screen provides comprehensive information about each document (Figure \ref{mobile-document-details}):
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/mobileUI/4.png}
+    \caption{Document details with owner, participants, and signatures}
+    \label{mobile-document-details}
+\end{figure}
+
+The document details screen provides comprehensive information about each document, serving as the central hub for reviewing and signing operations. PDF rendering enables full document review before signing, allowing users to verify content accuracy directly within the application. The interface prominently displays and verifies the document integrity hash, ensuring users can confirm they're viewing the exact document that will be signed. Clear visibility of all required signers and their current signing status helps users track workflow progress and identify any pending actions. Face ID or Touch ID biometric confirmation is required before signature authorization, adding a critical security checkpoint that prevents unauthorized signing. Local cryptographic signing provides immediate feedback upon completion, with the signed payload securely transmitted to the server. Real-time synchronization of signature status across participants ensures all users have up-to-date information about the document's current state in the signing workflow.
+
+\subsection{Document Verification}
+The application includes a public verification feature accessible without authentication (Figure \ref{mobile-verify}):
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/mobileUI/5.png}
+    \caption{Document verification interface}
+    \label{mobile-verify}
+\end{figure}
+
+The application includes a public verification feature that requires no authentication, making document verification accessible to anyone who needs to validate signatures. Users begin by selecting PDF documents for verification through the native file picker, with support for documents from various sources including email attachments and cloud storage. Automatic SHA-256 computation runs immediately upon file selection, calculating the document hash for comparison with stored signature payloads. Cryptographic validation of all signatures confirms the authenticity of each signer, verifying that signatures were created by the claimed private keys and haven't been tampered with. Detailed display of all signers and their individual verification status provides transparency about who signed the document and when. Optional blockchain anchor verification offers an additional layer of trust by confirming that the document hash was recorded on the blockchain at a specific timestamp. The comprehensive breakdown of verification status presents all validation results in a clear, user-friendly format that non-technical users can understand.
+
+\subsection{User Interface Design}
+The iOS application follows Apple's Human Interface Guidelines while maintaining brand consistency with the web platform. The design system incorporates both dark and light mode support with dynamic color adaptation that responds to system-wide appearance settings. Typography utilizes the San Francisco font family with accessibility-focused sizing that scales appropriately based on user preferences. Consistent padding and margins follow an 8-point grid system throughout the application, creating visual harmony and predictable spacing patterns. SF Symbols integration provides native iOS iconography that matches the system look and feel while supporting dynamic sizing and theming. Smooth transitions powered by SwiftUI's built-in animation system create a polished user experience with fluid state changes and view transitions.
+
+The application adapts seamlessly to different iOS device form factors through responsive layout techniques. iPhone optimization provides compact layouts specifically designed for smaller screens, maximizing screen real estate while maintaining usability. iPad support features expanded layouts with centered content for better readability on larger displays, preventing awkward edge-to-edge stretching. Orientation handling ensures adaptive designs work equally well in both portrait and landscape modes, automatically adjusting layout constraints as needed. Proper handling of notches and home indicators respects safe areas on all device models, preventing interface elements from being obscured by hardware features. Dynamic Type support allows the interface to scale with user-selected text sizes, ensuring accessibility for users with visual impairments who require larger fonts.
+
+\subsection{Settings and Account Management}
+The settings interface provides access to account configuration and security options (Figure \ref{mobile-settings}). The settings interface provides comprehensive access to account configuration and security options. Users can view and edit their profile information including email addresses, full names, and usernames, with inline validation ensuring data integrity. Security settings grant access to recovery phrase viewing, protected by biometric authentication to prevent unauthorized access to this sensitive information. Biometric configuration options allow users to enable or disable Face ID or Touch ID authentication based on their security preferences and device capabilities. The interface displays the current app version and build information, useful for troubleshooting and ensuring users are running the latest release. A secure logout function performs local data cleanup, removing cached credentials and session information while maintaining necessary persistent data.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.35\textwidth]{images/mobileUI/6.png}
+    \caption{Settings screen with security and account management}
+    \label{mobile-settings}
+\end{figure}
+
+\subsection{Offline Capabilities and Caching}
+The mobile application implements intelligent caching strategies to support offline usage scenarios. Document metadata caching provides local storage of document information, enabling offline viewing of document lists and basic details even without network connectivity. User profile caching maintains persistent storage of user details, reducing unnecessary API calls and improving performance when displaying account information. Strategic caching of non-sensitive API responses reduces server load and improves response times for frequently accessed data. An offline queue system captures pending operations and automatically executes them when network connectivity returns, ensuring no user actions are lost during temporary disconnections. Clear visual indicators provide feedback about online and offline status, helping users understand when features that require connectivity may be unavailable.
+
+\subsection{Error Handling and User Feedback}
+The application provides comprehensive error handling and user feedback mechanisms throughout the user journey. Network errors trigger clear messaging when connectivity issues occur, explaining the problem and suggesting resolution steps such as checking WiFi or cellular data. Validation errors appear inline with form inputs, providing immediate feedback about data format requirements without requiring form submission. Cryptographic failures receive detailed error messages that explain signature operation issues while maintaining user-friendly language for non-technical audiences. API errors are translated from technical server responses into user-friendly messages that explain what went wrong and suggest corrective actions. Progress indicators display for all long-running operations, preventing user confusion during processes like file uploads or signature verification. Success confirmations combine visual feedback with haptic responses, providing multi-sensory confirmation when important actions complete successfully.
+
+\subsection{App Store Compliance}
+The application meets all Apple App Store requirements and guidelines to ensure successful approval and distribution. Encryption export compliance is properly declared through Info.plist entries that document the cryptographic algorithms used, satisfying US export regulations for encryption technology. A clear privacy policy discloses all data collection and usage practices, explaining what information the app accesses and how it's used to provide functionality. App Transport Security enforces HTTPS for all network communication, preventing insecure data transmission and protecting user information in transit. Background modes are used appropriately and only when necessary, with proper declarations for any background processing capabilities. Comprehensive TestFlight beta testing validates functionality across multiple device types and iOS versions before production release, identifying and resolving issues before they impact general users.
+
+\section{DevOps \& Deployment}
+The BlockSign platform implements a robust DevOps pipeline that ensures reliable deployments, continuous integration, and production environment stability. The infrastructure is designed for scalability, security, and maintainability, leveraging Amazon Web Services (AWS) for cloud infrastructure and Xcode Cloud for mobile application deployment.
+
+\subsection{Cloud Infrastructure}
+The production environment is hosted on AWS, utilizing multiple services to create a secure, scalable, and reliable infrastructure. Amazon EC2 (Elastic Compute Cloud) instances provide the computing resources for hosting the back-end application, offering flexible instance types that can be scaled vertically or horizontally based on demand. An Elastic IP address ensures the production server maintains a consistent public IP address even when instances are replaced or restarted, simplifying DNS configuration and maintaining stable endpoint addresses for client applications.
+
+Document storage is handled through Amazon S3 (Simple Storage Service), which provides highly durable and scalable object storage for uploaded PDF files. S3's built-in redundancy and versioning capabilities ensure document availability and enable recovery from accidental deletions. Email delivery relies on Amazon SES (Simple Email Service) for sending OTP codes, registration notifications, and document signing invitations, providing reliable email delivery with high deliverability rates and detailed sending metrics.
+
+AWS IAM (Identity and Access Management) controls access to AWS resources, implementing the principle of least privilege by granting services and users only the permissions they require. IAM roles enable EC2 instances to securely access S3 buckets and SES without storing long-term credentials, while IAM policies define granular permissions for different components of the infrastructure.
+
+\subsection{Mobile Application Deployment}
+The iOS application utilizes Xcode Cloud for automated building and deployment, integrating seamlessly with the GitHub repository. Xcode Cloud automatically builds the application whenever changes are pushed to the main branch, running unit tests and generating signed builds for TestFlight distribution. This automated workflow eliminates manual build processes and ensures consistent build environments, reducing the potential for environment-specific build issues. TestFlight enables beta testing with both internal and external testers before production release, providing valuable feedback and identifying issues before they reach the App Store.
+
+\subsection{Containerization Strategy}
+The back-end application is fully containerized using Docker, enabling consistent deployment across development, staging, and production environments.
+
+\subsubsection{Docker Configuration}
+The Docker setup includes optimized multi-stage builds that significantly reduce image sizes while improving security posture. The base image uses Node.js on Alpine Linux, providing a minimal footprint that includes only essential system libraries and reducing the attack surface. The build stage handles compilation of TypeScript source code to JavaScript, installing only production dependencies and excluding development tools from the final image. The production stage creates a minimal runtime image containing only necessary files for application execution, further reducing image size and potential vulnerabilities. Strategic layer ordering enables efficient rebuilds by placing frequently changing code layers after stable dependency layers, improving build cache utilization. Automated vulnerability scanning of container images runs during the build process, identifying and flagging security issues in both base images and application dependencies before deployment.
+
+\subsubsection{Docker Compose Orchestration}
+The application uses Docker Compose for orchestrating multiple services in both local development and production deployment scenarios. Service definitions specify the Node.js application container along with the PostgreSQL database and an optional Redis cache for session management and API response caching. Network configuration creates isolated internal networks that enable secure service-to-service communication while restricting external access to only necessary entry points. Volume management provides persistent storage for database data, while uploaded documents are stored in Amazon S3 rather than local volumes, providing scalable and durable storage with built-in redundancy. Environment variables are securely injected through environment files that remain outside version control, protecting sensitive configuration data including AWS credentials while allowing easy environment-specific customization. Health checks monitor container status and automatically restart failed services, improving system reliability and reducing manual intervention requirements.
+
+\subsection{Continuous Integration and Deployment}
+The project implements automated CI/CD pipelines using GitHub Actions:
+
+\subsubsection{CI/CD Workflow}
+\begin{enumerate}
+    \item \textbf{Code Commit}: Developer pushes changes to GitHub repository
+    \item \textbf{Automated Testing}: Unit tests, integration tests, and linting checks
+    \item \textbf{Build Process}: Compilation and bundling of application code
+    \item \textbf{Container Build}: Docker image creation with proper tagging
+    \item \textbf{Image Push}: Upload to container registry
+    \item \textbf{Deployment Trigger}: Automatic deployment to production server
+    \item \textbf{Health Verification}: Post-deployment health checks and rollback on failure
+\end{enumerate}
+
+\subsubsection{GitHub Actions Configuration}
+The deployment workflow leverages GitHub Actions for automated continuous deployment with comprehensive safety checks. Trigger conditions enable automated deployment whenever changes are pushed to the main branch, ensuring the production environment stays synchronized with the latest stable code. Environment secrets provide secure storage of deployment credentials and API keys, including AWS access keys and SSH credentials, preventing sensitive information from being exposed in repository code or logs. SSH deployment connects to the EC2 instance for executing deployment commands and transferring updated container images. Zero-downtime deployment implements rolling updates with health checks that verify new container instances before removing old ones, ensuring continuous service availability. Rollback capability provides automatic reversion to the previous version if deployment health checks fail, minimizing the impact of problematic releases and maintaining system stability.
+
+\subsection{Database Management}
+Database operations are managed through Prisma ORM with comprehensive migration support:
+
+\subsubsection{Migration Strategy}
+Database operations follow a comprehensive migration strategy that ensures data integrity throughout the application lifecycle. Schema versioning through Git-tracked migration files creates reproducible database states that can be reliably deployed across multiple environments. Automated migrations execute as part of the deployment pipeline, applying pending schema changes before starting updated application code. Pre-migration database backups provide safety nets, allowing quick recovery if migration issues cause data corruption or unexpected schema changes. Rollback support enables reverting problematic migrations, though this capability is used cautiously due to the complexity of reversing data transformations. Seeding functionality populates initial data for development and testing environments, ensuring consistent baseline data for quality assurance and local development work.
+
+\subsubsection{Database Security}
+Database security implements multiple layers of protection to safeguard sensitive user and document data. Connection security mandates TLS/SSL encryption for all database connections, preventing man-in-the-middle attacks and ensuring data confidentiality during transmission. Access control uses role-based database user permissions, limiting each application component to only the database operations it requires and reducing the potential impact of security breaches. Credential management relies on environment variable-based injection rather than hardcoded values, keeping database passwords out of source code and configuration files committed to version control. Automated backup scheduling runs regular database backups with configurable retention policies, balancing storage costs against data recovery requirements. Performance monitoring tracks query execution times and identifies slow queries, enabling optimization of database access patterns and preventing performance degradation as data volumes grow.
+
+\subsection{Environment Configuration}
+The application supports multiple deployment environments with distinct configurations tailored to each use case. Development environments provide local development capabilities with hot-reloading that automatically refreshes the application when code changes, along with verbose debug logging that aids troubleshooting. Staging environments mirror production configuration as closely as possible, providing a pre-production testing ground where new features can be validated under production-like conditions before general release. Production environments use optimized settings including minified assets, reduced logging verbosity, and enhanced security measures to maximize performance and protect sensitive data. Security considerations mandate that sensitive values remain in environment files that are explicitly excluded from version control, preventing accidental exposure of credentials or API keys in commit history.
+
+\subsection{Monitoring and Logging}
+Production deployments include comprehensive monitoring and logging infrastructure that provides visibility into application health and performance. Application monitoring utilizes dedicated health endpoints that respond to HTTP requests, enabling both automated monitoring systems and manual health checks to verify service availability. Performance metrics track response times for API endpoints, identifying slow operations and enabling proactive optimization before users experience degraded performance. Error tracking automatically captures and reports application exceptions, providing detailed stack traces and context information that accelerate debugging and resolution. Resource monitoring tracks CPU utilization, memory consumption, and disk usage patterns, alerting operations teams before resource exhaustion causes service disruption. External uptime monitoring services poll the application from multiple geographic locations, detecting regional outages and verifying global availability.
+
+The logging strategy implements structured logging throughout the application, with JSON-formatted log entries that enable efficient machine parsing and analysis. Appropriate log levels distinguish between debug information useful during development, informational messages about normal operations, warnings about potential issues, and errors requiring immediate attention. Centralized log aggregation collects logs from all application instances into a unified system, simplifying troubleshooting across distributed deployments and enabling correlation of events across multiple services. Time-based log rotation and archival balance the need for historical data against storage costs, retaining recent logs for quick access while archiving older logs to cheaper storage tiers. Security logging creates comprehensive audit trails for authentication attempts, authorization decisions, and sensitive operations, supporting both security investigations and compliance requirements.
+
+\subsection{Security Hardening}
+Production deployments implement multiple layers of security hardening to protect against common attack vectors. HTTPS enforcement through SSL/TLS certificates with automatic renewal ensures all client-server communication remains encrypted, with modern cipher suites that balance security and performance. Firewall configuration restricts port access to only necessary services while implementing IP whitelisting for administrative interfaces, reducing the attack surface available to potential attackers. Rate limiting applies request throttling to prevent abuse, protecting against denial-of-service attacks and automated credential stuffing attempts while allowing legitimate high-volume users to operate normally. Security headers including Content Security Policy, HTTP Strict Transport Security, and X-Frame-Options protect against cross-site scripting, protocol downgrade attacks, and clickjacking vulnerabilities. Automated dependency scanning continuously monitors npm packages for known vulnerabilities, alerting when security updates become available and enabling proactive patching before exploits emerge. Container security measures include running processes as non-root users and applying minimal file system permissions, limiting the potential damage from container escape vulnerabilities.
+
+\subsection{Scalability Considerations}
+The infrastructure is designed from the ground up to support horizontal scaling as user demand grows over time. The stateless application design ensures servers maintain no local state, storing all session data in shared storage systems like Redis, which enables adding or removing application instances without affecting user sessions or requiring complex synchronization. Load balancing distributes incoming traffic across multiple application instances, improving both performance and reliability by preventing any single server from becoming a bottleneck. Database scaling support includes provisions for read replicas that handle query operations while the primary database handles writes, along with connection pooling that efficiently manages database connections across multiple application instances. Caching strategy implementation through Redis integration stores frequently accessed data in memory, dramatically reducing database load and improving response times for common queries. CDN integration distributes static assets like images, stylesheets, and JavaScript files through geographically distributed content delivery networks, reducing latency for users worldwide. The modular architecture remains microservices-ready, with clear boundaries between components that facilitate future decomposition into separate services if scaling requirements demand more granular deployment control.
+
+\subsection{Disaster Recovery}
+Comprehensive disaster recovery procedures ensure business continuity even in the face of catastrophic failures. The backup strategy implements automated daily backups of both database content and critical configuration files, with Amazon S3 providing durable storage for backup archives with configurable retention periods that balance recovery capabilities against storage costs. Regular backup verification through periodic restoration tests ensures backup integrity and validates that recovery procedures work as documented, preventing unpleasant surprises during actual disaster scenarios. S3's built-in geo-redundant storage replicates backups across multiple AWS availability zones, protecting against regional disasters like data center failures or natural disasters that could destroy primary infrastructure. Documented Recovery Time Objectives establish target timeframes for restoring service after various failure scenarios, guiding infrastructure investments and operational procedures. Recovery Point Objectives define maximum acceptable data loss thresholds, informing backup frequency and transaction log retention policies. A detailed incident response plan documents step-by-step procedures for handling different types of outages, ensuring operations teams can execute recovery efficiently even under stress, with clear escalation paths and communication protocols. The use of Elastic IP addresses simplifies recovery by allowing quick reassignment to replacement EC2 instances without requiring DNS propagation delays.
